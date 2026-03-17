@@ -3,6 +3,18 @@
 ################################################################################
 
 /.vs/TicketsPED
+# Carpetas de compilación
 bin/
 obj/
+
+# Visual Studio
 .vs/
+
+# Archivos temporales
+*.suo
+*.user
+*.pdb
+*.exe
+
+# Configuración de VS
+*.json

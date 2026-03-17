@@ -1,0 +1,15 @@
+C:\Users\2022\Music\TicketsMDB\bin\Debug\TicketsMDB.exe.config
+C:\Users\2022\Music\TicketsMDB\bin\Debug\TicketsMDB.exe
+C:\Users\2022\Music\TicketsMDB\bin\Debug\TicketsMDB.pdb
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsPED.csproj.AssemblyReference.cache
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.Form1.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.FormInicioSesion.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.FormRegistro.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.Properties.Resources.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsPED.csproj.GenerateResource.cache
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.exe
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.pdb
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.exe.config
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.FormPrincipalAdmin.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.Inicio.resources

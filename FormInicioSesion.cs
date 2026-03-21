@@ -112,5 +112,13 @@ namespace TicketsMDB
         {
             txtContrasena.PasswordChar = login_showPass.Checked ? '\0' : '*';
         }
+
+        private void RegistrarUsuario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormRegistro ventanaRegistro  = new FormRegistro();
+
+            ventanaRegistro.Show();
+            this.Hide();
+        }
     }
 }

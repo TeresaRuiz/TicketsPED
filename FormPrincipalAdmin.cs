@@ -12,6 +12,9 @@ namespace TicketsMDB
 {
     public partial class FormPrincipalAdmin : Form
     {
+        // Creamos la lista global para todo el formulario
+        TAD_Lista miListaCompartida = new TAD_Lista();
+
         public FormPrincipalAdmin()
         {
             InitializeComponent();
@@ -19,14 +22,16 @@ namespace TicketsMDB
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            MostrarControl(new Inicio());
+            // ¡ESTE ES EL CAMBIO CLAVE! 
+            // Llamamos al constructor que SI carga los datos
+            MostrarControl(new Inicio(miListaCompartida));
         }
 
         private void MostrarControl(UserControl control)
         {
-            panelContenido.Controls.Clear(); // Limpia lo que había antes
-            control.Dock = DockStyle.Fill;   // Que ocupe todo el espacio
-            panelContenido.Controls.Add(control); // Lo agrega al panel
+            panelContenido.Controls.Clear();
+            control.Dock = DockStyle.Fill;
+            panelContenido.Controls.Add(control);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -50,6 +55,29 @@ namespace TicketsMDB
                 this.Hide();
                 this.Close();
             }
+        }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            /* VistaCola pantallaCola = new VistaCola(miListaCompartida);
+             MostrarControl(pantallaCola);*/
+
+            MostrarControl(new VistaCola(miListaCompartida));
+        }
+
+        private void btnPedido_Click(object sender, EventArgs e)
+        {
+            VistaBusquedaABB vistaBusqueda = new VistaBusquedaABB();
+
+            
+            MostrarControl(vistaBusqueda);
+        }
+
+        private void btnMarca_Click(object sender, EventArgs e)
+        {
+            // Creamos la vista y le pasamos la Pila de datos
+            VistaHistorialPila vistaPila = new VistaHistorialPila();
+            MostrarControl(vistaPila);
         }
     }
 }

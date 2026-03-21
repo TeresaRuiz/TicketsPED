@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -77,9 +77,48 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nodo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SesionActual.cs" />
+    <Compile Include="TAD_Lista.cs" />
+    <Compile Include="TAD_Pila.cs" />
+    <Compile Include="TarjetaHistorial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TarjetaHistorial.Designer.cs">
+      <DependentUpon>TarjetaHistorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TarjetaTicket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TarjetaTicket.Designer.cs">
+      <DependentUpon>TarjetaTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket.cs" />
+    <Compile Include="VistaBusquedaABB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VistaBusquedaABB.Designer.cs">
+      <DependentUpon>VistaBusquedaABB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaCola.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VistaCola.Designer.cs">
+      <DependentUpon>VistaCola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaHistorialPila.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VistaHistorialPila.Designer.cs">
+      <DependentUpon>VistaHistorialPila.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,13 +136,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="TarjetaHistorial.resx">
+      <DependentUpon>TarjetaHistorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarjetaTicket.resx">
+      <DependentUpon>TarjetaTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaBusquedaABB.resx">
+      <DependentUpon>VistaBusquedaABB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaCola.resx">
+      <DependentUpon>VistaCola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaHistorialPila.resx">
+      <DependentUpon>VistaHistorialPila.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -117,5 +167,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

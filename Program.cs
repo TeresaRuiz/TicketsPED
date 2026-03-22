@@ -28,7 +28,7 @@ namespace TicketsMDB
                 if (total == 0)
                     Application.Run(new FormRegistro()); // Primer uso → registrar Admin
                 else
-                    Application.Run(new FormPrincipalAdmin());    // Ya hay admin → ir al login
+                    Application.Run(new FormInicioSesion());    // Ya hay admin → ir al login
             }
             finally
             {

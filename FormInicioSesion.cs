@@ -84,8 +84,8 @@ namespace TicketsMDB
                     }
                     else
                     {
-                        //FormPrincipalCliente frm = new FormPrincipalCliente();
-                        //frm.Show();
+                        FormPrincipalCliente frm = new FormPrincipalCliente();
+                        frm.Show();
                     }
 
                     this.Hide();
@@ -115,7 +115,7 @@ namespace TicketsMDB
 
         private void RegistrarUsuario_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            FormRegistro ventanaRegistro  = new FormRegistro();
+            FormRegistroCliente ventanaRegistro  = new FormRegistroCliente();
 
             ventanaRegistro.Show();
             this.Hide();

@@ -99,6 +99,7 @@
             this.btnRegistrar.TabIndex = 69;
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // register_showPass
             // 
@@ -216,6 +217,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "FormRegistroCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRegistroCliente";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

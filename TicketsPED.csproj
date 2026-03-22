@@ -65,11 +65,29 @@
     <Compile Include="FormPrincipalAdmin.Designer.cs">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPrincipalCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipalCliente.Designer.cs">
+      <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormRegistro.Designer.cs">
       <DependentUpon>FormRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistroCliente.Designer.cs">
+      <DependentUpon>FormRegistroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistroTicket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormRegistroTicket.Designer.cs">
+      <DependentUpon>FormRegistroTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="Inicio.cs">
       <SubType>UserControl</SubType>
@@ -128,8 +146,17 @@
     <EmbeddedResource Include="FormPrincipalAdmin.resx">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipalCliente.resx">
+      <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistroCliente.resx">
+      <DependentUpon>FormRegistroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistroTicket.resx">
+      <DependentUpon>FormRegistroTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>

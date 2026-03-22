@@ -81,6 +81,7 @@
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnInicio
             // 
@@ -106,6 +107,7 @@
             this.btnRegistroTicket.TabIndex = 7;
             this.btnRegistroTicket.Text = "Ticket";
             this.btnRegistroTicket.UseVisualStyleBackColor = true;
+            this.btnRegistroTicket.Click += new System.EventHandler(this.btnRegistroTicket_Click_1);
             // 
             // FormPrincipalCliente
             // 

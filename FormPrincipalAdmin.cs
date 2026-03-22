@@ -41,19 +41,19 @@ namespace TicketsMDB
                "Confirmar cierre de sesión",
                MessageBoxButtons.YesNo,
                MessageBoxIcon.Question
+
+
            );
+
 
             if (resultado == DialogResult.Yes)
             {
                 
-
                 // Muestra nuevamente el formulario de login
                 FormInicioSesion login = new FormInicioSesion();
                 login.Show();
-
-                // Cierra el formulario principal actual
                 this.Hide();
-                this.Close();
+
             }
         }
 

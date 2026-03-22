@@ -1,475 +1,464 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\",
+  "WorkspaceRootPath": "C:\\Users\\2022\\Music\\TicketsMDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\usuario\\onedrive\\documentos\\desktop\\ticketsped\\ticketsped\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\music\\ticketsmdb\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistroticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistroticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\Music\\TicketsMDB\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 304,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
-          "DockedWidth": 109,
-          "SelectedChildIndex": 36,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VistaCola.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaCola.cs",
+              "RelativeDocumentMoniker": "VistaCola.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaCola.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VistaCola.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:39:04.537Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Inicio.Designer.cs",
+              "RelativeDocumentMoniker": "Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Inicio.Designer.cs",
+              "RelativeToolTip": "Inicio.Designer.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAALEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:54:58.552Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VistaBusquedaABB.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaBusquedaABB.cs",
+              "RelativeDocumentMoniker": "VistaBusquedaABB.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaBusquedaABB.cs",
+              "RelativeToolTip": "VistaBusquedaABB.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:48:35.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormPrincipalCliente.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalCliente.cs",
+              "RelativeDocumentMoniker": "FormPrincipalCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalCliente.cs",
+              "RelativeToolTip": "FormPrincipalCliente.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:29:12.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormRegistroTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroTicket.Designer.cs",
+              "RelativeDocumentMoniker": "FormRegistroTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroTicket.Designer.cs",
+              "RelativeToolTip": "FormRegistroTicket.Designer.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAAAIUBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:06:01.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormRegistroTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroTicket.cs",
+              "RelativeDocumentMoniker": "FormRegistroTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroTicket.cs",
+              "RelativeToolTip": "FormRegistroTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:05:53.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormRegistroTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroTicket.cs",
+              "RelativeDocumentMoniker": "FormRegistroTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormRegistroTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:05:50.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormPrincipalCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalCliente.cs",
+              "RelativeDocumentMoniker": "FormPrincipalCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormPrincipalCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:58:39.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormRegistroCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroCliente.cs",
+              "RelativeDocumentMoniker": "FormRegistroCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistroCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormRegistroCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:55:10.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:39:18.084Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "VistaHistorialPila.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaHistorialPila.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaHistorialPila.cs",
               "RelativeDocumentMoniker": "VistaHistorialPila.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaHistorialPila.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaHistorialPila.cs [Dise\u00F1o]",
               "RelativeToolTip": "VistaHistorialPila.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-08-10T22:45:15.92Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-03-21T03:39:10.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TarjetaHistorial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaHistorial.cs",
-              "RelativeDocumentMoniker": "TarjetaHistorial.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaHistorial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TarjetaHistorial.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T21:27:09.865Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TarjetaHistorial.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaHistorial.cs",
-              "RelativeDocumentMoniker": "TarjetaHistorial.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaHistorial.cs",
-              "RelativeToolTip": "TarjetaHistorial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T21:30:31.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TAD_Pila.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TAD_Pila.cs",
-              "RelativeDocumentMoniker": "TAD_Pila.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TAD_Pila.cs",
-              "RelativeToolTip": "TAD_Pila.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T21:27:57.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VistaHistorialPila.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaHistorialPila.cs",
-              "RelativeDocumentMoniker": "VistaHistorialPila.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaHistorialPila.cs",
-              "RelativeToolTip": "VistaHistorialPila.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAcwFMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T21:34:45.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VistaBusquedaABB.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaBusquedaABB.cs",
+              "DocumentIndex": 13,
+              "Title": "VistaBusquedaABB.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaBusquedaABB.cs",
               "RelativeDocumentMoniker": "VistaBusquedaABB.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaBusquedaABB.cs",
-              "RelativeToolTip": "VistaBusquedaABB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\VistaBusquedaABB.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VistaBusquedaABB.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T20:09:47.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T03:38:50.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VistaCola.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaCola.cs",
-              "RelativeDocumentMoniker": "VistaCola.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaCola.cs",
-              "RelativeToolTip": "VistaCola.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwD8AAAASAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Ticket.cs",
+              "RelativeDocumentMoniker": "Ticket.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Ticket.cs",
+              "RelativeToolTip": "Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T17:10:16.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "VistaCola.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaCola.cs",
-              "RelativeDocumentMoniker": "VistaCola.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaCola.cs [Dise\u00F1o]",
-              "RelativeToolTip": "VistaCola.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T16:55:23.291Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TarjetaTicket.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaTicket.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaTicket.cs",
-              "RelativeToolTip": "TarjetaTicket.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:42:24.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T03:38:45.62Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Nodo.cs",
-              "RelativeDocumentMoniker": "Nodo.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Nodo.cs",
-              "RelativeToolTip": "Nodo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "TarjetaTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\TarjetaTicket.cs",
+              "RelativeDocumentMoniker": "TarjetaTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\TarjetaTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TarjetaTicket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:31:45.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T03:38:42.184Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Ticket.cs",
-              "RelativeDocumentMoniker": "Ticket.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Ticket.cs",
-              "RelativeToolTip": "Ticket.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAA+AAAAAAAAAA==",
+              "Title": "TarjetaHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\TarjetaHistorial.cs",
+              "RelativeDocumentMoniker": "TarjetaHistorial.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\TarjetaHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TarjetaHistorial.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:31:19.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T03:38:38.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FormPrincipalAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormPrincipalAdmin.cs",
-              "RelativeDocumentMoniker": "FormPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormPrincipalAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormPrincipalAdmin.cs [Dise\u00F1o]",
+              "DocumentIndex": 26,
+              "Title": "TAD_Pila.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\TAD_Pila.cs",
+              "RelativeDocumentMoniker": "TAD_Pila.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\TAD_Pila.cs",
+              "RelativeToolTip": "TAD_Pila.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:49:32.416Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-03-21T03:38:36.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TAD_Lista.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\TAD_Lista.cs",
+              "RelativeDocumentMoniker": "TAD_Lista.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\TAD_Lista.cs",
+              "RelativeToolTip": "TAD_Lista.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:31.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Nodo.cs",
+              "RelativeDocumentMoniker": "Nodo.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Nodo.cs",
+              "RelativeToolTip": "Nodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:23.505Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormRegistro.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:43:40.731Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-03-21T03:37:32.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwDYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:43:38.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TAD_Lista.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TAD_Lista.cs",
-              "RelativeDocumentMoniker": "TAD_Lista.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TAD_Lista.cs",
-              "RelativeToolTip": "TAD_Lista.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:35:55.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:43:38.464Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TarjetaTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaTicket.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\TarjetaTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TarjetaTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:39:10.067Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Inicio.cs",
-              "RelativeDocumentMoniker": "Inicio.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Inicio.cs",
-              "RelativeToolTip": "Inicio.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:04:58.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Inicio.cs",
-              "RelativeDocumentMoniker": "Inicio.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Inicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:04:56.741Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "FormPrincipalAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormPrincipalAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalAdmin.cs",
               "RelativeDocumentMoniker": "FormPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormPrincipalAdmin.cs",
-              "RelativeToolTip": "FormPrincipalAdmin.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAtwD4AAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalAdmin.cs*",
+              "RelativeToolTip": "FormPrincipalAdmin.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T22:53:46.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SesionActual.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\SesionActual.cs",
-              "RelativeDocumentMoniker": "SesionActual.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\SesionActual.cs",
-              "RelativeToolTip": "SesionActual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Inicio.cs",
+              "RelativeToolTip": "Inicio.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:41:26.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T23:04:58.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T23:04:56.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipalAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalAdmin.cs",
+              "RelativeDocumentMoniker": "FormPrincipalAdmin.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormPrincipalAdmin.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "FormPrincipalAdmin.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T22:49:32.416Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SesionActual.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\SesionActual.cs",
+              "RelativeDocumentMoniker": "SesionActual.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\SesionActual.cs",
+              "RelativeToolTip": "SesionActual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T22:41:26.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "FormInicioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormInicioSesion.cs",
               "RelativeToolTip": "FormInicioSesion.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAvwCAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T22:37:37.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Program.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwB4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:03:15.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T22:03:15.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "FormInicioSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormInicioSesion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormInicioSesion.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormInicioSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:37:46.027Z",
@@ -477,60 +466,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "FormRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs",
               "RelativeToolTip": "FormRegistro.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwG0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAawEEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:37:06.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T21:37:06.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "VistaBusquedaABB.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaBusquedaABB.cs",
-              "RelativeDocumentMoniker": "VistaBusquedaABB.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\VistaBusquedaABB.cs [Dise\u00F1o]",
-              "RelativeToolTip": "VistaBusquedaABB.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-08-10T22:45:15.92Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Conexion.cs",
               "RelativeDocumentMoniker": "Conexion.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Conexion.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Conexion.cs",
               "RelativeToolTip": "Conexion.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwGAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwA4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:36:15.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
               "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:26:45.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAmwDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -538,12 +514,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\Desktop\\TicketsPED\\TicketsPED\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\2022\\Music\\TicketsMDB\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:21:10.651Z"
             }

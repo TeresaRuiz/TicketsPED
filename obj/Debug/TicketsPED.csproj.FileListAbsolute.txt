@@ -51,3 +51,8 @@ C:\Users\lisan\Desktop\PED\TicketsPED\obj\Debug\TicketsPED.csproj.GenerateResour
 C:\Users\lisan\Desktop\PED\TicketsPED\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
 C:\Users\lisan\Desktop\PED\TicketsPED\obj\Debug\TicketsMDB.exe
 C:\Users\lisan\Desktop\PED\TicketsPED\obj\Debug\TicketsMDB.pdb
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.TarjetaHistorial.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.TarjetaTicket.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.VistaBusquedaABB.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.VistaCola.resources
+C:\Users\2022\Music\TicketsMDB\obj\Debug\TicketsMDB.VistaHistorialPila.resources

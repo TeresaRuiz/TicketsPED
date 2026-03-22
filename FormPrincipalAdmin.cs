@@ -79,5 +79,10 @@ namespace TicketsMDB
             VistaHistorialPila vistaPila = new VistaHistorialPila();
             MostrarControl(vistaPila);
         }
+
+        private void btnCargos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

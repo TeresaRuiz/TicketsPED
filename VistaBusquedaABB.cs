@@ -81,5 +81,10 @@ namespace TicketsMDB
                 lblEstado.Text = fila.Cells["IdEstado"].Value.ToString();
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -62,5 +62,10 @@ namespace TicketsMDB
                 aux = aux.Siguiente;
             }
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

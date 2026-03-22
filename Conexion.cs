@@ -12,7 +12,7 @@ namespace TicketsMDB
 {
     public class Conexion
     {
-        public static string cadenaConexion = "Server=DESKTOP-DLQG1I1\\SQLEXPRESS; Database=BD_Tickets; Integrated Security=True;";
+        public static string cadenaConexion = "Server=localhost;Database=BD_Tickets;Trusted_Connection=True;";
 
         public SqlConnection AbrirConexion()
         {

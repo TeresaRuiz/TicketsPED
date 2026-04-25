@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TicketsMDB.SuperAdmin;
 
 namespace TicketsMDB
 {
@@ -79,7 +80,7 @@ namespace TicketsMDB
                     // Redirigir según rol
                     if (SesionActual.Rol == "Admin")
                     {
-                        FormPrincipalAdmin frm = new FormPrincipalAdmin();
+                        FormSuperAdminDashboard frm = new FormSuperAdminDashboard();
                         frm.Show();
                     }
                     else

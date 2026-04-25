@@ -79,3 +79,6 @@ C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsPED.csproj.GenerateResou
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.exe
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.pdb
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.FormDashboard.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormSuperAdminDashboard.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.Inicio.resources

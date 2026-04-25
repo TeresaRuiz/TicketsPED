@@ -69,6 +69,7 @@
             this.btnHistorial.TabIndex = 10;
             this.btnHistorial.Text = "Historial";
             this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // btnSalir
             // 
@@ -95,6 +96,7 @@
             this.btnInicio.TabIndex = 8;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = false;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // btnRegistroTicket
             // 

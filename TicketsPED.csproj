@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes\FormDetalleTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\FormDetalleTicket.Designer.cs">
+      <DependentUpon>FormDetalleTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\MisTickets.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clientes\MisTickets.Designer.cs">
+      <DependentUpon>MisTickets.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -53,22 +65,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clientes\FormDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clientes\FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormInicioSesion.Designer.cs">
       <DependentUpon>FormInicioSesion.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrincipalAdmin.cs">
+    <Compile Include="Admin\FormPrincipalAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrincipalAdmin.Designer.cs">
+    <Compile Include="Admin\FormPrincipalAdmin.Designer.cs">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrincipalCliente.cs">
+    <Compile Include="Clientes\FormPrincipalCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrincipalCliente.Designer.cs">
+    <Compile Include="Clientes\FormPrincipalCliente.Designer.cs">
       <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="FormRegistro.cs">
@@ -77,22 +95,22 @@
     <Compile Include="FormRegistro.Designer.cs">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistroCliente.cs">
+    <Compile Include="Clientes\FormRegistroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRegistroCliente.Designer.cs">
+    <Compile Include="Clientes\FormRegistroCliente.Designer.cs">
       <DependentUpon>FormRegistroCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistroTicket.cs">
+    <Compile Include="Clientes\FormRegistroTicket.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FormRegistroTicket.Designer.cs">
+    <Compile Include="Clientes\FormRegistroTicket.Designer.cs">
       <DependentUpon>FormRegistroTicket.cs</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.cs">
+    <Compile Include="Admin\Inicio.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Inicio.Designer.cs">
+    <Compile Include="Admin\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Nodo.cs" />
@@ -104,6 +122,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SesionActual.cs" />
+    <Compile Include="SuperAdmin\FormSuperAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperAdmin\FormSuperAdminDashboard.Designer.cs">
+      <DependentUpon>FormSuperAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperAdmin\Inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperAdmin\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="TAD_Lista.cs" />
     <Compile Include="TAD_Pila.cs" />
     <Compile Include="TarjetaHistorial.cs">
@@ -119,46 +149,49 @@
       <DependentUpon>TarjetaTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="Ticket.cs" />
-    <Compile Include="VistaBusquedaABB.cs">
+    <Compile Include="Admin\VistaBusquedaABB.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="VistaBusquedaABB.Designer.cs">
+    <Compile Include="Admin\VistaBusquedaABB.Designer.cs">
       <DependentUpon>VistaBusquedaABB.cs</DependentUpon>
     </Compile>
-    <Compile Include="VistaCola.cs">
+    <Compile Include="Admin\VistaCola.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="VistaCola.Designer.cs">
+    <Compile Include="Admin\VistaCola.Designer.cs">
       <DependentUpon>VistaCola.cs</DependentUpon>
     </Compile>
-    <Compile Include="VistaHistorialPila.cs">
+    <Compile Include="Admin\VistaHistorialPila.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="VistaHistorialPila.Designer.cs">
+    <Compile Include="Admin\VistaHistorialPila.Designer.cs">
       <DependentUpon>VistaHistorialPila.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormInicioSesion.resx">
       <DependentUpon>FormInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrincipalAdmin.resx">
+    <EmbeddedResource Include="Admin\FormPrincipalAdmin.resx">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrincipalCliente.resx">
+    <EmbeddedResource Include="Clientes\FormPrincipalCliente.resx">
       <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistroCliente.resx">
+    <EmbeddedResource Include="Clientes\FormRegistroCliente.resx">
       <DependentUpon>FormRegistroCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistroTicket.resx">
+    <EmbeddedResource Include="Clientes\FormRegistroTicket.resx">
       <DependentUpon>FormRegistroTicket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Inicio.resx">
+    <EmbeddedResource Include="Admin\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -166,19 +199,25 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SuperAdmin\FormSuperAdminDashboard.resx">
+      <DependentUpon>FormSuperAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperAdmin\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TarjetaHistorial.resx">
       <DependentUpon>TarjetaHistorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TarjetaTicket.resx">
       <DependentUpon>TarjetaTicket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VistaBusquedaABB.resx">
+    <EmbeddedResource Include="Admin\VistaBusquedaABB.resx">
       <DependentUpon>VistaBusquedaABB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VistaCola.resx">
+    <EmbeddedResource Include="Admin\VistaCola.resx">
       <DependentUpon>VistaCola.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VistaHistorialPila.resx">
+    <EmbeddedResource Include="Admin\VistaHistorialPila.resx">
       <DependentUpon>VistaHistorialPila.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

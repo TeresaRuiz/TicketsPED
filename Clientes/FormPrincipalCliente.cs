@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TicketsMDB.Clientes;
 
 namespace TicketsMDB
 {
@@ -21,11 +22,6 @@ namespace TicketsMDB
         public FormPrincipalCliente()
         {
             InitializeComponent();
-        }
-
-        private void btnRegistroTicket_Click(object sender, EventArgs e)
-        {
-            MostrarControl(new FormRegistroTicket());
         }
 
         private void btnRegistroTicket_Click_1(object sender, EventArgs e)
@@ -54,5 +50,15 @@ namespace TicketsMDB
                 this.Hide();
             }
     }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new FormDashboard());
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new MisTickets());
+        }
     }
 }

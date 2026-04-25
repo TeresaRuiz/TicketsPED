@@ -22,8 +22,7 @@ namespace TicketsMDB
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            // ¡ESTE ES EL CAMBIO CLAVE! 
-            // Llamamos al constructor que SI carga los datos
+            
             MostrarControl(new Inicio(miListaCompartida));
         }
 
@@ -59,8 +58,7 @@ namespace TicketsMDB
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-            /* VistaCola pantallaCola = new VistaCola(miListaCompartida);
-             MostrarControl(pantallaCola);*/
+         
 
             MostrarControl(new VistaCola(miListaCompartida));
         }

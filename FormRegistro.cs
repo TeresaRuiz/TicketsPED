@@ -68,7 +68,7 @@ namespace TicketsMDB
 
                 // Insertar siempre como Admin (IdRol = 1)
                 string queryInsertar = @"INSERT INTO Usuarios (Nombre, Usuario, Correo, Contrasena, IdRol)
-                                  VALUES (@nombre, @usuario, @correo, @contrasena, 3)";
+                                  VALUES (@nombre, @usuario, @correo, @contrasena, 1)";
                 SqlCommand cmdInsertar = new SqlCommand(queryInsertar, cn);
                 cmdInsertar.Parameters.AddWithValue("@nombre", nombre);
                 cmdInsertar.Parameters.AddWithValue("@usuario", usuario);

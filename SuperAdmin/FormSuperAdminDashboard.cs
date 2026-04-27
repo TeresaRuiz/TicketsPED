@@ -23,10 +23,25 @@ namespace TicketsMDB.SuperAdmin
             control.Dock = DockStyle.Fill;
             panelContenido.Controls.Add(control);
         }
-
+       
         private void btnInicio_Click(object sender, EventArgs e)
         {
             MostrarControl(new Inicio());
+        }
+
+        private void btnTickets_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new FormGestionUsuarios());
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new FormConfiguracionSistema());
+        }
+
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new FormAuditoria());
         }
     }
 }

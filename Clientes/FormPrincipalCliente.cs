@@ -24,10 +24,6 @@ namespace TicketsMDB
             InitializeComponent();
         }
 
-        private void btnRegistroTicket_Click_1(object sender, EventArgs e)
-        {
-            MostrarControl(new FormRegistroTicket());
-        }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -56,9 +52,19 @@ namespace TicketsMDB
             MostrarControl(new FormDashboard());
         }
 
+        private void btnTickets_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new FormRegistroTicket());
+        }
+
         private void btnHistorial_Click(object sender, EventArgs e)
         {
             MostrarControl(new MisTickets());
+        }
+
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new FormPerfil());
         }
     }
 }

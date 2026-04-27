@@ -52,6 +52,12 @@
     <Compile Include="Clientes\FormDetalleTicket.Designer.cs">
       <DependentUpon>FormDetalleTicket.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clientes\FormPerfil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Clientes\FormPerfil.Designer.cs">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clientes\MisTickets.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -122,6 +128,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SesionActual.cs" />
+    <Compile Include="SuperAdmin\FormAuditoria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperAdmin\FormAuditoria.Designer.cs">
+      <DependentUpon>FormAuditoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperAdmin\FormConfiguracionSistema.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperAdmin\FormConfiguracionSistema.Designer.cs">
+      <DependentUpon>FormConfiguracionSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperAdmin\FormGestionUsuarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperAdmin\FormGestionUsuarios.Designer.cs">
+      <DependentUpon>FormGestionUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="SuperAdmin\FormSuperAdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +191,15 @@
     <Compile Include="Admin\VistaHistorialPila.Designer.cs">
       <DependentUpon>VistaHistorialPila.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Clientes\FormDetalleTicket.resx">
+      <DependentUpon>FormDetalleTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\FormPerfil.resx">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\MisTickets.resx">
+      <DependentUpon>MisTickets.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +231,15 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperAdmin\FormAuditoria.resx">
+      <DependentUpon>FormAuditoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperAdmin\FormConfiguracionSistema.resx">
+      <DependentUpon>FormConfiguracionSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperAdmin\FormGestionUsuarios.resx">
+      <DependentUpon>FormGestionUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SuperAdmin\FormSuperAdminDashboard.resx">
       <DependentUpon>FormSuperAdminDashboard.cs</DependentUpon>

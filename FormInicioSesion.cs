@@ -78,15 +78,25 @@ namespace TicketsMDB
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // Redirigir según rol
-                    if (SesionActual.Rol == "Admin")
+                    switch (SesionActual.Rol)
                     {
-                        FormSuperAdminDashboard frm = new FormSuperAdminDashboard();
-                        frm.Show();
-                    }
-                    else
-                    {
-                        FormPrincipalCliente frm = new FormPrincipalCliente();
-                        frm.Show();
+                        case "Admin":
+                            new FormPrincipalAdmin().Show();
+                            break;
+
+                        case "SuperAdmin":
+                            new FormSuperAdminDashboard().Show();
+                            break;
+
+
+                        case "Cliente":
+                            new FormPrincipalCliente().Show();
+                            break;
+
+                        default:
+                            MessageBox.Show("Rol no reconocido.", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
                     }
 
                     this.Hide();

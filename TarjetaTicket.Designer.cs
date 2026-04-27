@@ -2,117 +2,153 @@
 {
     partial class TarjetaTicket
     {
-        /// <summary> 
-        /// Variable del diseñador necesaria.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
-        /// Limpiar los recursos que se estén usando.
-        /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
-            {
                 components.Dispose();
-            }
             base.Dispose(disposing);
         }
 
         #region Código generado por el Diseñador de componentes
 
-        /// <summary> 
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
-        /// </summary>
         private void InitializeComponent()
         {
+            this.pnlCard = new System.Windows.Forms.Panel();
+            this.pnlBarra = new System.Windows.Forms.Panel();
             this.lblID = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblDetalle = new System.Windows.Forms.Label();
+            this.pnlFooter = new System.Windows.Forms.Panel();
             this.lblEstado = new System.Windows.Forms.Label();
-            this.Tarjetatickets = new System.Windows.Forms.GroupBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.Tarjetatickets.SuspendLayout();
+            this.lblPrioridad = new System.Windows.Forms.Label();
+            this.pnlCard.SuspendLayout();
+            this.pnlFooter.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // pnlCard
+            // 
+            this.pnlCard.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlCard.BackColor = System.Drawing.Color.White;
+            this.pnlCard.Controls.Add(this.pnlBarra);
+            this.pnlCard.Controls.Add(this.lblID);
+            this.pnlCard.Controls.Add(this.lblUsuario);
+            this.pnlCard.Controls.Add(this.lblDetalle);
+            this.pnlCard.Controls.Add(this.pnlFooter);
+            this.pnlCard.Location = new System.Drawing.Point(0, 0);
+            this.pnlCard.Name = "pnlCard";
+            this.pnlCard.Size = new System.Drawing.Size(278, 168);
+            this.pnlCard.TabIndex = 0;
+            // 
+            // pnlBarra
+            // 
+            this.pnlBarra.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlBarra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.pnlBarra.Location = new System.Drawing.Point(0, 0);
+            this.pnlBarra.Name = "pnlBarra";
+            this.pnlBarra.Size = new System.Drawing.Size(4, 168);
+            this.pnlBarra.TabIndex = 0;
             // 
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblID.Location = new System.Drawing.Point(17, 25);
+            this.lblID.BackColor = System.Drawing.Color.Transparent;
+            this.lblID.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.lblID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
+            this.lblID.Location = new System.Drawing.Point(14, 12);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(22, 20);
-            this.lblID.TabIndex = 0;
-            this.lblID.Text = "id";
+            this.lblID.Size = new System.Drawing.Size(46, 21);
+            this.lblID.TabIndex = 1;
+            this.lblID.Text = "#000";
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(19, 66);
+            this.lblUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.lblUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.lblUsuario.Location = new System.Drawing.Point(14, 30);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(57, 20);
-            this.lblUsuario.TabIndex = 1;
-            this.lblUsuario.Text = "usuario";
+            this.lblUsuario.Size = new System.Drawing.Size(81, 28);
+            this.lblUsuario.TabIndex = 2;
+            this.lblUsuario.Text = "Usuario";
             // 
             // lblDetalle
             // 
-            this.lblDetalle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDetalle.Location = new System.Drawing.Point(17, 106);
+            this.lblDetalle.BackColor = System.Drawing.Color.Transparent;
+            this.lblDetalle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblDetalle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
+            this.lblDetalle.Location = new System.Drawing.Point(14, 56);
             this.lblDetalle.Name = "lblDetalle";
-            this.lblDetalle.Size = new System.Drawing.Size(248, 60);
-            this.lblDetalle.TabIndex = 2;
-            this.lblDetalle.Text = "descripcion";
+            this.lblDetalle.Size = new System.Drawing.Size(258, 52);
+            this.lblDetalle.TabIndex = 3;
+            this.lblDetalle.Text = "Descripción del ticket...";
+            // 
+            // pnlFooter
+            // 
+            this.pnlFooter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.pnlFooter.Controls.Add(this.lblEstado);
+            this.pnlFooter.Controls.Add(this.lblPrioridad);
+            this.pnlFooter.Location = new System.Drawing.Point(0, 128);
+            this.pnlFooter.Name = "pnlFooter";
+            this.pnlFooter.Size = new System.Drawing.Size(278, 40);
+            this.pnlFooter.TabIndex = 4;
             // 
             // lblEstado
             // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(17, 178);
+            this.lblEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.lblEstado.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.lblEstado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.lblEstado.Location = new System.Drawing.Point(10, 9);
             this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(54, 20);
-            this.lblEstado.TabIndex = 3;
-            this.lblEstado.Text = "estado";
+            this.lblEstado.Size = new System.Drawing.Size(140, 22);
+            this.lblEstado.TabIndex = 0;
+            this.lblEstado.Text = "Abierto";
+            this.lblEstado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Tarjetatickets
+            // lblPrioridad
             // 
-            this.Tarjetatickets.Controls.Add(this.lblUsuario);
-            this.Tarjetatickets.Controls.Add(this.lblEstado);
-            this.Tarjetatickets.Controls.Add(this.lblID);
-            this.Tarjetatickets.Controls.Add(this.lblDetalle);
-            this.Tarjetatickets.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tarjetatickets.Location = new System.Drawing.Point(3, 3);
-            this.Tarjetatickets.Margin = new System.Windows.Forms.Padding(15);
-            this.Tarjetatickets.Name = "Tarjetatickets";
-            this.Tarjetatickets.Size = new System.Drawing.Size(262, 194);
-            this.Tarjetatickets.TabIndex = 4;
-            this.Tarjetatickets.TabStop = false;
-            this.Tarjetatickets.Text = "Ticket";
-            this.Tarjetatickets.Enter += new System.EventHandler(this.Tarjetatickets_Enter);
+            this.lblPrioridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(251)))), ((int)(((byte)(235)))));
+            this.lblPrioridad.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.lblPrioridad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(83)))), ((int)(((byte)(9)))));
+            this.lblPrioridad.Location = new System.Drawing.Point(191, 9);
+            this.lblPrioridad.Name = "lblPrioridad";
+            this.lblPrioridad.Size = new System.Drawing.Size(60, 22);
+            this.lblPrioridad.TabIndex = 1;
+            this.lblPrioridad.Text = "Media";
+            this.lblPrioridad.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TarjetaTicket
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Tarjetatickets);
-            this.Margin = new System.Windows.Forms.Padding(15);
+            this.Controls.Add(this.pnlCard);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Margin = new System.Windows.Forms.Padding(8);
             this.Name = "TarjetaTicket";
-            this.Size = new System.Drawing.Size(270, 212);
-            this.Tarjetatickets.ResumeLayout(false);
-            this.Tarjetatickets.PerformLayout();
+            this.Size = new System.Drawing.Size(280, 170);
+            this.pnlCard.ResumeLayout(false);
+            this.pnlCard.PerformLayout();
+            this.pnlFooter.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Panel pnlCard;
+        private System.Windows.Forms.Panel pnlBarra;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblDetalle;
+        private System.Windows.Forms.Panel pnlFooter;
         private System.Windows.Forms.Label lblEstado;
-        private System.Windows.Forms.GroupBox Tarjetatickets;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label lblPrioridad;
     }
 }

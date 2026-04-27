@@ -40,6 +40,7 @@
             this.btnMedia = new System.Windows.Forms.Button();
             this.btnAlta = new System.Windows.Forms.Button();
             this.lblHint = new System.Windows.Forms.Label();
+            this.btnEnviar = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
             this.pnlAvatar.SuspendLayout();
             this.pnlBody.SuspendLayout();
@@ -136,6 +137,7 @@
             // 
             this.pnlBody.AutoScroll = true;
             this.pnlBody.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pnlBody.Controls.Add(this.btnEnviar);
             this.pnlBody.Controls.Add(this.dateTimePicker1);
             this.pnlBody.Controls.Add(this.lblTituloLbl);
             this.pnlBody.Controls.Add(this.txtTitulo);
@@ -376,6 +378,22 @@
             this.lblHint.TabIndex = 16;
             this.lblHint.Text = "ℹ  Esta es tu percepción del impacto. El equipo asignará la prioridad real.";
             // 
+            // btnEnviar
+            // 
+            this.btnEnviar.BackColor = System.Drawing.Color.Indigo;
+            this.btnEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnEnviar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(239)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnviar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
+            this.btnEnviar.ForeColor = System.Drawing.Color.White;
+            this.btnEnviar.Location = new System.Drawing.Point(745, 395);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(194, 46);
+            this.btnEnviar.TabIndex = 18;
+            this.btnEnviar.Text = "Enviar ticket";
+            this.btnEnviar.UseVisualStyleBackColor = false;
+            // 
             // FormRegistroTicket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
@@ -426,5 +444,6 @@
         private System.Windows.Forms.Button btnAlta;
         private System.Windows.Forms.Label lblHint;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button btnEnviar;
     }
 }

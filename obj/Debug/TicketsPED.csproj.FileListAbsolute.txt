@@ -82,3 +82,9 @@ C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.pdb
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.FormDashboard.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormSuperAdminDashboard.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.Inicio.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Clientes.MisTickets.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormAuditoria.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormConfiguracionSistema.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormGestionUsuarios.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Clientes.FormDetalleTicket.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Clientes.FormPerfil.resources

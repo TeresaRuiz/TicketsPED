@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace TicketsMDB.SuperAdmin
 {
-    public partial class Inicio : UserControl
+    public partial class FormGestionUsuarios : UserControl
     {
-        public Inicio()
+        public FormGestionUsuarios()
         {
             InitializeComponent();
-        }
-
-        private void lvUltUsuarios_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -16,10 +16,10 @@
         private void InitializeComponent()
         {
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.lblGreeting = new System.Windows.Forms.Label();
-            this.lblGreetingSub = new System.Windows.Forms.Label();
+            this.lblSaludo = new System.Windows.Forms.Label();
+            this.lblInformacion = new System.Windows.Forms.Label();
             this.pnlHint = new System.Windows.Forms.Panel();
-            this.lblHintTexto = new System.Windows.Forms.Label();
+            this.lblTexto = new System.Windows.Forms.Label();
             this.lblSeccionResumen = new System.Windows.Forms.Label();
             this.pnlStatsGrid = new System.Windows.Forms.Panel();
             this.pnlAbiertos = new System.Windows.Forms.Panel();
@@ -63,8 +63,8 @@
             // 
             this.pnlContent.AutoScroll = true;
             this.pnlContent.BackColor = System.Drawing.Color.White;
-            this.pnlContent.Controls.Add(this.lblGreeting);
-            this.pnlContent.Controls.Add(this.lblGreetingSub);
+            this.pnlContent.Controls.Add(this.lblSaludo);
+            this.pnlContent.Controls.Add(this.lblInformacion);
             this.pnlContent.Controls.Add(this.pnlHint);
             this.pnlContent.Controls.Add(this.lblSeccionResumen);
             this.pnlContent.Controls.Add(this.pnlStatsGrid);
@@ -78,55 +78,55 @@
             this.pnlContent.Size = new System.Drawing.Size(1016, 660);
             this.pnlContent.TabIndex = 0;
             // 
-            // lblGreeting
+            // lblSaludo
             // 
-            this.lblGreeting.AutoSize = true;
-            this.lblGreeting.BackColor = System.Drawing.Color.Transparent;
-            this.lblGreeting.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
-            this.lblGreeting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.lblGreeting.Location = new System.Drawing.Point(0, 0);
-            this.lblGreeting.Name = "lblGreeting";
-            this.lblGreeting.Size = new System.Drawing.Size(250, 41);
-            this.lblGreeting.TabIndex = 0;
-            this.lblGreeting.Text = "Bienvenido, Juan";
+            this.lblSaludo.AutoSize = true;
+            this.lblSaludo.BackColor = System.Drawing.Color.Transparent;
+            this.lblSaludo.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
+            this.lblSaludo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.lblSaludo.Location = new System.Drawing.Point(0, 0);
+            this.lblSaludo.Name = "lblSaludo";
+            this.lblSaludo.Size = new System.Drawing.Size(281, 41);
+            this.lblSaludo.TabIndex = 0;
+            this.lblSaludo.Text = "Bienvenido usuario";
             // 
-            // lblGreetingSub
+            // lblInformacion
             // 
-            this.lblGreetingSub.AutoSize = true;
-            this.lblGreetingSub.BackColor = System.Drawing.Color.Transparent;
-            this.lblGreetingSub.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblGreetingSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
-            this.lblGreetingSub.Location = new System.Drawing.Point(12, 35);
-            this.lblGreetingSub.Name = "lblGreetingSub";
-            this.lblGreetingSub.Size = new System.Drawing.Size(348, 25);
-            this.lblGreetingSub.TabIndex = 1;
-            this.lblGreetingSub.Text = "Este es el estado de tus tickets de soporte.";
+            this.lblInformacion.AutoSize = true;
+            this.lblInformacion.BackColor = System.Drawing.Color.Transparent;
+            this.lblInformacion.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblInformacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.lblInformacion.Location = new System.Drawing.Point(12, 35);
+            this.lblInformacion.Name = "lblInformacion";
+            this.lblInformacion.Size = new System.Drawing.Size(348, 25);
+            this.lblInformacion.TabIndex = 1;
+            this.lblInformacion.Text = "Este es el estado de tus tickets de soporte.";
             // 
             // pnlHint
             // 
             this.pnlHint.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlHint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.pnlHint.Controls.Add(this.lblHintTexto);
+            this.pnlHint.Controls.Add(this.lblTexto);
             this.pnlHint.Location = new System.Drawing.Point(0, 60);
             this.pnlHint.Name = "pnlHint";
             this.pnlHint.Size = new System.Drawing.Size(1616, 36);
             this.pnlHint.TabIndex = 2;
             // 
-            // lblHintTexto
+            // lblTexto
             // 
-            this.lblHintTexto.BackColor = System.Drawing.Color.Transparent;
-            this.lblHintTexto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblHintTexto.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.lblHintTexto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(78)))), ((int)(((byte)(216)))));
-            this.lblHintTexto.Location = new System.Drawing.Point(0, 0);
-            this.lblHintTexto.Name = "lblHintTexto";
-            this.lblHintTexto.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.lblHintTexto.Size = new System.Drawing.Size(1616, 36);
-            this.lblHintTexto.TabIndex = 0;
-            this.lblHintTexto.Text = "ℹ  Solo puedes ver y gestionar tus propios tickets. Para crear uno nuevo usa el b" +
+            this.lblTexto.BackColor = System.Drawing.Color.Transparent;
+            this.lblTexto.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTexto.Font = new System.Drawing.Font("Segoe UI", 8.5F);
+            this.lblTexto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(78)))), ((int)(((byte)(216)))));
+            this.lblTexto.Location = new System.Drawing.Point(0, 0);
+            this.lblTexto.Name = "lblTexto";
+            this.lblTexto.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.lblTexto.Size = new System.Drawing.Size(1616, 36);
+            this.lblTexto.TabIndex = 0;
+            this.lblTexto.Text = "ℹ  Solo puedes ver y gestionar tus propios tickets. Para crear uno nuevo usa el b" +
     "otón correspondiente.";
-            this.lblHintTexto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTexto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblSeccionResumen
             // 
@@ -148,9 +148,9 @@
             this.pnlStatsGrid.Controls.Add(this.pnlAbiertos);
             this.pnlStatsGrid.Controls.Add(this.pnlProceso);
             this.pnlStatsGrid.Controls.Add(this.pnlCerrados);
-            this.pnlStatsGrid.Location = new System.Drawing.Point(0, 132);
+            this.pnlStatsGrid.Location = new System.Drawing.Point(7, 136);
             this.pnlStatsGrid.Name = "pnlStatsGrid";
-            this.pnlStatsGrid.Size = new System.Drawing.Size(1616, 108);
+            this.pnlStatsGrid.Size = new System.Drawing.Size(988, 120);
             this.pnlStatsGrid.TabIndex = 4;
             // 
             // pnlAbiertos
@@ -395,9 +395,9 @@
             this.lvTickets.FullRowSelect = true;
             this.lvTickets.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvTickets.HideSelection = false;
-            this.lvTickets.Location = new System.Drawing.Point(0, 292);
+            this.lvTickets.Location = new System.Drawing.Point(7, 294);
             this.lvTickets.Name = "lvTickets";
-            this.lvTickets.Size = new System.Drawing.Size(1616, 860);
+            this.lvTickets.Size = new System.Drawing.Size(988, 347);
             this.lvTickets.TabIndex = 7;
             this.lvTickets.UseCompatibleStateImageBehavior = false;
             this.lvTickets.View = System.Windows.Forms.View.Details;
@@ -432,13 +432,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1016, 660);
             this.Controls.Add(this.pnlContent);
             this.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.MinimumSize = new System.Drawing.Size(760, 580);
             this.Name = "FormDashboard";
-            this.Text = "Mis Tickets — TicketsMDB";
+            this.Size = new System.Drawing.Size(1016, 660);
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
             this.pnlHint.ResumeLayout(false);
@@ -459,11 +458,11 @@
         #endregion
 
         private System.Windows.Forms.Panel pnlContent;
-        private System.Windows.Forms.Label lblGreeting;
-        private System.Windows.Forms.Label lblGreetingSub;
+        private System.Windows.Forms.Label lblSaludo;
+        private System.Windows.Forms.Label lblInformacion;
 
         private System.Windows.Forms.Panel pnlHint;
-        private System.Windows.Forms.Label lblHintTexto;
+        private System.Windows.Forms.Label lblTexto;
 
         private System.Windows.Forms.Label lblSeccionResumen;
         private System.Windows.Forms.Panel pnlStatsGrid;

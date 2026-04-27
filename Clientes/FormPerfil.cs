@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TicketsMDB.SuperAdmin
+namespace TicketsMDB.Clientes
 {
-    public partial class Inicio : UserControl
+    public partial class FormPerfil : UserControl
     {
-        public Inicio()
+        public FormPerfil()
         {
             InitializeComponent();
-        }
-
-        private void lvUltUsuarios_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -2,262 +2,174 @@
 {
     partial class FormSuperAdminDashboard
     {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
+            {
                 components.Dispose();
+            }
             base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            this.lblCardUsuIco = new System.Windows.Forms.Label();
-            this.lblCardUsuTit = new System.Windows.Forms.Label();
-            this.lblCardUsuVal = new System.Windows.Forms.Label();
-            this.lblCardTktIco = new System.Windows.Forms.Label();
-            this.lblCardTktTit = new System.Windows.Forms.Label();
-            this.lblCardTktVal = new System.Windows.Forms.Label();
-            this.lblCardPenIco = new System.Windows.Forms.Label();
-            this.lblCardPenTit = new System.Windows.Forms.Label();
-            this.lblCardPenVal = new System.Windows.Forms.Label();
-            this.lblCardAudIco = new System.Windows.Forms.Label();
-            this.lblCardAudTit = new System.Windows.Forms.Label();
-            this.lblCardAudVal = new System.Windows.Forms.Label();
             this.panelContenido = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnHistorial = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.btnInicio = new System.Windows.Forms.Button();
-            this.btnRegistroTicket = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnHistorial = new System.Windows.Forms.Button();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.btnInicio = new System.Windows.Forms.Button();
+            this.btnPerfil = new System.Windows.Forms.Button();
+            this.btnTickets = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblCardUsuIco
-            // 
-            this.lblCardUsuIco.Location = new System.Drawing.Point(0, 0);
-            this.lblCardUsuIco.Name = "lblCardUsuIco";
-            this.lblCardUsuIco.Size = new System.Drawing.Size(100, 23);
-            this.lblCardUsuIco.TabIndex = 0;
-            // 
-            // lblCardUsuTit
-            // 
-            this.lblCardUsuTit.Location = new System.Drawing.Point(0, 0);
-            this.lblCardUsuTit.Name = "lblCardUsuTit";
-            this.lblCardUsuTit.Size = new System.Drawing.Size(100, 23);
-            this.lblCardUsuTit.TabIndex = 0;
-            // 
-            // lblCardUsuVal
-            // 
-            this.lblCardUsuVal.Location = new System.Drawing.Point(0, 0);
-            this.lblCardUsuVal.Name = "lblCardUsuVal";
-            this.lblCardUsuVal.Size = new System.Drawing.Size(100, 23);
-            this.lblCardUsuVal.TabIndex = 0;
-            // 
-            // lblCardTktIco
-            // 
-            this.lblCardTktIco.Location = new System.Drawing.Point(0, 0);
-            this.lblCardTktIco.Name = "lblCardTktIco";
-            this.lblCardTktIco.Size = new System.Drawing.Size(100, 23);
-            this.lblCardTktIco.TabIndex = 0;
-            // 
-            // lblCardTktTit
-            // 
-            this.lblCardTktTit.Location = new System.Drawing.Point(0, 0);
-            this.lblCardTktTit.Name = "lblCardTktTit";
-            this.lblCardTktTit.Size = new System.Drawing.Size(100, 23);
-            this.lblCardTktTit.TabIndex = 0;
-            // 
-            // lblCardTktVal
-            // 
-            this.lblCardTktVal.Location = new System.Drawing.Point(0, 0);
-            this.lblCardTktVal.Name = "lblCardTktVal";
-            this.lblCardTktVal.Size = new System.Drawing.Size(100, 23);
-            this.lblCardTktVal.TabIndex = 0;
-            // 
-            // lblCardPenIco
-            // 
-            this.lblCardPenIco.Location = new System.Drawing.Point(0, 0);
-            this.lblCardPenIco.Name = "lblCardPenIco";
-            this.lblCardPenIco.Size = new System.Drawing.Size(100, 23);
-            this.lblCardPenIco.TabIndex = 0;
-            // 
-            // lblCardPenTit
-            // 
-            this.lblCardPenTit.Location = new System.Drawing.Point(0, 0);
-            this.lblCardPenTit.Name = "lblCardPenTit";
-            this.lblCardPenTit.Size = new System.Drawing.Size(100, 23);
-            this.lblCardPenTit.TabIndex = 0;
-            // 
-            // lblCardPenVal
-            // 
-            this.lblCardPenVal.Location = new System.Drawing.Point(0, 0);
-            this.lblCardPenVal.Name = "lblCardPenVal";
-            this.lblCardPenVal.Size = new System.Drawing.Size(100, 23);
-            this.lblCardPenVal.TabIndex = 0;
-            // 
-            // lblCardAudIco
-            // 
-            this.lblCardAudIco.Location = new System.Drawing.Point(0, 0);
-            this.lblCardAudIco.Name = "lblCardAudIco";
-            this.lblCardAudIco.Size = new System.Drawing.Size(100, 23);
-            this.lblCardAudIco.TabIndex = 0;
-            // 
-            // lblCardAudTit
-            // 
-            this.lblCardAudTit.Location = new System.Drawing.Point(0, 0);
-            this.lblCardAudTit.Name = "lblCardAudTit";
-            this.lblCardAudTit.Size = new System.Drawing.Size(100, 23);
-            this.lblCardAudTit.TabIndex = 0;
-            // 
-            // lblCardAudVal
-            // 
-            this.lblCardAudVal.Location = new System.Drawing.Point(0, 0);
-            this.lblCardAudVal.Name = "lblCardAudVal";
-            this.lblCardAudVal.Size = new System.Drawing.Size(100, 23);
-            this.lblCardAudVal.TabIndex = 0;
             // 
             // panelContenido
             // 
             this.panelContenido.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenido.Location = new System.Drawing.Point(263, 0);
+            this.panelContenido.Location = new System.Drawing.Point(279, 0);
+            this.panelContenido.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.panelContenido.Name = "panelContenido";
-            this.panelContenido.Size = new System.Drawing.Size(985, 700);
-            this.panelContenido.TabIndex = 9;
+            this.panelContenido.Size = new System.Drawing.Size(1014, 811);
+            this.panelContenido.TabIndex = 7;
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panelMenu.Controls.Add(this.button2);
             this.panelMenu.Controls.Add(this.button1);
             this.panelMenu.Controls.Add(this.btnHistorial);
-            this.panelMenu.Controls.Add(this.btnSalir);
+            this.panelMenu.Controls.Add(this.lblUsuario);
             this.panelMenu.Controls.Add(this.btnInicio);
-            this.panelMenu.Controls.Add(this.btnRegistroTicket);
+            this.panelMenu.Controls.Add(this.btnPerfil);
+            this.panelMenu.Controls.Add(this.btnTickets);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(263, 700);
-            this.panelMenu.TabIndex = 8;
+            this.panelMenu.Size = new System.Drawing.Size(279, 811);
+            this.panelMenu.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(12, 740);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(249, 55);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Cerrar Sesión";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnHistorial
             // 
+            this.btnHistorial.BackColor = System.Drawing.Color.Transparent;
             this.btnHistorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistorial.Font = new System.Drawing.Font("Segoe UI Historic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistorial.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnHistorial.Location = new System.Drawing.Point(37, 195);
+            this.btnHistorial.Location = new System.Drawing.Point(9, 141);
+            this.btnHistorial.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnHistorial.Name = "btnHistorial";
-            this.btnHistorial.Size = new System.Drawing.Size(185, 76);
-            this.btnHistorial.TabIndex = 10;
-            this.btnHistorial.Text = "Roles y permisos";
-            this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Size = new System.Drawing.Size(252, 75);
+            this.btnHistorial.TabIndex = 14;
+            this.btnHistorial.Text = "Permisos";
+            this.btnHistorial.UseVisualStyleBackColor = false;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
-            // btnSalir
+            // lblUsuario
             // 
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Segoe UI Historic", 12F, System.Drawing.FontStyle.Bold);
-            this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSalir.Location = new System.Drawing.Point(40, 764);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(185, 55);
-            this.btnSalir.TabIndex = 9;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario.Location = new System.Drawing.Point(21, 704);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(64, 22);
+            this.lblUsuario.TabIndex = 0;
+            this.lblUsuario.Text = "label1";
             // 
             // btnInicio
             // 
             this.btnInicio.BackColor = System.Drawing.Color.Transparent;
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicio.Font = new System.Drawing.Font("Segoe UI Historic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnInicio.Location = new System.Drawing.Point(37, 12);
+            this.btnInicio.Location = new System.Drawing.Point(9, 8);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(185, 55);
-            this.btnInicio.TabIndex = 8;
+            this.btnInicio.Size = new System.Drawing.Size(252, 55);
+            this.btnInicio.TabIndex = 4;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = false;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
-            // btnRegistroTicket
+            // btnPerfil
             // 
-            this.btnRegistroTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistroTicket.Font = new System.Drawing.Font("Segoe UI Historic", 12F, System.Drawing.FontStyle.Bold);
-            this.btnRegistroTicket.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnRegistroTicket.Location = new System.Drawing.Point(37, 86);
-            this.btnRegistroTicket.Name = "btnRegistroTicket";
-            this.btnRegistroTicket.Size = new System.Drawing.Size(185, 89);
-            this.btnRegistroTicket.TabIndex = 7;
-            this.btnRegistroTicket.Text = "Gestión de usuarios";
-            this.btnRegistroTicket.UseVisualStyleBackColor = true;
+            this.btnPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfil.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPerfil.Location = new System.Drawing.Point(9, 232);
+            this.btnPerfil.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnPerfil.Name = "btnPerfil";
+            this.btnPerfil.Size = new System.Drawing.Size(252, 55);
+            this.btnPerfil.TabIndex = 2;
+            this.btnPerfil.Text = "Auditoría";
+            this.btnPerfil.UseVisualStyleBackColor = true;
+            this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
-            // button1
+            // btnTickets
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Historic", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(23, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 76);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Configuracion del sistema";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Historic", 12F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(23, 386);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(220, 56);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Auditoría\r\n";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTickets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTickets.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTickets.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTickets.Location = new System.Drawing.Point(9, 74);
+            this.btnTickets.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnTickets.Name = "btnTickets";
+            this.btnTickets.Size = new System.Drawing.Size(252, 55);
+            this.btnTickets.TabIndex = 1;
+            this.btnTickets.Text = "Gestión de usuarios";
+            this.btnTickets.UseVisualStyleBackColor = true;
+            this.btnTickets.Click += new System.EventHandler(this.btnTickets_Click);
             // 
             // FormSuperAdminDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1248, 700);
+            this.ClientSize = new System.Drawing.Size(1293, 811);
             this.Controls.Add(this.panelContenido);
             this.Controls.Add(this.panelMenu);
-            this.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
-            this.MinimumSize = new System.Drawing.Size(960, 600);
             this.Name = "FormSuperAdminDashboard";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Superadmin — TicketsMDB";
+            this.Text = "Super Admin";
             this.panelMenu.ResumeLayout(false);
+            this.panelMenu.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblCardUsuIco;
-        private System.Windows.Forms.Label lblCardUsuTit;
-        private System.Windows.Forms.Label lblCardUsuVal;
-        private System.Windows.Forms.Label lblCardTktIco;
-        private System.Windows.Forms.Label lblCardTktTit;
-        private System.Windows.Forms.Label lblCardTktVal;
-        private System.Windows.Forms.Label lblCardPenIco;
-        private System.Windows.Forms.Label lblCardPenTit;
-        private System.Windows.Forms.Label lblCardPenVal;
-        private System.Windows.Forms.Label lblCardAudIco;
-        private System.Windows.Forms.Label lblCardAudTit;
-        private System.Windows.Forms.Label lblCardAudVal;
+
         private System.Windows.Forms.Panel panelContenido;
         private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Button btnHistorial;
-        private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnInicio;
-        private System.Windows.Forms.Button btnRegistroTicket;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHistorial;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Button btnInicio;
+        private System.Windows.Forms.Button btnPerfil;
+        private System.Windows.Forms.Button btnTickets;
     }
 }

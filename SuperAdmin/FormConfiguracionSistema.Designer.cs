@@ -30,8 +30,29 @@
             this.lblRolDescLbl = new System.Windows.Forms.Label();
             this.txtRolNombre = new System.Windows.Forms.TextBox();
             this.lblRolNombreLbl = new System.Windows.Forms.Label();
-            this.tabCategorias = new System.Windows.Forms.TabPage();
-            this.pnlCategoriasBody = new System.Windows.Forms.Panel();
+            this.tabPrioridades = new System.Windows.Forms.TabPage();
+            this.pnlPrioridadesBody = new System.Windows.Forms.Panel();
+            this.lvPrioridades = new System.Windows.Forms.ListView();
+            this.colPrioId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colPrioNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pnlFormPrioridad = new System.Windows.Forms.Panel();
+            this.btnPrioEliminar = new System.Windows.Forms.Button();
+            this.btnPrioGuardar = new System.Windows.Forms.Button();
+            this.btnPrioNuevo = new System.Windows.Forms.Button();
+            this.txtPrioNombre = new System.Windows.Forms.TextBox();
+            this.lblPrioNombreLbl = new System.Windows.Forms.Label();
+            this.tabConfig = new System.Windows.Forms.TabControl();
+            this.pnlEstadosBody = new System.Windows.Forms.Panel();
+            this.lvEstados = new System.Windows.Forms.ListView();
+            this.colEstadoId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colEstadoNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pnlFormEstado = new System.Windows.Forms.Panel();
+            this.btnEstadoEliminar = new System.Windows.Forms.Button();
+            this.btnEstadoGuardar = new System.Windows.Forms.Button();
+            this.btnEstadoNuevo = new System.Windows.Forms.Button();
+            this.txtEstadoNombre = new System.Windows.Forms.TextBox();
+            this.lblEstadoNombreLbl = new System.Windows.Forms.Label();
+            this.tabEstados = new System.Windows.Forms.TabPage();
             this.lvCategorias = new System.Windows.Forms.ListView();
             this.colCatId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colCatNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -44,43 +65,15 @@
             this.lblCatDescLbl = new System.Windows.Forms.Label();
             this.txtCatNombre = new System.Windows.Forms.TextBox();
             this.lblCatNombreLbl = new System.Windows.Forms.Label();
-            this.tabPrioridades = new System.Windows.Forms.TabPage();
-            this.pnlPrioridadesBody = new System.Windows.Forms.Panel();
-            this.lvPrioridades = new System.Windows.Forms.ListView();
-            this.colPrioId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colPrioNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.pnlFormPrioridad = new System.Windows.Forms.Panel();
-            this.btnPrioEliminar = new System.Windows.Forms.Button();
-            this.btnPrioGuardar = new System.Windows.Forms.Button();
-            this.btnPrioNuevo = new System.Windows.Forms.Button();
-            this.txtPrioNombre = new System.Windows.Forms.TextBox();
-            this.lblPrioNombreLbl = new System.Windows.Forms.Label();
-            this.tabEstados = new System.Windows.Forms.TabPage();
-            this.pnlEstadosBody = new System.Windows.Forms.Panel();
-            this.lvEstados = new System.Windows.Forms.ListView();
-            this.colEstadoId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.colEstadoNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.pnlFormEstado = new System.Windows.Forms.Panel();
-            this.btnEstadoEliminar = new System.Windows.Forms.Button();
-            this.btnEstadoGuardar = new System.Windows.Forms.Button();
-            this.btnEstadoNuevo = new System.Windows.Forms.Button();
-            this.txtEstadoNombre = new System.Windows.Forms.TextBox();
-            this.lblEstadoNombreLbl = new System.Windows.Forms.Label();
-            this.tabConfig = new System.Windows.Forms.TabControl();
             this.pnlBody.SuspendLayout();
             this.tabRoles.SuspendLayout();
             this.pnlRolesBody.SuspendLayout();
             this.pnlFormRol.SuspendLayout();
-            this.tabCategorias.SuspendLayout();
-            this.pnlCategoriasBody.SuspendLayout();
-            this.pnlFormCategoria.SuspendLayout();
             this.tabPrioridades.SuspendLayout();
             this.pnlPrioridadesBody.SuspendLayout();
             this.pnlFormPrioridad.SuspendLayout();
-            this.tabEstados.SuspendLayout();
-            this.pnlEstadosBody.SuspendLayout();
-            this.pnlFormEstado.SuspendLayout();
             this.tabConfig.SuspendLayout();
+            this.tabEstados.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBody
@@ -256,168 +249,6 @@
             this.lblRolNombreLbl.TabIndex = 0;
             this.lblRolNombreLbl.Text = "Nombre del rol";
             // 
-            // tabCategorias
-            // 
-            this.tabCategorias.BackColor = System.Drawing.Color.White;
-            this.tabCategorias.Controls.Add(this.pnlCategoriasBody);
-            this.tabCategorias.Location = new System.Drawing.Point(4, 34);
-            this.tabCategorias.Name = "tabCategorias";
-            this.tabCategorias.Size = new System.Drawing.Size(860, 574);
-            this.tabCategorias.TabIndex = 2;
-            this.tabCategorias.Text = "  Categorías  ";
-            // 
-            // pnlCategoriasBody
-            // 
-            this.pnlCategoriasBody.BackColor = System.Drawing.Color.White;
-            this.pnlCategoriasBody.Controls.Add(this.pnlFormCategoria);
-            this.pnlCategoriasBody.Controls.Add(this.lvCategorias);
-            this.pnlCategoriasBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCategoriasBody.Location = new System.Drawing.Point(0, 0);
-            this.pnlCategoriasBody.Name = "pnlCategoriasBody";
-            this.pnlCategoriasBody.Size = new System.Drawing.Size(860, 574);
-            this.pnlCategoriasBody.TabIndex = 0;
-            // 
-            // lvCategorias
-            // 
-            this.lvCategorias.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lvCategorias.BackColor = System.Drawing.Color.White;
-            this.lvCategorias.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lvCategorias.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colCatId,
-            this.colCatNombre,
-            this.colCatDesc});
-            this.lvCategorias.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lvCategorias.FullRowSelect = true;
-            this.lvCategorias.HideSelection = false;
-            this.lvCategorias.Location = new System.Drawing.Point(0, 0);
-            this.lvCategorias.MultiSelect = false;
-            this.lvCategorias.Name = "lvCategorias";
-            this.lvCategorias.Size = new System.Drawing.Size(550, 1014);
-            this.lvCategorias.TabIndex = 1;
-            this.lvCategorias.UseCompatibleStateImageBehavior = false;
-            this.lvCategorias.View = System.Windows.Forms.View.Details;
-            // 
-            // colCatId
-            // 
-            this.colCatId.Text = "#";
-            this.colCatId.Width = 50;
-            // 
-            // colCatNombre
-            // 
-            this.colCatNombre.Text = "Nombre";
-            this.colCatNombre.Width = 200;
-            // 
-            // colCatDesc
-            // 
-            this.colCatDesc.Text = "Descripción";
-            this.colCatDesc.Width = 280;
-            // 
-            // pnlFormCategoria
-            // 
-            this.pnlFormCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.pnlFormCategoria.Controls.Add(this.lblCatNombreLbl);
-            this.pnlFormCategoria.Controls.Add(this.txtCatNombre);
-            this.pnlFormCategoria.Controls.Add(this.lblCatDescLbl);
-            this.pnlFormCategoria.Controls.Add(this.txtCatDesc);
-            this.pnlFormCategoria.Controls.Add(this.btnCatNuevo);
-            this.pnlFormCategoria.Controls.Add(this.btnCatGuardar);
-            this.pnlFormCategoria.Controls.Add(this.btnCatEliminar);
-            this.pnlFormCategoria.Location = new System.Drawing.Point(570, 0);
-            this.pnlFormCategoria.Name = "pnlFormCategoria";
-            this.pnlFormCategoria.Size = new System.Drawing.Size(280, 540);
-            this.pnlFormCategoria.TabIndex = 0;
-            // 
-            // btnCatEliminar
-            // 
-            this.btnCatEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.btnCatEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCatEliminar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(202)))), ((int)(((byte)(202)))));
-            this.btnCatEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCatEliminar.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnCatEliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.btnCatEliminar.Location = new System.Drawing.Point(186, 178);
-            this.btnCatEliminar.Name = "btnCatEliminar";
-            this.btnCatEliminar.Size = new System.Drawing.Size(78, 30);
-            this.btnCatEliminar.TabIndex = 6;
-            this.btnCatEliminar.Text = "Eliminar";
-            this.btnCatEliminar.UseVisualStyleBackColor = false;
-            // 
-            // btnCatGuardar
-            // 
-            this.btnCatGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.btnCatGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCatGuardar.FlatAppearance.BorderSize = 0;
-            this.btnCatGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCatGuardar.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnCatGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnCatGuardar.Location = new System.Drawing.Point(98, 178);
-            this.btnCatGuardar.Name = "btnCatGuardar";
-            this.btnCatGuardar.Size = new System.Drawing.Size(80, 30);
-            this.btnCatGuardar.TabIndex = 5;
-            this.btnCatGuardar.Text = "Guardar";
-            this.btnCatGuardar.UseVisualStyleBackColor = false;
-            // 
-            // btnCatNuevo
-            // 
-            this.btnCatNuevo.BackColor = System.Drawing.Color.White;
-            this.btnCatNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCatNuevo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.btnCatNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCatNuevo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCatNuevo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.btnCatNuevo.Location = new System.Drawing.Point(14, 178);
-            this.btnCatNuevo.Name = "btnCatNuevo";
-            this.btnCatNuevo.Size = new System.Drawing.Size(76, 30);
-            this.btnCatNuevo.TabIndex = 4;
-            this.btnCatNuevo.Text = "Nuevo";
-            this.btnCatNuevo.UseVisualStyleBackColor = false;
-            // 
-            // txtCatDesc
-            // 
-            this.txtCatDesc.BackColor = System.Drawing.Color.White;
-            this.txtCatDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCatDesc.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.txtCatDesc.Location = new System.Drawing.Point(14, 100);
-            this.txtCatDesc.Multiline = true;
-            this.txtCatDesc.Name = "txtCatDesc";
-            this.txtCatDesc.Size = new System.Drawing.Size(250, 60);
-            this.txtCatDesc.TabIndex = 3;
-            // 
-            // lblCatDescLbl
-            // 
-            this.lblCatDescLbl.AutoSize = true;
-            this.lblCatDescLbl.BackColor = System.Drawing.Color.Transparent;
-            this.lblCatDescLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
-            this.lblCatDescLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblCatDescLbl.Location = new System.Drawing.Point(14, 80);
-            this.lblCatDescLbl.Name = "lblCatDescLbl";
-            this.lblCatDescLbl.Size = new System.Drawing.Size(103, 23);
-            this.lblCatDescLbl.TabIndex = 2;
-            this.lblCatDescLbl.Text = "Descripción";
-            // 
-            // txtCatNombre
-            // 
-            this.txtCatNombre.BackColor = System.Drawing.Color.White;
-            this.txtCatNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCatNombre.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.txtCatNombre.Location = new System.Drawing.Point(14, 40);
-            this.txtCatNombre.Name = "txtCatNombre";
-            this.txtCatNombre.Size = new System.Drawing.Size(250, 33);
-            this.txtCatNombre.TabIndex = 1;
-            // 
-            // lblCatNombreLbl
-            // 
-            this.lblCatNombreLbl.AutoSize = true;
-            this.lblCatNombreLbl.BackColor = System.Drawing.Color.Transparent;
-            this.lblCatNombreLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
-            this.lblCatNombreLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblCatNombreLbl.Location = new System.Drawing.Point(14, 20);
-            this.lblCatNombreLbl.Name = "lblCatNombreLbl";
-            this.lblCatNombreLbl.Size = new System.Drawing.Size(76, 23);
-            this.lblCatNombreLbl.TabIndex = 0;
-            this.lblCatNombreLbl.Text = "Nombre";
-            // 
             // tabPrioridades
             // 
             this.tabPrioridades.BackColor = System.Drawing.Color.White;
@@ -549,21 +380,22 @@
             this.lblPrioNombreLbl.TabIndex = 0;
             this.lblPrioNombreLbl.Text = "Nombre de la prioridad";
             // 
-            // tabEstados
+            // tabConfig
             // 
-            this.tabEstados.BackColor = System.Drawing.Color.White;
-            this.tabEstados.Controls.Add(this.pnlEstadosBody);
-            this.tabEstados.Location = new System.Drawing.Point(4, 34);
-            this.tabEstados.Name = "tabEstados";
-            this.tabEstados.Size = new System.Drawing.Size(860, 574);
-            this.tabEstados.TabIndex = 0;
-            this.tabEstados.Text = "  Estados  ";
+            this.tabConfig.Controls.Add(this.tabEstados);
+            this.tabConfig.Controls.Add(this.tabPrioridades);
+            this.tabConfig.Controls.Add(this.tabRoles);
+            this.tabConfig.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabConfig.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.tabConfig.Location = new System.Drawing.Point(16, 14);
+            this.tabConfig.Name = "tabConfig";
+            this.tabConfig.SelectedIndex = 0;
+            this.tabConfig.Size = new System.Drawing.Size(868, 612);
+            this.tabConfig.TabIndex = 0;
             // 
             // pnlEstadosBody
             // 
             this.pnlEstadosBody.BackColor = System.Drawing.Color.White;
-            this.pnlEstadosBody.Controls.Add(this.pnlFormEstado);
-            this.pnlEstadosBody.Controls.Add(this.lvEstados);
             this.pnlEstadosBody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlEstadosBody.Location = new System.Drawing.Point(0, 0);
             this.pnlEstadosBody.Name = "pnlEstadosBody";
@@ -576,9 +408,6 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lvEstados.BackColor = System.Drawing.Color.White;
             this.lvEstados.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lvEstados.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.colEstadoId,
-            this.colEstadoNombre});
             this.lvEstados.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lvEstados.FullRowSelect = true;
             this.lvEstados.HideSelection = false;
@@ -592,11 +421,13 @@
             // 
             // colEstadoId
             // 
+            this.colEstadoId.DisplayIndex = 0;
             this.colEstadoId.Text = "#";
             this.colEstadoId.Width = 50;
             // 
             // colEstadoNombre
             // 
+            this.colEstadoNombre.DisplayIndex = 1;
             this.colEstadoNombre.Text = "Nombre del estado";
             this.colEstadoNombre.Width = 480;
             // 
@@ -605,11 +436,6 @@
             this.pnlFormEstado.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlFormEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.pnlFormEstado.Controls.Add(this.lblEstadoNombreLbl);
-            this.pnlFormEstado.Controls.Add(this.txtEstadoNombre);
-            this.pnlFormEstado.Controls.Add(this.btnEstadoNuevo);
-            this.pnlFormEstado.Controls.Add(this.btnEstadoGuardar);
-            this.pnlFormEstado.Controls.Add(this.btnEstadoEliminar);
             this.pnlFormEstado.Location = new System.Drawing.Point(1230, 0);
             this.pnlFormEstado.Name = "pnlFormEstado";
             this.pnlFormEstado.Size = new System.Drawing.Size(280, 1014);
@@ -680,21 +506,147 @@
             this.lblEstadoNombreLbl.Name = "lblEstadoNombreLbl";
             this.lblEstadoNombreLbl.Size = new System.Drawing.Size(164, 23);
             this.lblEstadoNombreLbl.TabIndex = 0;
-            this.lblEstadoNombreLbl.Text = "Nombre del estado";
             // 
-            // tabConfig
+            // tabEstados
             // 
-            this.tabConfig.Controls.Add(this.tabEstados);
-            this.tabConfig.Controls.Add(this.tabPrioridades);
-            this.tabConfig.Controls.Add(this.tabCategorias);
-            this.tabConfig.Controls.Add(this.tabRoles);
-            this.tabConfig.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabConfig.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.tabConfig.Location = new System.Drawing.Point(16, 14);
-            this.tabConfig.Name = "tabConfig";
-            this.tabConfig.SelectedIndex = 0;
-            this.tabConfig.Size = new System.Drawing.Size(868, 612);
-            this.tabConfig.TabIndex = 0;
+            this.tabEstados.BackColor = System.Drawing.Color.White;
+            this.tabEstados.Controls.Add(this.pnlEstadosBody);
+            this.tabEstados.Location = new System.Drawing.Point(4, 34);
+            this.tabEstados.Name = "tabEstados";
+            this.tabEstados.Size = new System.Drawing.Size(860, 574);
+            this.tabEstados.TabIndex = 0;
+            this.tabEstados.Text = "  Estados  ";
+            // 
+            // lvCategorias
+            // 
+            this.lvCategorias.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.lvCategorias.BackColor = System.Drawing.Color.White;
+            this.lvCategorias.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lvCategorias.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lvCategorias.FullRowSelect = true;
+            this.lvCategorias.HideSelection = false;
+            this.lvCategorias.Location = new System.Drawing.Point(0, 0);
+            this.lvCategorias.MultiSelect = false;
+            this.lvCategorias.Name = "lvCategorias";
+            this.lvCategorias.Size = new System.Drawing.Size(550, 1014);
+            this.lvCategorias.TabIndex = 1;
+            this.lvCategorias.UseCompatibleStateImageBehavior = false;
+            this.lvCategorias.View = System.Windows.Forms.View.Details;
+            // 
+            // colCatId
+            // 
+            this.colCatId.DisplayIndex = 0;
+            this.colCatId.Text = "#";
+            this.colCatId.Width = 50;
+            // 
+            // colCatNombre
+            // 
+            this.colCatNombre.DisplayIndex = 1;
+            this.colCatNombre.Text = "Nombre";
+            this.colCatNombre.Width = 200;
+            // 
+            // colCatDesc
+            // 
+            this.colCatDesc.DisplayIndex = 2;
+            this.colCatDesc.Text = "Descripción";
+            this.colCatDesc.Width = 280;
+            // 
+            // pnlFormCategoria
+            // 
+            this.pnlFormCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.pnlFormCategoria.Location = new System.Drawing.Point(570, 0);
+            this.pnlFormCategoria.Name = "pnlFormCategoria";
+            this.pnlFormCategoria.Size = new System.Drawing.Size(280, 540);
+            this.pnlFormCategoria.TabIndex = 0;
+            // 
+            // btnCatEliminar
+            // 
+            this.btnCatEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.btnCatEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCatEliminar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(202)))), ((int)(((byte)(202)))));
+            this.btnCatEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCatEliminar.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnCatEliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.btnCatEliminar.Location = new System.Drawing.Point(186, 178);
+            this.btnCatEliminar.Name = "btnCatEliminar";
+            this.btnCatEliminar.Size = new System.Drawing.Size(78, 30);
+            this.btnCatEliminar.TabIndex = 6;
+            this.btnCatEliminar.Text = "Eliminar";
+            this.btnCatEliminar.UseVisualStyleBackColor = false;
+            // 
+            // btnCatGuardar
+            // 
+            this.btnCatGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.btnCatGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCatGuardar.FlatAppearance.BorderSize = 0;
+            this.btnCatGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCatGuardar.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnCatGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnCatGuardar.Location = new System.Drawing.Point(98, 178);
+            this.btnCatGuardar.Name = "btnCatGuardar";
+            this.btnCatGuardar.Size = new System.Drawing.Size(80, 30);
+            this.btnCatGuardar.TabIndex = 5;
+            this.btnCatGuardar.Text = "Guardar";
+            this.btnCatGuardar.UseVisualStyleBackColor = false;
+            // 
+            // btnCatNuevo
+            // 
+            this.btnCatNuevo.BackColor = System.Drawing.Color.White;
+            this.btnCatNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCatNuevo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.btnCatNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCatNuevo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCatNuevo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
+            this.btnCatNuevo.Location = new System.Drawing.Point(14, 178);
+            this.btnCatNuevo.Name = "btnCatNuevo";
+            this.btnCatNuevo.Size = new System.Drawing.Size(76, 30);
+            this.btnCatNuevo.TabIndex = 4;
+            this.btnCatNuevo.Text = "Nuevo";
+            this.btnCatNuevo.UseVisualStyleBackColor = false;
+            // 
+            // txtCatDesc
+            // 
+            this.txtCatDesc.BackColor = System.Drawing.Color.White;
+            this.txtCatDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCatDesc.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.txtCatDesc.Location = new System.Drawing.Point(14, 100);
+            this.txtCatDesc.Multiline = true;
+            this.txtCatDesc.Name = "txtCatDesc";
+            this.txtCatDesc.Size = new System.Drawing.Size(250, 60);
+            this.txtCatDesc.TabIndex = 3;
+            // 
+            // lblCatDescLbl
+            // 
+            this.lblCatDescLbl.AutoSize = true;
+            this.lblCatDescLbl.BackColor = System.Drawing.Color.Transparent;
+            this.lblCatDescLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.lblCatDescLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
+            this.lblCatDescLbl.Location = new System.Drawing.Point(14, 80);
+            this.lblCatDescLbl.Name = "lblCatDescLbl";
+            this.lblCatDescLbl.Size = new System.Drawing.Size(103, 23);
+            this.lblCatDescLbl.TabIndex = 2;
+            // 
+            // txtCatNombre
+            // 
+            this.txtCatNombre.BackColor = System.Drawing.Color.White;
+            this.txtCatNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCatNombre.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.txtCatNombre.Location = new System.Drawing.Point(14, 40);
+            this.txtCatNombre.Name = "txtCatNombre";
+            this.txtCatNombre.Size = new System.Drawing.Size(250, 33);
+            this.txtCatNombre.TabIndex = 1;
+            // 
+            // lblCatNombreLbl
+            // 
+            this.lblCatNombreLbl.AutoSize = true;
+            this.lblCatNombreLbl.BackColor = System.Drawing.Color.Transparent;
+            this.lblCatNombreLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.lblCatNombreLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
+            this.lblCatNombreLbl.Location = new System.Drawing.Point(14, 20);
+            this.lblCatNombreLbl.Name = "lblCatNombreLbl";
+            this.lblCatNombreLbl.Size = new System.Drawing.Size(76, 23);
+            this.lblCatNombreLbl.TabIndex = 0;
             // 
             // FormConfiguracionSistema
             // 
@@ -711,19 +663,12 @@
             this.pnlRolesBody.ResumeLayout(false);
             this.pnlFormRol.ResumeLayout(false);
             this.pnlFormRol.PerformLayout();
-            this.tabCategorias.ResumeLayout(false);
-            this.pnlCategoriasBody.ResumeLayout(false);
-            this.pnlFormCategoria.ResumeLayout(false);
-            this.pnlFormCategoria.PerformLayout();
             this.tabPrioridades.ResumeLayout(false);
             this.pnlPrioridadesBody.ResumeLayout(false);
             this.pnlFormPrioridad.ResumeLayout(false);
             this.pnlFormPrioridad.PerformLayout();
-            this.tabEstados.ResumeLayout(false);
-            this.pnlEstadosBody.ResumeLayout(false);
-            this.pnlFormEstado.ResumeLayout(false);
-            this.pnlFormEstado.PerformLayout();
             this.tabConfig.ResumeLayout(false);
+            this.tabEstados.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -733,15 +678,6 @@
         private System.Windows.Forms.TabControl tabConfig;
         private System.Windows.Forms.TabPage tabEstados;
         private System.Windows.Forms.Panel pnlEstadosBody;
-        private System.Windows.Forms.Panel pnlFormEstado;
-        private System.Windows.Forms.Label lblEstadoNombreLbl;
-        private System.Windows.Forms.TextBox txtEstadoNombre;
-        private System.Windows.Forms.Button btnEstadoNuevo;
-        private System.Windows.Forms.Button btnEstadoGuardar;
-        private System.Windows.Forms.Button btnEstadoEliminar;
-        private System.Windows.Forms.ListView lvEstados;
-        private System.Windows.Forms.ColumnHeader colEstadoId;
-        private System.Windows.Forms.ColumnHeader colEstadoNombre;
         private System.Windows.Forms.TabPage tabPrioridades;
         private System.Windows.Forms.Panel pnlPrioridadesBody;
         private System.Windows.Forms.Panel pnlFormPrioridad;
@@ -753,20 +689,6 @@
         private System.Windows.Forms.ListView lvPrioridades;
         private System.Windows.Forms.ColumnHeader colPrioId;
         private System.Windows.Forms.ColumnHeader colPrioNombre;
-        private System.Windows.Forms.TabPage tabCategorias;
-        private System.Windows.Forms.Panel pnlCategoriasBody;
-        private System.Windows.Forms.Panel pnlFormCategoria;
-        private System.Windows.Forms.Label lblCatNombreLbl;
-        private System.Windows.Forms.TextBox txtCatNombre;
-        private System.Windows.Forms.Label lblCatDescLbl;
-        private System.Windows.Forms.TextBox txtCatDesc;
-        private System.Windows.Forms.Button btnCatNuevo;
-        private System.Windows.Forms.Button btnCatGuardar;
-        private System.Windows.Forms.Button btnCatEliminar;
-        private System.Windows.Forms.ListView lvCategorias;
-        private System.Windows.Forms.ColumnHeader colCatId;
-        private System.Windows.Forms.ColumnHeader colCatNombre;
-        private System.Windows.Forms.ColumnHeader colCatDesc;
         private System.Windows.Forms.TabPage tabRoles;
         private System.Windows.Forms.Panel pnlRolesBody;
         private System.Windows.Forms.Panel pnlFormRol;
@@ -781,5 +703,26 @@
         private System.Windows.Forms.ColumnHeader colRolId;
         private System.Windows.Forms.ColumnHeader colRolNombre;
         private System.Windows.Forms.ColumnHeader colRolDesc;
+        private System.Windows.Forms.ListView lvEstados;
+        private System.Windows.Forms.ColumnHeader colEstadoId;
+        private System.Windows.Forms.ColumnHeader colEstadoNombre;
+        private System.Windows.Forms.Panel pnlFormEstado;
+        private System.Windows.Forms.Button btnEstadoEliminar;
+        private System.Windows.Forms.Button btnEstadoGuardar;
+        private System.Windows.Forms.Button btnEstadoNuevo;
+        private System.Windows.Forms.TextBox txtEstadoNombre;
+        private System.Windows.Forms.Label lblEstadoNombreLbl;
+        private System.Windows.Forms.ListView lvCategorias;
+        private System.Windows.Forms.ColumnHeader colCatId;
+        private System.Windows.Forms.ColumnHeader colCatNombre;
+        private System.Windows.Forms.ColumnHeader colCatDesc;
+        private System.Windows.Forms.Panel pnlFormCategoria;
+        private System.Windows.Forms.Button btnCatEliminar;
+        private System.Windows.Forms.Button btnCatGuardar;
+        private System.Windows.Forms.Button btnCatNuevo;
+        private System.Windows.Forms.TextBox txtCatDesc;
+        private System.Windows.Forms.Label lblCatDescLbl;
+        private System.Windows.Forms.TextBox txtCatNombre;
+        private System.Windows.Forms.Label lblCatNombreLbl;
     }
 }

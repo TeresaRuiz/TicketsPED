@@ -33,28 +33,7 @@ namespace TicketsMDB
             panelContenido.Controls.Add(control);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var resultado = MessageBox.Show(
-               "¿Seguro que deseas cerrar sesión?",
-               "Confirmar cierre de sesión",
-               MessageBoxButtons.YesNo,
-               MessageBoxIcon.Question
-
-
-           );
-
-
-            if (resultado == DialogResult.Yes)
-            {
-                
-                // Muestra nuevamente el formulario de login
-                FormInicioSesion login = new FormInicioSesion();
-                login.Show();
-                this.Hide();
-
-            }
-        }
+      
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
@@ -81,6 +60,30 @@ namespace TicketsMDB
         private void btnCargos_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+
+            var resultado = MessageBox.Show(
+               "¿Seguro que deseas cerrar sesión?",
+               "Confirmar cierre de sesión",
+               MessageBoxButtons.YesNo,
+               MessageBoxIcon.Question
+
+
+           );
+
+
+            if (resultado == DialogResult.Yes)
+            {
+
+                // Muestra nuevamente el formulario de login
+                FormInicioSesion login = new FormInicioSesion();
+                login.Show();
+                this.Hide();
+
+            }
         }
     }
 }

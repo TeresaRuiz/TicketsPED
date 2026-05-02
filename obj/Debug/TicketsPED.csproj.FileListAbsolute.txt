@@ -88,3 +88,34 @@ C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormConfi
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.SuperAdmin.FormGestionUsuarios.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Clientes.FormDetalleTicket.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Clientes.FormPerfil.resources
+C:\Users\2022\Music\tickets fase final\bin\Debug\TicketsMDB.exe.config
+C:\Users\2022\Music\tickets fase final\bin\Debug\TicketsMDB.exe
+C:\Users\2022\Music\tickets fase final\bin\Debug\TicketsMDB.pdb
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsPED.csproj.AssemblyReference.cache
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.exe.config
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.Clientes.FormDetalleTicket.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.Clientes.FormPerfil.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.Clientes.MisTickets.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormDashboard.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormInicioSesion.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormPrincipalAdmin.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormPrincipalCliente.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormRegistro.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormRegistroCliente.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.FormRegistroTicket.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.Inicio.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.Properties.Resources.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.SuperAdmin.FormAuditoria.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.SuperAdmin.FormConfiguracionSistema.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.SuperAdmin.FormGestionUsuarios.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.SuperAdmin.FormSuperAdminDashboard.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.SuperAdmin.Inicio.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.TarjetaHistorial.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.TarjetaTicket.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.VistaBusquedaABB.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.VistaCola.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.VistaHistorialPila.resources
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsPED.csproj.GenerateResource.cache
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.exe
+C:\Users\2022\Music\tickets fase final\obj\Debug\TicketsMDB.pdb

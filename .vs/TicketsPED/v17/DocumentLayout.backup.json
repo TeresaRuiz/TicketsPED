@@ -1,258 +1,251 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\",
+  "WorkspaceRootPath": "C:\\Users\\2022\\Music\\tickets fase final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formsuperadmindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formprincipalcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetahistorial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formconfiguracionsistema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formauditoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\mistickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\music\\tickets fase final\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formsuperadmindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formprincipalcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\tarjetahistorial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formconfiguracionsistema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formauditoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\mistickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\Music\\tickets fase final\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistrocliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\clientes\\formregistrocliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\Music\\tickets fase final\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -262,7 +255,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 59,
           "Children": [
             {
               "$type": "Bookmark",
@@ -274,11 +267,23 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormPrincipalCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPrincipalCliente.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:58:39.59Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
               "Title": "FormPrincipalCliente.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPrincipalCliente.Designer.cs",
               "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPrincipalCliente.Designer.cs",
               "RelativeToolTip": "Clientes\\FormPrincipalCliente.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -289,9 +294,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "FormPerfil.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPerfil.Designer.cs",
               "RelativeDocumentMoniker": "Clientes\\FormPerfil.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPerfil.Designer.cs",
               "RelativeToolTip": "Clientes\\FormPerfil.Designer.cs",
               "ViewState": "AgIAAJcBAAAAAAAAAAAAAKIBAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,9 +306,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "FormPerfil.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPerfil.cs",
               "RelativeDocumentMoniker": "Clientes\\FormPerfil.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPerfil.cs",
               "RelativeToolTip": "Clientes\\FormPerfil.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,10 +318,10 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "FormPerfil.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPerfil.cs",
               "RelativeDocumentMoniker": "Clientes\\FormPerfil.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormPerfil.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T07:41:25.074Z"
             },
@@ -324,9 +329,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "TarjetaTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\TarjetaTicket.Designer.cs",
               "RelativeDocumentMoniker": "TarjetaTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\TarjetaTicket.Designer.cs",
               "RelativeToolTip": "TarjetaTicket.Designer.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAqwJkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -336,9 +341,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "TarjetaHistorial.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\TarjetaHistorial.Designer.cs",
               "RelativeDocumentMoniker": "TarjetaHistorial.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\TarjetaHistorial.Designer.cs",
               "RelativeToolTip": "TarjetaHistorial.Designer.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAqwJIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,9 +353,9 @@
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "FormGestionUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormGestionUsuarios.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormGestionUsuarios.cs",
               "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -360,9 +365,9 @@
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "FormConfiguracionSistema.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormConfiguracionSistema.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormConfiguracionSistema.cs",
               "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -372,9 +377,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "FormAuditoria.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormAuditoria.Designer.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormAuditoria.Designer.cs",
               "RelativeToolTip": "SuperAdmin\\FormAuditoria.Designer.cs",
               "ViewState": "AgIAAAwBAAAAAAAAAAAowBwBAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -384,9 +389,9 @@
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "FormAuditoria.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormAuditoria.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormAuditoria.cs",
               "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -394,12 +399,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FormAuditoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormAuditoria.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T06:17:53.453Z"
             },
@@ -407,9 +412,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "FormConfiguracionSistema.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
               "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.Designer.cs",
               "ViewState": "AgIAALkCAAAAAAAAAAAAAMICAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,12 +422,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "FormConfiguracionSistema.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormConfiguracionSistema.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T06:15:46.797Z"
             },
@@ -430,9 +435,9 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "FormGestionUsuarios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
               "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.Designer.cs",
               "ViewState": "AgIAAF8CAAAAAAAAAAAowG4CAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -440,12 +445,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "FormGestionUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormGestionUsuarios.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T06:13:53.299Z"
             },
@@ -453,9 +458,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "Inicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\Inicio.Designer.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\Inicio.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\Inicio.Designer.cs",
               "RelativeToolTip": "SuperAdmin\\Inicio.Designer.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -465,9 +470,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\Inicio.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\Inicio.cs",
               "RelativeToolTip": "SuperAdmin\\Inicio.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -477,10 +482,10 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\Inicio.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SuperAdmin\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T05:29:49.804Z"
             },
@@ -488,9 +493,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "FormSuperAdminDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
               "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAAAFsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -500,9 +505,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "FormSuperAdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormSuperAdminDashboard.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormSuperAdminDashboard.cs",
               "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA+wBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -512,20 +517,20 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "FormSuperAdminDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SuperAdmin\\FormSuperAdminDashboard.cs",
               "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T05:17:15.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FormDetalleTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDetalleTicket.Designer.cs",
               "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDetalleTicket.Designer.cs",
               "RelativeToolTip": "Clientes\\FormDetalleTicket.Designer.cs",
               "ViewState": "AgIAAI0BAAAAAAAAAAAAAPABAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -535,9 +540,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "FormDetalleTicket.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDetalleTicket.cs",
               "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDetalleTicket.cs",
               "RelativeToolTip": "Clientes\\FormDetalleTicket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -545,12 +550,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FormDetalleTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDetalleTicket.cs",
               "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T04:47:35.947Z"
             },
@@ -558,9 +563,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "MisTickets.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\MisTickets.Designer.cs",
               "RelativeDocumentMoniker": "Clientes\\MisTickets.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\MisTickets.Designer.cs",
               "RelativeToolTip": "Clientes\\MisTickets.Designer.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAADEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -570,9 +575,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "MisTickets.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\MisTickets.cs",
               "RelativeDocumentMoniker": "Clientes\\MisTickets.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\MisTickets.cs",
               "RelativeToolTip": "Clientes\\MisTickets.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -580,12 +585,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MisTickets.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\MisTickets.cs",
               "RelativeDocumentMoniker": "Clientes\\MisTickets.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\MisTickets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T04:44:41.055Z"
             },
@@ -593,9 +598,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "FormDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDashboard.Designer.cs",
               "RelativeDocumentMoniker": "Clientes\\FormDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDashboard.Designer.cs",
               "RelativeToolTip": "Clientes\\FormDashboard.Designer.cs",
               "ViewState": "AgIAAJIAAAAAAAAAAADwvw8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -605,9 +610,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "FormDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDashboard.cs",
               "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDashboard.cs",
               "RelativeToolTip": "Clientes\\FormDashboard.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAswBAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -615,22 +620,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FormDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormDashboard.cs",
               "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormDashboard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T04:25:50.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "FormRegistroCliente.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormRegistroCliente.cs",
               "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormRegistroCliente.cs",
               "RelativeToolTip": "Clientes\\FormRegistroCliente.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -638,11 +643,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "FormRegistroCliente.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormRegistroCliente.Designer.cs",
               "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormRegistroCliente.Designer.cs",
               "RelativeToolTip": "Clientes\\FormRegistroCliente.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -652,10 +657,10 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "FormRegistroTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormRegistroTicket.cs",
               "RelativeDocumentMoniker": "Clientes\\FormRegistroTicket.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T14:47:13.883Z"
             },
@@ -663,45 +668,34 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "FormRegistroCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormRegistroCliente.cs",
               "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T14:46:38.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwDYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:22:25.506Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 44,
               "Title": "FormPrincipalAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\FormPrincipalAdmin.cs",
               "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\FormPrincipalAdmin.cs",
               "RelativeToolTip": "Admin\\FormPrincipalAdmin.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAewDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:53:46.736Z"
+              "WhenOpened": "2026-03-17T22:53:46.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "VistaCola.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\VistaCola.cs",
               "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Admin\\VistaCola.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:39:04.537Z"
             },
@@ -709,9 +703,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Inicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\Inicio.Designer.cs",
               "RelativeDocumentMoniker": "Admin\\Inicio.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\Inicio.Designer.cs",
               "RelativeToolTip": "Admin\\Inicio.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -719,11 +713,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 58,
               "Title": "VistaBusquedaABB.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\VistaBusquedaABB.cs",
               "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\VistaBusquedaABB.cs",
               "RelativeToolTip": "Admin\\VistaBusquedaABB.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAIwDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -733,9 +727,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "FormPrincipalCliente.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPrincipalCliente.cs",
               "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Clientes\\FormPrincipalCliente.cs",
               "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAqwEIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -744,46 +738,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPrincipalCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:58:39.59Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 60,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\TicketsPED1\\Form1.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:39:18.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "VistaHistorialPila.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\VistaHistorialPila.cs",
               "RelativeDocumentMoniker": "Admin\\VistaHistorialPila.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:39:10.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "VistaBusquedaABB.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\VistaBusquedaABB.cs",
               "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:38:50.022Z"
             },
@@ -791,9 +773,9 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Ticket.cs",
               "RelativeDocumentMoniker": "Ticket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Ticket.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Ticket.cs",
               "RelativeToolTip": "Ticket.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -803,10 +785,10 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "TarjetaTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\TarjetaTicket.cs",
               "RelativeDocumentMoniker": "TarjetaTicket.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TarjetaTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\TarjetaTicket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:38:42.184Z"
             },
@@ -814,10 +796,10 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "TarjetaHistorial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\TarjetaHistorial.cs",
               "RelativeDocumentMoniker": "TarjetaHistorial.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TarjetaHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T03:38:38.263Z"
             },
@@ -825,9 +807,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "TAD_Pila.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Pila.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\TAD_Pila.cs",
               "RelativeDocumentMoniker": "TAD_Pila.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Pila.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\TAD_Pila.cs",
               "RelativeToolTip": "TAD_Pila.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -837,9 +819,9 @@
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "TAD_Lista.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Lista.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\TAD_Lista.cs",
               "RelativeDocumentMoniker": "TAD_Lista.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Lista.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\TAD_Lista.cs",
               "RelativeToolTip": "TAD_Lista.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -849,9 +831,9 @@
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Nodo.cs",
               "RelativeDocumentMoniker": "Nodo.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Nodo.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Nodo.cs",
               "RelativeToolTip": "Nodo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -859,22 +841,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\FormRegistro.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:37:32.451Z"
+              "WhenOpened": "2026-03-21T03:37:32.451Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\Inicio.cs",
               "RelativeDocumentMoniker": "Admin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\Inicio.cs",
               "RelativeToolTip": "Admin\\Inicio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -882,33 +865,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\Inicio.cs",
               "RelativeDocumentMoniker": "Admin\\Inicio.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Admin\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T23:04:56.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "FormPrincipalAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\FormPrincipalAdmin.cs",
               "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Admin\\FormPrincipalAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Admin\\FormPrincipalAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:49:32.416Z"
+              "WhenOpened": "2026-03-17T22:49:32.416Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 57,
               "Title": "SesionActual.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SesionActual.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\SesionActual.cs",
               "RelativeDocumentMoniker": "SesionActual.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SesionActual.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\SesionActual.cs",
               "RelativeToolTip": "SesionActual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -918,9 +902,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "FormInicioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\FormInicioSesion.cs",
               "RelativeToolTip": "FormInicioSesion.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAAAFMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -928,11 +912,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Program.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwB4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -940,34 +924,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FormInicioSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormInicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\FormInicioSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:37:46.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 0,
               "Title": "FormRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\FormRegistro.cs",
               "RelativeToolTip": "FormRegistro.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:37:06.638Z"
+              "WhenOpened": "2026-03-17T21:37:06.638Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\Conexion.cs",
               "RelativeDocumentMoniker": "Conexion.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Conexion.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\tickets fase final\\Conexion.cs",
               "RelativeToolTip": "Conexion.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwA4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -975,35 +960,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
-              "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:26:45.891Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 59,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\TicketsPED1\\Form1.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwDYAAAANAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\source\\repos\\TicketsPED1\\Form1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:23:39.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 55,
+              "Title": "FormRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\Music\\tickets fase final\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "FormRegistro.cs",
+              "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T21:26:45.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\TicketsPED1\\Form1.cs",
               "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Music\\TicketsMDB\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\TicketsMDB\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:21:10.651Z"
             }

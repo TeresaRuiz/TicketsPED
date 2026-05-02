@@ -66,5 +66,29 @@ namespace TicketsMDB
         {
             MostrarControl(new FormPerfil());
         }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+
+            var resultado = MessageBox.Show(
+               "¿Seguro que deseas cerrar sesión?",
+               "Confirmar cierre de sesión",
+               MessageBoxButtons.YesNo,
+               MessageBoxIcon.Question
+
+
+           );
+
+
+            if (resultado == DialogResult.Yes)
+            {
+
+                // Muestra nuevamente el formulario de login
+                FormInicioSesion login = new FormInicioSesion();
+                login.Show();
+                this.Hide();
+
+            }
+        }
     }
 }

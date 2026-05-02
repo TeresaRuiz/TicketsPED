@@ -30,7 +30,7 @@
         {
             this.panelContenido = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnPedido = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.btnInicio = new System.Windows.Forms.Button();
@@ -51,7 +51,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panelMenu.Controls.Add(this.button1);
+            this.panelMenu.Controls.Add(this.btnCerrarSesion);
             this.panelMenu.Controls.Add(this.btnPedido);
             this.panelMenu.Controls.Add(this.lblUsuario);
             this.panelMenu.Controls.Add(this.btnInicio);
@@ -64,19 +64,19 @@
             this.panelMenu.Size = new System.Drawing.Size(279, 938);
             this.panelMenu.TabIndex = 4;
             // 
-            // button1
+            // btnCerrarSesion
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(12, 858);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(249, 55);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Cerrar Sesión";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(12, 858);
+            this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(249, 55);
+            this.btnCerrarSesion.TabIndex = 15;
+            this.btnCerrarSesion.Text = "Cerrar Sesión";
+            this.btnCerrarSesion.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // btnPedido
             // 
@@ -168,7 +168,7 @@
 
         private System.Windows.Forms.Panel panelContenido;
         private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.Button btnPedido;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Button btnInicio;

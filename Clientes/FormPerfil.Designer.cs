@@ -33,7 +33,6 @@
             this.lblCorreoLbl = new System.Windows.Forms.Label();
             this.pnlCorreoBox = new System.Windows.Forms.Panel();
             this.lblCorreoVal = new System.Windows.Forms.Label();
-            this.lblCorreoHint = new System.Windows.Forms.Label();
             this.lblNombreLbl = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblApellidoLbl = new System.Windows.Forms.Label();
@@ -217,7 +216,6 @@
             this.pnlCardDatos.Controls.Add(this.pnlDivDatos);
             this.pnlCardDatos.Controls.Add(this.lblCorreoLbl);
             this.pnlCardDatos.Controls.Add(this.pnlCorreoBox);
-            this.pnlCardDatos.Controls.Add(this.lblCorreoHint);
             this.pnlCardDatos.Controls.Add(this.lblNombreLbl);
             this.pnlCardDatos.Controls.Add(this.txtNombre);
             this.pnlCardDatos.Controls.Add(this.lblApellidoLbl);
@@ -268,9 +266,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlCorreoBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.pnlCorreoBox.Controls.Add(this.lblCorreoVal);
-            this.pnlCorreoBox.Location = new System.Drawing.Point(18, 70);
+            this.pnlCorreoBox.Location = new System.Drawing.Point(18, 76);
             this.pnlCorreoBox.Name = "pnlCorreoBox";
-            this.pnlCorreoBox.Size = new System.Drawing.Size(1521, 36);
+            this.pnlCorreoBox.Size = new System.Drawing.Size(1008, 36);
             this.pnlCorreoBox.TabIndex = 3;
             // 
             // lblCorreoVal
@@ -284,18 +282,6 @@
             this.lblCorreoVal.Size = new System.Drawing.Size(201, 25);
             this.lblCorreoVal.TabIndex = 0;
             this.lblCorreoVal.Text = "juan.diaz@correo.com";
-            // 
-            // lblCorreoHint
-            // 
-            this.lblCorreoHint.AutoSize = true;
-            this.lblCorreoHint.BackColor = System.Drawing.Color.Transparent;
-            this.lblCorreoHint.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.lblCorreoHint.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.lblCorreoHint.Location = new System.Drawing.Point(18, 110);
-            this.lblCorreoHint.Name = "lblCorreoHint";
-            this.lblCorreoHint.Size = new System.Drawing.Size(228, 21);
-            this.lblCorreoHint.TabIndex = 4;
-            this.lblCorreoHint.Text = "El correo no puede modificarse.";
             // 
             // lblNombreLbl
             // 
@@ -443,7 +429,6 @@
         private System.Windows.Forms.Label lblCorreoLbl;
         private System.Windows.Forms.Panel pnlCorreoBox;
         private System.Windows.Forms.Label lblCorreoVal;
-        private System.Windows.Forms.Label lblCorreoHint;
         private System.Windows.Forms.Label lblNombreLbl;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblApellidoLbl;

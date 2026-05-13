@@ -23,7 +23,8 @@
             this.lblIniciales = new System.Windows.Forms.Label();
             this.lblNombreUsuario = new System.Windows.Forms.Label();
             this.pnlBody = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.btnEnviar = new System.Windows.Forms.Button();
+            this.dtpFechaCreacion = new System.Windows.Forms.DateTimePicker();
             this.lblTituloLbl = new System.Windows.Forms.Label();
             this.txtTitulo = new System.Windows.Forms.TextBox();
             this.lblCharTitulo = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@
             this.btnMedia = new System.Windows.Forms.Button();
             this.btnAlta = new System.Windows.Forms.Button();
             this.lblHint = new System.Windows.Forms.Label();
-            this.btnEnviar = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
             this.pnlAvatar.SuspendLayout();
             this.pnlBody.SuspendLayout();
@@ -60,6 +60,7 @@
             this.pnlHeader.Padding = new System.Windows.Forms.Padding(24, 14, 24, 14);
             this.pnlHeader.Size = new System.Drawing.Size(1081, 118);
             this.pnlHeader.TabIndex = 1;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
             // 
             // lblBadge
             // 
@@ -69,7 +70,7 @@
             this.lblBadge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(197)))), ((int)(((byte)(253)))));
             this.lblBadge.Location = new System.Drawing.Point(24, 14);
             this.lblBadge.Name = "lblBadge";
-            this.lblBadge.Size = new System.Drawing.Size(121, 23);
+            this.lblBadge.Size = new System.Drawing.Size(105, 20);
             this.lblBadge.TabIndex = 0;
             this.lblBadge.Text = "● Nuevo ticket";
             // 
@@ -81,7 +82,7 @@
             this.lblTituloForm.ForeColor = System.Drawing.Color.White;
             this.lblTituloForm.Location = new System.Drawing.Point(24, 40);
             this.lblTituloForm.Name = "lblTituloForm";
-            this.lblTituloForm.Size = new System.Drawing.Size(330, 36);
+            this.lblTituloForm.Size = new System.Drawing.Size(277, 30);
             this.lblTituloForm.TabIndex = 1;
             this.lblTituloForm.Text = "Registrar ticket de soporte";
             // 
@@ -93,7 +94,7 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(24, 74);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(517, 23);
+            this.lblSubtitulo.Size = new System.Drawing.Size(452, 20);
             this.lblSubtitulo.TabIndex = 2;
             this.lblSubtitulo.Text = "Complete los campos para enviar su solicitud al equipo de soporte";
             // 
@@ -129,7 +130,7 @@
             this.lblNombreUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
             this.lblNombreUsuario.Location = new System.Drawing.Point(1405, 28);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(93, 25);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(76, 21);
             this.lblNombreUsuario.TabIndex = 4;
             this.lblNombreUsuario.Text = "Juan Díaz";
             // 
@@ -138,7 +139,7 @@
             this.pnlBody.AutoScroll = true;
             this.pnlBody.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pnlBody.Controls.Add(this.btnEnviar);
-            this.pnlBody.Controls.Add(this.dateTimePicker1);
+            this.pnlBody.Controls.Add(this.dtpFechaCreacion);
             this.pnlBody.Controls.Add(this.lblTituloLbl);
             this.pnlBody.Controls.Add(this.txtTitulo);
             this.pnlBody.Controls.Add(this.lblCharTitulo);
@@ -161,13 +162,31 @@
             this.pnlBody.Padding = new System.Windows.Forms.Padding(24, 20, 24, 10);
             this.pnlBody.Size = new System.Drawing.Size(1081, 713);
             this.pnlBody.TabIndex = 0;
+            this.pnlBody.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBody_Paint);
             // 
-            // dateTimePicker1
+            // btnEnviar
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(400, 310);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(399, 33);
-            this.dateTimePicker1.TabIndex = 17;
+            this.btnEnviar.BackColor = System.Drawing.Color.Indigo;
+            this.btnEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnEnviar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(239)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnviar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
+            this.btnEnviar.ForeColor = System.Drawing.Color.White;
+            this.btnEnviar.Location = new System.Drawing.Point(745, 395);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(194, 46);
+            this.btnEnviar.TabIndex = 18;
+            this.btnEnviar.Text = "Enviar ticket";
+            this.btnEnviar.UseVisualStyleBackColor = false;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
+            // 
+            // dtpFechaCreacion
+            // 
+            this.dtpFechaCreacion.Location = new System.Drawing.Point(396, 323);
+            this.dtpFechaCreacion.Name = "dtpFechaCreacion";
+            this.dtpFechaCreacion.Size = new System.Drawing.Size(399, 29);
+            this.dtpFechaCreacion.TabIndex = 17;
             // 
             // lblTituloLbl
             // 
@@ -177,7 +196,7 @@
             this.lblTituloLbl.ForeColor = System.Drawing.Color.Black;
             this.lblTituloLbl.Location = new System.Drawing.Point(51, 63);
             this.lblTituloLbl.Name = "lblTituloLbl";
-            this.lblTituloLbl.Size = new System.Drawing.Size(71, 21);
+            this.lblTituloLbl.Size = new System.Drawing.Size(65, 19);
             this.lblTituloLbl.TabIndex = 0;
             this.lblTituloLbl.Text = "TÍTULO *";
             // 
@@ -188,12 +207,13 @@
             this.txtTitulo.BackColor = System.Drawing.Color.LightGray;
             this.txtTitulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTitulo.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.txtTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.txtTitulo.ForeColor = System.Drawing.Color.Black;
             this.txtTitulo.Location = new System.Drawing.Point(55, 104);
             this.txtTitulo.MaxLength = 100;
             this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(984, 33);
+            this.txtTitulo.Size = new System.Drawing.Size(984, 29);
             this.txtTitulo.TabIndex = 1;
+            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
             // 
             // lblCharTitulo
             // 
@@ -204,7 +224,7 @@
             this.lblCharTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblCharTitulo.Location = new System.Drawing.Point(1455, 80);
             this.lblCharTitulo.Name = "lblCharTitulo";
-            this.lblCharTitulo.Size = new System.Drawing.Size(60, 21);
+            this.lblCharTitulo.Size = new System.Drawing.Size(54, 19);
             this.lblCharTitulo.TabIndex = 2;
             this.lblCharTitulo.Text = "0 / 100";
             // 
@@ -216,7 +236,7 @@
             this.lblDescLbl.ForeColor = System.Drawing.Color.Black;
             this.lblDescLbl.Location = new System.Drawing.Point(51, 150);
             this.lblDescLbl.Name = "lblDescLbl";
-            this.lblDescLbl.Size = new System.Drawing.Size(109, 21);
+            this.lblDescLbl.Size = new System.Drawing.Size(96, 19);
             this.lblDescLbl.TabIndex = 3;
             this.lblDescLbl.Text = "DESCRIPCIÓN";
             // 
@@ -227,7 +247,7 @@
             this.txtDescripcion.BackColor = System.Drawing.Color.LightGray;
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.txtDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.txtDescripcion.ForeColor = System.Drawing.Color.Black;
             this.txtDescripcion.Location = new System.Drawing.Point(55, 174);
             this.txtDescripcion.MaxLength = 255;
             this.txtDescripcion.Multiline = true;
@@ -245,7 +265,7 @@
             this.lblCharDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblCharDesc.Location = new System.Drawing.Point(1455, 198);
             this.lblCharDesc.Name = "lblCharDesc";
-            this.lblCharDesc.Size = new System.Drawing.Size(60, 21);
+            this.lblCharDesc.Size = new System.Drawing.Size(54, 19);
             this.lblCharDesc.TabIndex = 5;
             this.lblCharDesc.Text = "0 / 255";
             // 
@@ -267,7 +287,7 @@
             this.lblEstadoLbl.ForeColor = System.Drawing.Color.Black;
             this.lblEstadoLbl.Location = new System.Drawing.Point(55, 285);
             this.lblEstadoLbl.Name = "lblEstadoLbl";
-            this.lblEstadoLbl.Size = new System.Drawing.Size(78, 21);
+            this.lblEstadoLbl.Size = new System.Drawing.Size(69, 19);
             this.lblEstadoLbl.TabIndex = 7;
             this.lblEstadoLbl.Text = "ESTADO *";
             // 
@@ -280,7 +300,7 @@
             this.cmbEstado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
             this.cmbEstado.Location = new System.Drawing.Point(55, 307);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(294, 33);
+            this.cmbEstado.Size = new System.Drawing.Size(294, 29);
             this.cmbEstado.TabIndex = 8;
             // 
             // lblFechaLbl
@@ -291,7 +311,7 @@
             this.lblFechaLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblFechaLbl.Location = new System.Drawing.Point(369, 285);
             this.lblFechaLbl.Name = "lblFechaLbl";
-            this.lblFechaLbl.Size = new System.Drawing.Size(160, 21);
+            this.lblFechaLbl.Size = new System.Drawing.Size(143, 19);
             this.lblFechaLbl.TabIndex = 9;
             this.lblFechaLbl.Text = "FECHA DE CREACIÓN";
             // 
@@ -313,7 +333,7 @@
             this.lblPrioridadLbl.ForeColor = System.Drawing.Color.Black;
             this.lblPrioridadLbl.Location = new System.Drawing.Point(55, 371);
             this.lblPrioridadLbl.Name = "lblPrioridadLbl";
-            this.lblPrioridadLbl.Size = new System.Drawing.Size(204, 21);
+            this.lblPrioridadLbl.Size = new System.Drawing.Size(182, 19);
             this.lblPrioridadLbl.TabIndex = 12;
             this.lblPrioridadLbl.Text = "PRIORIDAD DEL USUARIO *";
             // 
@@ -332,6 +352,7 @@
             this.btnBaja.TabIndex = 13;
             this.btnBaja.Text = "● Baja";
             this.btnBaja.UseVisualStyleBackColor = false;
+            this.btnBaja.Click += new System.EventHandler(this.btnBaja_Click);
             // 
             // btnMedia
             // 
@@ -348,6 +369,7 @@
             this.btnMedia.TabIndex = 14;
             this.btnMedia.Text = "● Media";
             this.btnMedia.UseVisualStyleBackColor = false;
+            this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
             // btnAlta
             // 
@@ -364,6 +386,7 @@
             this.btnAlta.TabIndex = 15;
             this.btnAlta.Text = "● Alta";
             this.btnAlta.UseVisualStyleBackColor = false;
+            this.btnAlta.Click += new System.EventHandler(this.btnAlta_Click);
             // 
             // lblHint
             // 
@@ -378,25 +401,9 @@
             this.lblHint.TabIndex = 16;
             this.lblHint.Text = "ℹ  Esta es tu percepción del impacto. El equipo asignará la prioridad real.";
             // 
-            // btnEnviar
-            // 
-            this.btnEnviar.BackColor = System.Drawing.Color.Indigo;
-            this.btnEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnEnviar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(239)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnviar.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
-            this.btnEnviar.ForeColor = System.Drawing.Color.White;
-            this.btnEnviar.Location = new System.Drawing.Point(745, 395);
-            this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(194, 46);
-            this.btnEnviar.TabIndex = 18;
-            this.btnEnviar.Text = "Enviar ticket";
-            this.btnEnviar.UseVisualStyleBackColor = false;
-            // 
             // FormRegistroTicket
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
             this.Controls.Add(this.pnlBody);
@@ -443,7 +450,7 @@
         private System.Windows.Forms.Button btnMedia;
         private System.Windows.Forms.Button btnAlta;
         private System.Windows.Forms.Label lblHint;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFechaCreacion;
         private System.Windows.Forms.Button btnEnviar;
     }
 }

@@ -12,7 +12,7 @@ namespace TicketsMDB
 {
     public class Conexion
     {
-        public static string cadenaConexion = "Server=localhost;Database=BD_Tickets;Trusted_Connection=True;";
+        public static string cadenaConexion = "Server=LENOVOGAMING;Database=BD_Tickets;Trusted_Connection=True;";
 
         public SqlConnection AbrirConexion()
         {
@@ -20,6 +20,9 @@ namespace TicketsMDB
             cn.Open();
             return cn;
         }
+
+
+
 
         public void CerrarConexion(SqlConnection cn)
         {

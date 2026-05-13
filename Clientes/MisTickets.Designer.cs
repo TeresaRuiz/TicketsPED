@@ -31,6 +31,8 @@
             this.colPrioReal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colFecha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colAccion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnDetalle = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.pnlContent.SuspendLayout();
             this.pnlFiltros.SuspendLayout();
             this.SuspendLayout();
@@ -39,6 +41,8 @@
             // 
             this.pnlContent.AutoScroll = true;
             this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Controls.Add(this.btnActualizar);
+            this.pnlContent.Controls.Add(this.btnDetalle);
             this.pnlContent.Controls.Add(this.lblPageTitle);
             this.pnlContent.Controls.Add(this.lblPageSub);
             this.pnlContent.Controls.Add(this.pnlFiltros);
@@ -58,7 +62,7 @@
             this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.lblPageTitle.Location = new System.Drawing.Point(0, 0);
             this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(163, 41);
+            this.lblPageTitle.Size = new System.Drawing.Size(137, 35);
             this.lblPageTitle.TabIndex = 0;
             this.lblPageTitle.Text = "Mis tickets";
             // 
@@ -70,7 +74,7 @@
             this.lblPageSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.lblPageSub.Location = new System.Drawing.Point(0, 34);
             this.lblPageSub.Name = "lblPageSub";
-            this.lblPageSub.Size = new System.Drawing.Size(388, 25);
+            this.lblPageSub.Size = new System.Drawing.Size(322, 20);
             this.lblPageSub.TabIndex = 1;
             this.lblPageSub.Text = "Listado completo de tus solicitudes de soporte.";
             // 
@@ -172,13 +176,14 @@
             this.lvTickets.FullRowSelect = true;
             this.lvTickets.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvTickets.HideSelection = false;
-            this.lvTickets.Location = new System.Drawing.Point(0, 112);
+            this.lvTickets.Location = new System.Drawing.Point(-3, 100);
             this.lvTickets.MultiSelect = false;
             this.lvTickets.Name = "lvTickets";
             this.lvTickets.Size = new System.Drawing.Size(1580, 920);
             this.lvTickets.TabIndex = 3;
             this.lvTickets.UseCompatibleStateImageBehavior = false;
             this.lvTickets.View = System.Windows.Forms.View.Details;
+            this.lvTickets.SelectedIndexChanged += new System.EventHandler(this.lvTickets_SelectedIndexChanged);
             // 
             // colId
             // 
@@ -215,9 +220,29 @@
             this.colAccion.Text = "Acción";
             this.colAccion.Width = 100;
             // 
+            // btnDetalle
+            // 
+            this.btnDetalle.Location = new System.Drawing.Point(746, 515);
+            this.btnDetalle.Name = "btnDetalle";
+            this.btnDetalle.Size = new System.Drawing.Size(143, 62);
+            this.btnDetalle.TabIndex = 4;
+            this.btnDetalle.Text = "Detalle Ticket";
+            this.btnDetalle.UseVisualStyleBackColor = true;
+            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(565, 515);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(143, 62);
+            this.btnActualizar.TabIndex = 5;
+            this.btnActualizar.Text = "Actualizar Tikcet";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
             // MisTickets
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.pnlContent);
@@ -253,5 +278,7 @@
         private System.Windows.Forms.ColumnHeader colPrioReal;
         private System.Windows.Forms.ColumnHeader colFecha;
         private System.Windows.Forms.ColumnHeader colAccion;
+        private System.Windows.Forms.Button btnDetalle;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }

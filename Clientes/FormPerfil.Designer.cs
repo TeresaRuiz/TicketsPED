@@ -28,16 +28,15 @@
             this.lblPassHint = new System.Windows.Forms.Label();
             this.btnGuardarPass = new System.Windows.Forms.Button();
             this.pnlCardDatos = new System.Windows.Forms.Panel();
+            this.btnGuardarCorreo = new System.Windows.Forms.Button();
+            this.txtCorreoVal = new System.Windows.Forms.TextBox();
             this.lblDatosTitulo = new System.Windows.Forms.Label();
             this.pnlDivDatos = new System.Windows.Forms.Panel();
             this.lblCorreoLbl = new System.Windows.Forms.Label();
-            this.pnlCorreoBox = new System.Windows.Forms.Panel();
-            this.lblCorreoVal = new System.Windows.Forms.Label();
             this.lblNombreLbl = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblApellidoLbl = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.btnGuardarNombre = new System.Windows.Forms.Button();
             this.pnlAvatarGrande = new System.Windows.Forms.Panel();
             this.lblInicialesGrande = new System.Windows.Forms.Label();
             this.lblNombreCompleto = new System.Windows.Forms.Label();
@@ -45,7 +44,6 @@
             this.pnlContent.SuspendLayout();
             this.pnlCardPassword.SuspendLayout();
             this.pnlCardDatos.SuspendLayout();
-            this.pnlCorreoBox.SuspendLayout();
             this.pnlAvatarGrande.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,7 +89,7 @@
             this.lblPasswordTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblPasswordTitulo.Location = new System.Drawing.Point(18, 16);
             this.lblPasswordTitulo.Name = "lblPasswordTitulo";
-            this.lblPasswordTitulo.Size = new System.Drawing.Size(193, 21);
+            this.lblPasswordTitulo.Size = new System.Drawing.Size(171, 19);
             this.lblPasswordTitulo.TabIndex = 0;
             this.lblPasswordTitulo.Text = "CAMBIAR CONTRASEÑA";
             // 
@@ -113,7 +111,7 @@
             this.lblPassActualLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblPassActualLbl.Location = new System.Drawing.Point(18, 50);
             this.lblPassActualLbl.Name = "lblPassActualLbl";
-            this.lblPassActualLbl.Size = new System.Drawing.Size(152, 23);
+            this.lblPassActualLbl.Size = new System.Drawing.Size(134, 20);
             this.lblPassActualLbl.TabIndex = 2;
             this.lblPassActualLbl.Text = "Contraseña actual";
             // 
@@ -128,7 +126,7 @@
             this.txtPassActual.Location = new System.Drawing.Point(18, 68);
             this.txtPassActual.Name = "txtPassActual";
             this.txtPassActual.PasswordChar = '●';
-            this.txtPassActual.Size = new System.Drawing.Size(1521, 33);
+            this.txtPassActual.Size = new System.Drawing.Size(1017, 29);
             this.txtPassActual.TabIndex = 3;
             // 
             // lblPassNuevaLbl
@@ -139,7 +137,7 @@
             this.lblPassNuevaLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblPassNuevaLbl.Location = new System.Drawing.Point(18, 108);
             this.lblPassNuevaLbl.Name = "lblPassNuevaLbl";
-            this.lblPassNuevaLbl.Size = new System.Drawing.Size(151, 23);
+            this.lblPassNuevaLbl.Size = new System.Drawing.Size(135, 20);
             this.lblPassNuevaLbl.TabIndex = 4;
             this.lblPassNuevaLbl.Text = "Nueva contraseña";
             // 
@@ -152,7 +150,7 @@
             this.txtPassNueva.Location = new System.Drawing.Point(18, 126);
             this.txtPassNueva.Name = "txtPassNueva";
             this.txtPassNueva.PasswordChar = '●';
-            this.txtPassNueva.Size = new System.Drawing.Size(322, 33);
+            this.txtPassNueva.Size = new System.Drawing.Size(322, 29);
             this.txtPassNueva.TabIndex = 5;
             // 
             // lblPassConfLbl
@@ -163,7 +161,7 @@
             this.lblPassConfLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblPassConfLbl.Location = new System.Drawing.Point(360, 108);
             this.lblPassConfLbl.Name = "lblPassConfLbl";
-            this.lblPassConfLbl.Size = new System.Drawing.Size(235, 23);
+            this.lblPassConfLbl.Size = new System.Drawing.Size(207, 20);
             this.lblPassConfLbl.TabIndex = 6;
             this.lblPassConfLbl.Text = "Confirmar nueva contraseña";
             // 
@@ -176,7 +174,7 @@
             this.txtPassConf.Location = new System.Drawing.Point(360, 126);
             this.txtPassConf.Name = "txtPassConf";
             this.txtPassConf.PasswordChar = '●';
-            this.txtPassConf.Size = new System.Drawing.Size(322, 33);
+            this.txtPassConf.Size = new System.Drawing.Size(322, 29);
             this.txtPassConf.TabIndex = 7;
             // 
             // lblPassHint
@@ -187,7 +185,7 @@
             this.lblPassHint.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblPassHint.Location = new System.Drawing.Point(18, 164);
             this.lblPassHint.Name = "lblPassHint";
-            this.lblPassHint.Size = new System.Drawing.Size(341, 21);
+            this.lblPassHint.Size = new System.Drawing.Size(303, 19);
             this.lblPassHint.TabIndex = 8;
             this.lblPassHint.Text = "La contraseña debe tener al menos 8 caracteres.";
             // 
@@ -206,25 +204,56 @@
             this.btnGuardarPass.TabIndex = 9;
             this.btnGuardarPass.Text = "Cambiar contraseña";
             this.btnGuardarPass.UseVisualStyleBackColor = false;
+            this.btnGuardarPass.Click += new System.EventHandler(this.btnGuardarPass_Click);
             // 
             // pnlCardDatos
             // 
             this.pnlCardDatos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlCardDatos.BackColor = System.Drawing.Color.White;
+            this.pnlCardDatos.Controls.Add(this.btnGuardarCorreo);
+            this.pnlCardDatos.Controls.Add(this.txtCorreoVal);
             this.pnlCardDatos.Controls.Add(this.lblDatosTitulo);
             this.pnlCardDatos.Controls.Add(this.pnlDivDatos);
             this.pnlCardDatos.Controls.Add(this.lblCorreoLbl);
-            this.pnlCardDatos.Controls.Add(this.pnlCorreoBox);
             this.pnlCardDatos.Controls.Add(this.lblNombreLbl);
             this.pnlCardDatos.Controls.Add(this.txtNombre);
             this.pnlCardDatos.Controls.Add(this.lblApellidoLbl);
             this.pnlCardDatos.Controls.Add(this.txtApellido);
-            this.pnlCardDatos.Controls.Add(this.btnGuardarNombre);
             this.pnlCardDatos.Location = new System.Drawing.Point(0, 116);
             this.pnlCardDatos.Name = "pnlCardDatos";
             this.pnlCardDatos.Size = new System.Drawing.Size(1557, 280);
             this.pnlCardDatos.TabIndex = 1;
+            // 
+            // btnGuardarCorreo
+            // 
+            this.btnGuardarCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(40)))), ((int)(((byte)(73)))));
+            this.btnGuardarCorreo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardarCorreo.FlatAppearance.BorderSize = 0;
+            this.btnGuardarCorreo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(50)))), ((int)(((byte)(96)))));
+            this.btnGuardarCorreo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarCorreo.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
+            this.btnGuardarCorreo.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarCorreo.Location = new System.Drawing.Point(22, 208);
+            this.btnGuardarCorreo.Name = "btnGuardarCorreo";
+            this.btnGuardarCorreo.Size = new System.Drawing.Size(130, 34);
+            this.btnGuardarCorreo.TabIndex = 11;
+            this.btnGuardarCorreo.Text = "Guardar";
+            this.btnGuardarCorreo.UseVisualStyleBackColor = false;
+            this.btnGuardarCorreo.Click += new System.EventHandler(this.btnGuardarCorreo_Click);
+            // 
+            // txtCorreoVal
+            // 
+            this.txtCorreoVal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCorreoVal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtCorreoVal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCorreoVal.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.txtCorreoVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.txtCorreoVal.Location = new System.Drawing.Point(22, 150);
+            this.txtCorreoVal.Name = "txtCorreoVal";
+            this.txtCorreoVal.Size = new System.Drawing.Size(1013, 29);
+            this.txtCorreoVal.TabIndex = 10;
             // 
             // lblDatosTitulo
             // 
@@ -234,7 +263,7 @@
             this.lblDatosTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblDatosTitulo.Location = new System.Drawing.Point(18, 16);
             this.lblDatosTitulo.Name = "lblDatosTitulo";
-            this.lblDatosTitulo.Size = new System.Drawing.Size(165, 21);
+            this.lblDatosTitulo.Size = new System.Drawing.Size(145, 19);
             this.lblDatosTitulo.TabIndex = 0;
             this.lblDatosTitulo.Text = "DATOS PERSONALES";
             // 
@@ -254,34 +283,11 @@
             this.lblCorreoLbl.BackColor = System.Drawing.Color.Transparent;
             this.lblCorreoLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblCorreoLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblCorreoLbl.Location = new System.Drawing.Point(18, 50);
+            this.lblCorreoLbl.Location = new System.Drawing.Point(18, 127);
             this.lblCorreoLbl.Name = "lblCorreoLbl";
-            this.lblCorreoLbl.Size = new System.Drawing.Size(157, 23);
+            this.lblCorreoLbl.Size = new System.Drawing.Size(137, 20);
             this.lblCorreoLbl.TabIndex = 2;
             this.lblCorreoLbl.Text = "Correo electrónico";
-            // 
-            // pnlCorreoBox
-            // 
-            this.pnlCorreoBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlCorreoBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.pnlCorreoBox.Controls.Add(this.lblCorreoVal);
-            this.pnlCorreoBox.Location = new System.Drawing.Point(18, 76);
-            this.pnlCorreoBox.Name = "pnlCorreoBox";
-            this.pnlCorreoBox.Size = new System.Drawing.Size(1008, 36);
-            this.pnlCorreoBox.TabIndex = 3;
-            // 
-            // lblCorreoVal
-            // 
-            this.lblCorreoVal.AutoSize = true;
-            this.lblCorreoVal.BackColor = System.Drawing.Color.Transparent;
-            this.lblCorreoVal.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.lblCorreoVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblCorreoVal.Location = new System.Drawing.Point(12, 8);
-            this.lblCorreoVal.Name = "lblCorreoVal";
-            this.lblCorreoVal.Size = new System.Drawing.Size(201, 25);
-            this.lblCorreoVal.TabIndex = 0;
-            this.lblCorreoVal.Text = "juan.diaz@correo.com";
             // 
             // lblNombreLbl
             // 
@@ -289,21 +295,22 @@
             this.lblNombreLbl.BackColor = System.Drawing.Color.Transparent;
             this.lblNombreLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblNombreLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblNombreLbl.Location = new System.Drawing.Point(18, 130);
+            this.lblNombreLbl.Location = new System.Drawing.Point(22, 59);
             this.lblNombreLbl.Name = "lblNombreLbl";
-            this.lblNombreLbl.Size = new System.Drawing.Size(76, 23);
+            this.lblNombreLbl.Size = new System.Drawing.Size(67, 20);
             this.lblNombreLbl.TabIndex = 5;
             this.lblNombreLbl.Text = "Nombre";
             // 
             // txtNombre
             // 
-            this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtNombre.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.txtNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
-            this.txtNombre.Location = new System.Drawing.Point(18, 150);
+            this.txtNombre.Location = new System.Drawing.Point(22, 79);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(322, 33);
+            this.txtNombre.ReadOnly = true;
+            this.txtNombre.Size = new System.Drawing.Size(322, 29);
             this.txtNombre.TabIndex = 6;
             // 
             // lblApellidoLbl
@@ -312,38 +319,23 @@
             this.lblApellidoLbl.BackColor = System.Drawing.Color.Transparent;
             this.lblApellidoLbl.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
             this.lblApellidoLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblApellidoLbl.Location = new System.Drawing.Point(360, 130);
+            this.lblApellidoLbl.Location = new System.Drawing.Point(364, 59);
             this.lblApellidoLbl.Name = "lblApellidoLbl";
-            this.lblApellidoLbl.Size = new System.Drawing.Size(78, 23);
+            this.lblApellidoLbl.Size = new System.Drawing.Size(67, 20);
             this.lblApellidoLbl.TabIndex = 7;
             this.lblApellidoLbl.Text = "Apellido";
             // 
             // txtApellido
             // 
-            this.txtApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtApellido.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtApellido.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.txtApellido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
-            this.txtApellido.Location = new System.Drawing.Point(360, 150);
+            this.txtApellido.Location = new System.Drawing.Point(364, 79);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(322, 33);
+            this.txtApellido.ReadOnly = true;
+            this.txtApellido.Size = new System.Drawing.Size(322, 29);
             this.txtApellido.TabIndex = 8;
-            // 
-            // btnGuardarNombre
-            // 
-            this.btnGuardarNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(40)))), ((int)(((byte)(73)))));
-            this.btnGuardarNombre.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardarNombre.FlatAppearance.BorderSize = 0;
-            this.btnGuardarNombre.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(50)))), ((int)(((byte)(96)))));
-            this.btnGuardarNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardarNombre.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
-            this.btnGuardarNombre.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarNombre.Location = new System.Drawing.Point(18, 200);
-            this.btnGuardarNombre.Name = "btnGuardarNombre";
-            this.btnGuardarNombre.Size = new System.Drawing.Size(130, 34);
-            this.btnGuardarNombre.TabIndex = 9;
-            this.btnGuardarNombre.Text = "Guardar datos";
-            this.btnGuardarNombre.UseVisualStyleBackColor = false;
             // 
             // pnlAvatarGrande
             // 
@@ -378,7 +370,7 @@
             this.lblNombreCompleto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.lblNombreCompleto.Location = new System.Drawing.Point(100, 22);
             this.lblNombreCompleto.Name = "lblNombreCompleto";
-            this.lblNombreCompleto.Size = new System.Drawing.Size(150, 41);
+            this.lblNombreCompleto.Size = new System.Drawing.Size(125, 35);
             this.lblNombreCompleto.TabIndex = 1;
             this.lblNombreCompleto.Text = "Juan Díaz";
             // 
@@ -396,7 +388,7 @@
             // 
             // FormPerfil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.Controls.Add(this.pnlContent);
@@ -409,8 +401,6 @@
             this.pnlCardPassword.PerformLayout();
             this.pnlCardDatos.ResumeLayout(false);
             this.pnlCardDatos.PerformLayout();
-            this.pnlCorreoBox.ResumeLayout(false);
-            this.pnlCorreoBox.PerformLayout();
             this.pnlAvatarGrande.ResumeLayout(false);
             this.pnlAvatarGrande.PerformLayout();
             this.ResumeLayout(false);
@@ -427,13 +417,10 @@
         private System.Windows.Forms.Label lblDatosTitulo;
         private System.Windows.Forms.Panel pnlDivDatos;
         private System.Windows.Forms.Label lblCorreoLbl;
-        private System.Windows.Forms.Panel pnlCorreoBox;
-        private System.Windows.Forms.Label lblCorreoVal;
         private System.Windows.Forms.Label lblNombreLbl;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblApellidoLbl;
         private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.Button btnGuardarNombre;
         private System.Windows.Forms.Panel pnlCardPassword;
         private System.Windows.Forms.Label lblPasswordTitulo;
         private System.Windows.Forms.Panel pnlDivPassword;
@@ -445,5 +432,7 @@
         private System.Windows.Forms.TextBox txtPassConf;
         private System.Windows.Forms.Label lblPassHint;
         private System.Windows.Forms.Button btnGuardarPass;
+        private System.Windows.Forms.TextBox txtCorreoVal;
+        private System.Windows.Forms.Button btnGuardarCorreo;
     }
 }

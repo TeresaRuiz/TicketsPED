@@ -72,3 +72,15 @@ INSERT INTO Estados (NombreEstado) VALUES ('Cerrado');
 INSERT INTO Prioridades (NombrePrioridad) VALUES ('Baja');
 INSERT INTO Prioridades (NombrePrioridad) VALUES ('Media');
 INSERT INTO Prioridades (NombrePrioridad) VALUES ('Alta');
+
+SELECT
+	Nombre,
+	Usuarios.IdUsuario,
+	Titulo,
+	Descripcion
+FROM Tickets
+INNER JOIN Usuarios ON Tickets.IdUsuario = Usuarios.IdUsuario
+
+SELECT * FROM Tickets
+
+DELETE * FROM Tickets WHERE IdTicket = 1;

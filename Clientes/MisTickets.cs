@@ -66,9 +66,11 @@ namespace TicketsMDB.Clientes
                 INNER JOIN Prioridades p1
                     ON t.IdPrioridadUsuario = p1.IdPrioridad
                 LEFT JOIN Prioridades p2
-                    ON t.IdPrioridadReal = p2.IdPrioridad";
+                    ON t.IdPrioridadReal = p2.IdPrioridad
+                WHERE t.IdUsuario = @IdUsuario";
 
                 SqlCommand cmd = new SqlCommand(query, cn);
+                cmd.Parameters.AddWithValue("@IdUsuario", SesionActual.IdUsuario);
 
                 SqlDataReader dr = cmd.ExecuteReader();
 
@@ -136,11 +138,12 @@ namespace TicketsMDB.Clientes
                     ON t.IdEstado = e.IdEstado
                 INNER JOIN Prioridades p
                     ON t.IdPrioridadUsuario = p.IdPrioridad
-                WHERE t.IdTicket = @IdTicket";
+                WHERE t.IdTicket = @IdTicket AND t.IdUsuario = @IdUsuario";
 
                 SqlCommand cmd = new SqlCommand(query, cn);
 
                 cmd.Parameters.AddWithValue("@IdTicket", idTicket);
+                cmd.Parameters.AddWithValue("@IdUsuario", SesionActual.IdUsuario);
 
                 SqlDataReader dr = cmd.ExecuteReader();
 

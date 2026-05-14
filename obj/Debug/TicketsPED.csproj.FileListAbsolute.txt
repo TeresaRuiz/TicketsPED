@@ -150,3 +150,34 @@ C:\Users\Ricardo\Source\Repos\TicketsPED\obj\Debug\TicketsPED.csproj.GenerateRes
 C:\Users\Ricardo\Source\Repos\TicketsPED\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
 C:\Users\Ricardo\Source\Repos\TicketsPED\obj\Debug\TicketsMDB.exe
 C:\Users\Ricardo\Source\Repos\TicketsPED\obj\Debug\TicketsMDB.pdb
+C:\Users\Marco Rivas\Desktop\TicketsPED\bin\Debug\TicketsMDB.exe.config
+C:\Users\Marco Rivas\Desktop\TicketsPED\bin\Debug\TicketsMDB.exe
+C:\Users\Marco Rivas\Desktop\TicketsPED\bin\Debug\TicketsMDB.pdb
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsPED.csproj.AssemblyReference.cache
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.exe.config
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.Clientes.FormDetalleTicket.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.Clientes.FormPerfil.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.Clientes.MisTickets.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormDashboard.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormInicioSesion.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormPrincipalAdmin.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormPrincipalCliente.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormRegistro.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormRegistroCliente.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.FormRegistroTicket.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.Inicio.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.Properties.Resources.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.SuperAdmin.FormAuditoria.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.SuperAdmin.FormConfiguracionSistema.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.SuperAdmin.FormGestionUsuarios.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.SuperAdmin.FormSuperAdminDashboard.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.SuperAdmin.Inicio.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.TarjetaHistorial.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.TarjetaTicket.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.VistaBusquedaABB.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.VistaCola.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.VistaHistorialPila.resources
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsPED.csproj.GenerateResource.cache
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.exe
+C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.pdb

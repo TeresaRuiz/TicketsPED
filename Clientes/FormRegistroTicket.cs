@@ -15,6 +15,7 @@ namespace TicketsMDB
     {
 
         int prioridadSeleccionada = 0;
+
         public FormRegistroTicket()
         {
             InitializeComponent();
@@ -33,6 +34,28 @@ namespace TicketsMDB
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
+
+            //validaciones
+
+            if(txtTitulo.Text.Trim() == "")
+            {
+                MessageBox.Show("El título no puede estar vacío.");
+                return;
+            }
+
+            if(prioridadSeleccionada == 0)
+            {
+                MessageBox.Show("Debe seleccionar una prioridad.");
+                return;
+            }
+
+            if(cmbEstado.SelectedValue == null)
+            {
+                MessageBox.Show("Debe seleccionar un estado.");
+                return;
+            }
+            
+
             Conexion db = new Conexion();
 
             SqlConnection cn = null;
@@ -62,9 +85,10 @@ namespace TicketsMDB
 
                 SqlCommand cmd = new SqlCommand(query, cn);
 
-                cmd.Parameters.AddWithValue("@IdUsuario", 2);
+                cmd.Parameters.AddWithValue("@IdUsuario", SesionActual.IdUsuario);
                 cmd.Parameters.AddWithValue("@Titulo", txtTitulo.Text);
-                cmd.Parameters.AddWithValue("@Descripcion", txtDescripcion.Text);
+                // si la descripción está vacía, se inserta NULL en la base de datos
+                cmd.Parameters.AddWithValue("@Descripcion", string.IsNullOrWhiteSpace(txtDescripcion.Text) ? (object)DBNull.Value : txtDescripcion.Text);
                 cmd.Parameters.AddWithValue("@Fecha", dtpFechaCreacion.Value);
                 cmd.Parameters.AddWithValue("@Estado", cmbEstado.SelectedValue);
                 cmd.Parameters.AddWithValue("@Prioridad", prioridadSeleccionada);

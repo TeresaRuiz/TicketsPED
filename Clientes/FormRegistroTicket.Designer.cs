@@ -183,6 +183,7 @@
             // 
             // dtpFechaCreacion
             // 
+            this.dtpFechaCreacion.Enabled = false;
             this.dtpFechaCreacion.Location = new System.Drawing.Point(396, 323);
             this.dtpFechaCreacion.Name = "dtpFechaCreacion";
             this.dtpFechaCreacion.Size = new System.Drawing.Size(399, 29);

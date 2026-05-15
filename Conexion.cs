@@ -97,6 +97,58 @@ namespace TicketsMDB
                 CerrarConexion(cn);
             }
         }
+
+        public void CambiarEstadoTicket(int idTicket, int idEstado)
+        {
+            using (SqlConnection cn = AbrirConexion())
+            {
+                string query = "UPDATE Tickets SET IdEstado = @idEstado WHERE IdTicket = @idTicket";
+
+                SqlCommand cmd = new SqlCommand(query, cn);
+
+                cmd.Parameters.AddWithValue("@idEstado", idEstado);
+                cmd.Parameters.AddWithValue("@idTicket", idTicket);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+
+        public DataTable ObtenerTicketsOrdenados(string opcion)
+        {
+            using (SqlConnection cn = AbrirConexion())
+            {
+                string orden = "t.IdTicket ASC";
+
+                if (opcion == "VER TICKET RECIENTE")
+                {
+                    orden = "t.IdTicket DESC";
+                }
+                else if (opcion == "VER TICKET MAS VIEJO")
+                {
+                    orden = "t.IdTicket ASC";
+                }
+
+                string query = @"
+        SELECT
+            t.IdTicket,
+            u.Nombre,
+            t.Titulo,
+            t.Descripcion,
+            e.NombreEstado
+        FROM Tickets t
+        INNER JOIN Usuarios u ON t.IdUsuario = u.IdUsuario
+        INNER JOIN Estados e ON t.IdEstado = e.IdEstado
+        ORDER BY " + orden;
+
+                SqlDataAdapter da = new SqlDataAdapter(query, cn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                return dt;
+            }
+        }
+
         public DataTable ObtenerTicketsParaGrid() //QUITAR, se usó con el fin de mostrar los datos en el prototipo
         {
             DataTable tabla = new DataTable();
@@ -105,7 +157,7 @@ namespace TicketsMDB
             try
             {
                 // Traemos los campos principales
-                string query = "SELECT IdTicket, IdUsuario, Titulo, Descripcion, IdEstado FROM Tickets";
+                string query = "SELECT t.IdTicket, u.Nombre, t.Titulo, t.Descripcion, e.NombreEstado FROM Tickets t INNER JOIN Usuarios u ON t.IdUsuario = u.IdUsuario INNER JOIN Estados e ON t.IdEstado = e.IdEstado";
                 SqlDataAdapter da = new SqlDataAdapter(query, cn);
 
                 // El Adapter llena la tabla automáticamente

@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TicketsMDB
 {
     public partial class VistaBusquedaABB : UserControl
     {
+        private int idTicketSeleccionado = 0;
+        private string estadoActual = "";
         public VistaBusquedaABB()
         {
             InitializeComponent();
+
+            cmbEstado.SelectedIndex = 0;
 
             CargarDatosAlGrid();
         }
@@ -39,9 +44,9 @@ namespace TicketsMDB
                     
                     dgvTickets.Columns["IdTicket"].HeaderText = "N° Ticket";
                     dgvTickets.Columns["Titulo"].HeaderText = "Asunto / Título";
-                    dgvTickets.Columns["IdUsuario"].HeaderText = "ID Cliente";
+                    dgvTickets.Columns["Nombre"].HeaderText = "Cliente";
                     dgvTickets.Columns["Descripcion"].HeaderText = "Detalle del Problema";
-                    dgvTickets.Columns["IdEstado"].HeaderText = "Estado (ID)";
+                    dgvTickets.Columns["NombreEstado"].HeaderText = "Estado";
 
                     // Ajustar el ancho para que se vea ordenado
                     dgvTickets.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -76,9 +81,12 @@ namespace TicketsMDB
 
                 // Llenamos tus labels del panel lateral
                 lblID.Text = fila.Cells["IdTicket"].Value.ToString();
-                lblUsuario.Text = fila.Cells["IdUsuario"].Value.ToString();
+                lblUsuario.Text = fila.Cells["Nombre"].Value.ToString();
                 lblDetalle.Text = fila.Cells["Descripcion"].Value.ToString();
-                lblEstado.Text = fila.Cells["IdEstado"].Value.ToString();
+                lblEstado.Text = fila.Cells["NombreEstado"].Value.ToString();
+
+                idTicketSeleccionado = Convert.ToInt32(fila.Cells["IdTicket"].Value);
+                estadoActual = fila.Cells["NombreEstado"].Value.ToString();
             }
         }
 
@@ -86,5 +94,63 @@ namespace TicketsMDB
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (idTicketSeleccionado == 0)
+            {
+                MessageBox.Show("Primero selecciona un ticket.");
+                return;
+            }
+
+            int nuevoEstado = 0;
+
+            if (estadoActual == "Abierto")
+            {
+                nuevoEstado = 2;
+            }
+            else if (estadoActual == "En proceso")
+            {
+                nuevoEstado = 3;
+            }
+            else
+            {
+                MessageBox.Show("Este ticket ya está resuelto.");
+                return;
+            }
+
+            Conexion conexion = new Conexion();
+            conexion.CambiarEstadoTicket(idTicketSeleccionado, nuevoEstado);
+
+            MessageBox.Show("Estado actualizado correctamente.");
+
+            CargarDatosAlGrid();
+
+            lblID.Text = "";
+            lblUsuario.Text = "";
+            lblDetalle.Text = "";
+            lblEstado.Text = "";
+
+            idTicketSeleccionado = 0;
+            estadoActual = "";
+        }
+
+        private void cmbEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Conexion conexion = new Conexion();
+
+            string opcion = cmbEstado.SelectedItem.ToString();
+
+            DataTable datos = conexion.ObtenerTicketsOrdenados(opcion);
+
+            dgvTickets.DataSource = datos;
+
+            dgvTickets.Columns["IdTicket"].HeaderText = "N° Ticket";
+            dgvTickets.Columns["Nombre"].HeaderText = "Cliente";
+            dgvTickets.Columns["Titulo"].HeaderText = "Asunto / Título";
+            dgvTickets.Columns["Descripcion"].HeaderText = "Detalle del problema";
+            dgvTickets.Columns["NombreEstado"].HeaderText = "Estado";
+        }
     }
+    
 }

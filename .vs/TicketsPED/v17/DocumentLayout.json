@@ -1,278 +1,286 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\",
+  "WorkspaceRootPath": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\MisTickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\ricardo\\source\\repos\\ticketsped\\historialticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:historialticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\ricardo\\source\\repos\\ticketsped\\clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaHistorialPila.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\VistaHistorialPila.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\MisTickets.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\VistaBusquedaABB.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\ricardo\\source\\repos\\ticketsped\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\VistaCola.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\FormPrincipalAdmin.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\VistaCola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormRegistroTicket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:TarjetaTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormPrincipalCliente.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormPerfil.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormPerfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:TarjetaTicket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaHistorial.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:TarjetaHistorial.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormGestionUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormConfiguracionSistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormAuditoria.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormAuditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormConfiguracionSistema.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormGestionUsuarios.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\Inicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\Inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormSuperAdminDashboard.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SuperAdmin\\FormSuperAdminDashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormDetalleTicket.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormDetalleTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormDashboard.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormDashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormRegistroCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormRegistroCliente.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\FormPrincipalAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\Inicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\Inicio.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Admin\\VistaBusquedaABB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Clientes\\FormPrincipalCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TAD_Pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:TAD_Pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TAD_Lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:TAD_Lista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:1:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:1:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\admin\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SesionActual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:SesionActual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormInicioSesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:FormInicioSesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\admin\\vistacola.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:2:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:2:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:FormRegistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tad_pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formprincipalcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistahistorialpila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistahistorialpila.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistahistorialpila.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistabusquedaabb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistabusquedaabb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formsuperadmindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formconfiguracionsistema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formauditoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\mistickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\mistickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistroticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistroticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistrocliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formperfil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formprincipaladmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formsuperadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formprincipalcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetahistorial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistroticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formgestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formconfiguracionsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formregistrocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsMDB.csproj|solutionrelative:formregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:sesionactual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -282,150 +290,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 48,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MisTickets.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\MisTickets.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.Designer.cs",
-              "RelativeToolTip": "Clientes\\MisTickets.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T04:45:01.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MisTickets.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.cs",
-              "RelativeDocumentMoniker": "Clientes\\MisTickets.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\MisTickets.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T04:44:41.055Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Conexion.cs",
-              "RelativeDocumentMoniker": "Conexion.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Conexion.cs",
-              "RelativeToolTip": "Conexion.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA4AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:36:15.567Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Ticket.cs",
-              "RelativeDocumentMoniker": "Ticket.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Ticket.cs",
-              "RelativeToolTip": "Ticket.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwDAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:45.62Z",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-15T14:46:04.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MisTickets.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.cs",
-              "RelativeDocumentMoniker": "Clientes\\MisTickets.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\MisTickets.cs",
-              "RelativeToolTip": "Clientes\\MisTickets.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAswLgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "FormDetalleTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\FormDetalleTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.Designer.cs",
+              "RelativeToolTip": "Admin\\FormDetalleTicket.Designer.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T04:44:44.549Z",
+              "WhenOpened": "2026-05-15T14:30:14.132Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VistaHistorialPila.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaHistorialPila.Designer.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaHistorialPila.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaHistorialPila.Designer.cs",
-              "RelativeToolTip": "Admin\\VistaHistorialPila.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:42:23.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HistorialTicket.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\HistorialTicket.cs",
-              "RelativeDocumentMoniker": "HistorialTicket.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\HistorialTicket.cs",
-              "RelativeToolTip": "HistorialTicket.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAUwH8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T08:14:33.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormRegistroTicket.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormRegistroTicket.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.cs",
-              "RelativeToolTip": "Clientes\\FormRegistroTicket.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAIAwwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T09:13:28.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormRegistroTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormRegistroTicket.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:47:13.883Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "FormPrincipalCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
+              "Title": "FormDetalleTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs",
+              "RelativeDocumentMoniker": "Admin\\FormDetalleTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs",
+              "RelativeToolTip": "Admin\\FormDetalleTicket.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwDAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:58:39.59Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-15T14:30:09.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "FormDetalleTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs",
+              "RelativeDocumentMoniker": "Admin\\FormDetalleTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Admin\\FormDetalleTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T14:30:07.134Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TarjetaTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs",
+              "RelativeDocumentMoniker": "TarjetaTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs",
+              "RelativeToolTip": "TarjetaTicket.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T23:36:34.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FormRegistroTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormRegistroTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.Designer.cs",
+              "RelativeToolTip": "Clientes\\FormRegistroTicket.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T16:43:44.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VistaHistorialPila.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaHistorialPila.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.Designer.cs",
+              "RelativeToolTip": "Admin\\VistaHistorialPila.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T16:42:23.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VistaCola.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaCola.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.Designer.cs",
+              "RelativeToolTip": "Admin\\VistaCola.Designer.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAswHABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T16:42:06.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "VistaBusquedaABB.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.Designer.cs",
               "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.Designer.cs",
               "RelativeToolTip": "Admin\\VistaBusquedaABB.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -434,11 +408,616 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 46,
+              "Title": "FormPrincipalAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.Designer.cs",
+              "RelativeToolTip": "Admin\\FormPrincipalAdmin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T16:41:08.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VistaCola.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
+              "RelativeToolTip": "Admin\\VistaCola.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T16:40:23.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FormPrincipalCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.Designer.cs",
+              "RelativeToolTip": "Clientes\\FormPrincipalCliente.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:55:53.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FormPerfil.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPerfil.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.Designer.cs",
+              "RelativeToolTip": "Clientes\\FormPerfil.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:41:33.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPerfil.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs",
+              "RelativeToolTip": "Clientes\\FormPerfil.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAwNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:41:27.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FormPerfil.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPerfil.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormPerfil.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:41:25.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TarjetaTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.Designer.cs",
+              "RelativeDocumentMoniker": "TarjetaTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.Designer.cs",
+              "RelativeToolTip": "TarjetaTicket.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:09:46.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "TarjetaHistorial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.Designer.cs",
+              "RelativeDocumentMoniker": "TarjetaHistorial.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.Designer.cs",
+              "RelativeToolTip": "TarjetaHistorial.Designer.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAqwJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:09:27.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "FormGestionUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs",
+              "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:23:59.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "FormConfiguracionSistema.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs",
+              "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:23:45.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FormAuditoria.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.Designer.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.Designer.cs",
+              "RelativeToolTip": "SuperAdmin\\FormAuditoria.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:18:03.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "FormAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs",
+              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:17:56.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FormAuditoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:17:53.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FormConfiguracionSistema.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
+              "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMICAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:15:53.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FormConfiguracionSistema.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:15:46.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FormGestionUsuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
+              "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4CAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:14:01.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FormGestionUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:13:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.Designer.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.Designer.cs",
+              "RelativeToolTip": "SuperAdmin\\Inicio.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:30:02.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
               "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs",
+              "RelativeToolTip": "SuperAdmin\\Inicio.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:29:59.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SuperAdmin\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:29:49.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FormSuperAdminDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
+              "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:17:23.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FormSuperAdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs",
+              "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA+wBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:17:22.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FormSuperAdminDashboard.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:17:15.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FormDetalleTicket.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.Designer.cs",
+              "RelativeToolTip": "Clientes\\FormDetalleTicket.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPABAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:47:45.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "FormDetalleTicket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs",
+              "RelativeToolTip": "Clientes\\FormDetalleTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:47:37.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FormDetalleTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:47:35.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MisTickets.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\MisTickets.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.Designer.cs",
+              "RelativeToolTip": "Clientes\\MisTickets.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:45:01.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MisTickets.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs",
+              "RelativeDocumentMoniker": "Clientes\\MisTickets.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs",
+              "RelativeToolTip": "Clientes\\MisTickets.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:44:44.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MisTickets.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs",
+              "RelativeDocumentMoniker": "Clientes\\MisTickets.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\MisTickets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\MisTickets.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T04:44:41.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.Designer.cs",
+              "RelativeToolTip": "Clientes\\FormDashboard.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:26:02.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "FormDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs",
+              "RelativeToolTip": "Clientes\\FormDashboard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:25:57.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FormDashboard.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormDashboard.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:25:50.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "FormRegistroCliente.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs",
+              "RelativeToolTip": "Clientes\\FormRegistroCliente.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:55:02.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FormRegistroCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.Designer.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.Designer.cs",
+              "RelativeToolTip": "Clientes\\FormRegistroCliente.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:57:39.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FormRegistroTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormRegistroTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormRegistroTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:47:13.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FormRegistroCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:46:38.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FormPrincipalAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs",
+              "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs",
+              "RelativeToolTip": "Admin\\FormPrincipalAdmin.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAewDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T22:53:46.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VistaCola.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Admin\\VistaCola.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:39:04.537Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Inicio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\Inicio.Designer.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.Designer.cs",
+              "RelativeToolTip": "Admin\\Inicio.Designer.cs",
+              "ViewState": "AgIAAM0BAAAAAAAAAAAqwO8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:54:58.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VistaBusquedaABB.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs",
+              "RelativeToolTip": "Admin\\VistaBusquedaABB.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAjwFcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:48:35.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "FormPrincipalCliente.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs",
+              "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwEIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T04:29:12.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FormPrincipalCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:58:39.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VistaHistorialPila.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaHistorialPila.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:39:10.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VistaBusquedaABB.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs",
+              "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:50.022Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Ticket.cs",
+              "RelativeDocumentMoniker": "Ticket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Ticket.cs",
+              "RelativeToolTip": "Ticket.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:45.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarjetaTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs",
+              "RelativeDocumentMoniker": "TarjetaTicket.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TarjetaTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:42.184Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TarjetaHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs",
+              "RelativeDocumentMoniker": "TarjetaHistorial.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TarjetaHistorial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:38.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TAD_Pila.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Pila.cs",
+              "RelativeDocumentMoniker": "TAD_Pila.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Pila.cs",
+              "RelativeToolTip": "TAD_Pila.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:36.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TAD_Lista.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Lista.cs",
+              "RelativeDocumentMoniker": "TAD_Lista.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TAD_Lista.cs",
+              "RelativeToolTip": "TAD_Lista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:31.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Nodo.cs",
+              "RelativeDocumentMoniker": "Nodo.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Nodo.cs",
+              "RelativeToolTip": "Nodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:38:23.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FormRegistro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
+              "RelativeDocumentMoniker": "FormRegistro.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T03:37:32.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs",
               "RelativeDocumentMoniker": "Admin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs",
               "RelativeToolTip": "Admin\\Inicio.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAwEQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -447,597 +1026,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VistaCola.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.cs",
-              "RelativeToolTip": "Admin\\VistaCola.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs",
+              "RelativeDocumentMoniker": "Admin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Admin\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:40:23.392Z"
+              "WhenOpened": "2026-03-17T23:04:56.741Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FormPrincipalAdmin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.Designer.cs",
-              "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.Designer.cs",
-              "RelativeToolTip": "Admin\\FormPrincipalAdmin.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:41:08.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "VistaCola.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.Designer.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaCola.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.Designer.cs",
-              "RelativeToolTip": "Admin\\VistaCola.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:42:06.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FormRegistroTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormRegistroTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroTicket.Designer.cs",
-              "RelativeToolTip": "Clientes\\FormRegistroTicket.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:43:44.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TarjetaTicket.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.cs",
-              "RelativeToolTip": "TarjetaTicket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T23:36:34.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FormPrincipalCliente.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.Designer.cs",
-              "RelativeToolTip": "Clientes\\FormPrincipalCliente.Designer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAawBMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:55:53.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FormPerfil.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPerfil.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.Designer.cs",
-              "RelativeToolTip": "Clientes\\FormPerfil.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIBAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:41:33.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FormPerfil.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPerfil.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.cs",
-              "RelativeToolTip": "Clientes\\FormPerfil.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAwNUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:41:27.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FormPerfil.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPerfil.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPerfil.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormPerfil.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:41:25.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TarjetaTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.Designer.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.Designer.cs",
-              "RelativeToolTip": "TarjetaTicket.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:09:46.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TarjetaHistorial.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaHistorial.Designer.cs",
-              "RelativeDocumentMoniker": "TarjetaHistorial.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaHistorial.Designer.cs",
-              "RelativeToolTip": "TarjetaHistorial.Designer.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAqwJIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:09:27.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FormGestionUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.cs",
-              "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:23:59.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FormConfiguracionSistema.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.cs",
-              "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:23:45.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FormAuditoria.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.Designer.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.Designer.cs",
-              "RelativeToolTip": "SuperAdmin\\FormAuditoria.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:18:03.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FormAuditoria.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
-              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:17:56.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FormAuditoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormAuditoria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:17:53.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FormConfiguracionSistema.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.Designer.cs",
-              "RelativeToolTip": "SuperAdmin\\FormConfiguracionSistema.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMICAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:15:53.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "FormConfiguracionSistema.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormConfiguracionSistema.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormConfiguracionSistema.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormConfiguracionSistema.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:15:46.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FormGestionUsuarios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.Designer.cs",
-              "RelativeToolTip": "SuperAdmin\\FormGestionUsuarios.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4CAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:14:01.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "FormGestionUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormGestionUsuarios.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormGestionUsuarios.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormGestionUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T06:13:53.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Inicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.Designer.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.Designer.cs",
-              "RelativeToolTip": "SuperAdmin\\Inicio.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:30:02.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.cs",
-              "RelativeToolTip": "SuperAdmin\\Inicio.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:29:59.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\Inicio.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\Inicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:29:49.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "FormSuperAdminDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
-              "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:17:23.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FormSuperAdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.cs",
-              "RelativeToolTip": "SuperAdmin\\FormSuperAdminDashboard.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA+wBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:17:22.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "FormSuperAdminDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SuperAdmin\\FormSuperAdminDashboard.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormSuperAdminDashboard.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\SuperAdmin\\FormSuperAdminDashboard.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:17:15.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "FormDetalleTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.Designer.cs",
-              "RelativeToolTip": "Clientes\\FormDetalleTicket.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPABAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T04:47:45.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "FormDetalleTicket.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.cs",
-              "RelativeToolTip": "Clientes\\FormDetalleTicket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T04:47:37.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "FormDetalleTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDetalleTicket.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormDetalleTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDetalleTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T04:47:35.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FormDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.Designer.cs",
-              "RelativeToolTip": "Clientes\\FormDashboard.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T04:26:02.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "FormDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.cs",
-              "RelativeToolTip": "Clientes\\FormDashboard.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T04:25:57.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "FormDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormDashboard.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormDashboard.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T04:25:50.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "FormRegistroCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.cs",
-              "RelativeToolTip": "Clientes\\FormRegistroCliente.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:55:02.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "FormRegistroCliente.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.Designer.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.Designer.cs",
-              "RelativeToolTip": "Clientes\\FormRegistroCliente.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:57:39.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "FormRegistroCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormRegistroCliente.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormRegistroCliente.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Clientes\\FormRegistroCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T14:46:38.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "FormPrincipalAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.cs",
-              "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.cs",
-              "RelativeToolTip": "Admin\\FormPrincipalAdmin.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAewDwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:53:46.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "VistaCola.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaCola.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:39:04.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Inicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\Inicio.Designer.cs",
-              "RelativeDocumentMoniker": "Admin\\Inicio.Designer.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\Inicio.Designer.cs",
-              "RelativeToolTip": "Admin\\Inicio.Designer.cs",
-              "ViewState": "AgIAAM0BAAAAAAAAAAAqwO8BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T04:54:58.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "VistaBusquedaABB.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.cs",
-              "RelativeToolTip": "Admin\\VistaBusquedaABB.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAawDcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T04:48:35.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "FormPrincipalCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.cs",
-              "RelativeDocumentMoniker": "Clientes\\FormPrincipalCliente.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Clientes\\FormPrincipalCliente.cs",
-              "RelativeToolTip": "Clientes\\FormPrincipalCliente.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwEIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T04:29:12.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "VistaHistorialPila.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaHistorialPila.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaHistorialPila.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaHistorialPila.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:39:10.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "VistaBusquedaABB.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\VistaBusquedaABB.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaBusquedaABB.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaBusquedaABB.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:50.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "TarjetaTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaTicket.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:42.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "TarjetaHistorial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TarjetaHistorial.cs",
-              "RelativeDocumentMoniker": "TarjetaHistorial.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:38.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "TAD_Pila.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TAD_Pila.cs",
-              "RelativeDocumentMoniker": "TAD_Pila.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TAD_Pila.cs",
-              "RelativeToolTip": "TAD_Pila.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:36.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "TAD_Lista.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TAD_Lista.cs",
-              "RelativeDocumentMoniker": "TAD_Lista.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\TAD_Lista.cs",
-              "RelativeToolTip": "TAD_Lista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:31.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Nodo.cs",
-              "RelativeDocumentMoniker": "Nodo.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Nodo.cs",
-              "RelativeToolTip": "Nodo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:23.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs",
-              "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:37:32.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\Inicio.cs",
-              "RelativeDocumentMoniker": "Admin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Admin\\Inicio.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:04:56.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
               "Title": "FormPrincipalAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Admin\\FormPrincipalAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs",
               "RelativeDocumentMoniker": "Admin\\FormPrincipalAdmin.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\Admin\\FormPrincipalAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Admin\\FormPrincipalAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:49:32.416Z"
+              "WhenOpened": "2026-03-17T22:49:32.416Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 69,
               "Title": "SesionActual.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SesionActual.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SesionActual.cs",
               "RelativeDocumentMoniker": "SesionActual.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\SesionActual.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\SesionActual.cs",
               "RelativeToolTip": "SesionActual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1045,23 +1062,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 14,
               "Title": "FormInicioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs",
               "RelativeToolTip": "FormInicioSesion.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowHcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T22:37:37.363Z"
+              "WhenOpened": "2026-03-17T22:37:37.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 48,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\Program.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1069,22 +1087,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 15,
               "Title": "FormInicioSesion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
               "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\source\\repos\\TicketsPED1\\FormInicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormInicioSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T21:37:46.027Z"
+              "WhenOpened": "2026-03-17T21:37:46.027Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 30,
               "Title": "FormRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
-              "ToolTip": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
               "RelativeToolTip": "FormRegistro.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAhwB8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1092,12 +1111,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 6,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Conexion.cs",
+              "RelativeDocumentMoniker": "Conexion.cs",
+              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Conexion.cs",
+              "RelativeToolTip": "Conexion.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T21:36:15.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
               "Title": "FormRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ricardo\\source\\repos\\TicketsPED\\FormRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\FormRegistro.cs",
               "RelativeDocumentMoniker": "FormRegistro.cs",
               "ToolTip": "C:\\Users\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\2022\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Music\\TicketsMDB\\FormRegistro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T21:26:45.891Z"
             }

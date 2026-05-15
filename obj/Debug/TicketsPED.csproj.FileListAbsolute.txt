@@ -210,3 +210,4 @@ C:\Users\lisan\Documents\Tickets ped\TicketsPED\obj\Debug\TicketsPED.csproj.Gene
 C:\Users\lisan\Documents\Tickets ped\TicketsPED\obj\Debug\TicketsPED.csproj.CoreCompileInputs.cache
 C:\Users\lisan\Documents\Tickets ped\TicketsPED\obj\Debug\TicketsMDB.exe
 C:\Users\lisan\Documents\Tickets ped\TicketsPED\obj\Debug\TicketsMDB.pdb
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Admin.FormDetalleTicket.resources

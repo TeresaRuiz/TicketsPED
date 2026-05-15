@@ -12,7 +12,7 @@ namespace TicketsMDB
 {
     public class Conexion
     {
-        public static string cadenaConexion = "Server=LENOVOGAMING;Database=BD_Tickets;Trusted_Connection=True;";
+        public static string cadenaConexion = "Server=DESKTOP-352VPTR;Database=BD_Tickets;Trusted_Connection=True;";
 
         public SqlConnection AbrirConexion()
         {
@@ -20,9 +20,6 @@ namespace TicketsMDB
             cn.Open();
             return cn;
         }
-
-
-
 
         public void CerrarConexion(SqlConnection cn)
         {
@@ -173,6 +170,98 @@ namespace TicketsMDB
             }
 
             return tabla;
+        }
+
+        // Dentro de la clase Conexion en Conexion.cs
+
+        public bool AsignarResponsable(int idTicket, string nombreResponsable)
+        {
+           try
+            {
+                using (SqlConnection cn = AbrirConexion())
+                {
+                    string query = @"INSERT INTO HistorialCambios (IdTicket, IdAdmin, CampoModificado, ValorNuevo) 
+                             VALUES (@idT, 1, 'Responsable', @resp)"; // Usamos IdAdmin=1 como ejemplo
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@idT", idTicket);
+                    cmd.Parameters.AddWithValue("@resp", nombreResponsable);
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
+            catch { return false; }
+        }
+
+        public bool CambiarPrioridadReal(int idTicket, int idPrioridad)
+        {
+            try
+            {
+                using (SqlConnection cn = AbrirConexion())
+                {
+                    string query = "UPDATE Tickets SET IdPrioridadReal = @prio WHERE IdTicket = @id";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@prio", idPrioridad);
+                    cmd.Parameters.AddWithValue("@id", idTicket);
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
+            catch { return false; }
+        }
+
+        // Obtener información detallada de un ticket (con nombres en lugar de IDs)
+        public DataTable ObtenerDetalleCompleto(int idTicket)
+        {
+            using (SqlConnection cn = AbrirConexion())
+            {
+                string query = @"SELECT t.IdTicket, u.Nombre as Usuario, t.Titulo, t.Descripcion, 
+                         t.FechaCreacion, e.NombreEstado, p1.NombrePrioridad as PrioridadUsuario, 
+                         p2.NombrePrioridad as PrioridadReal
+                         FROM Tickets t
+                         INNER JOIN Usuarios u ON t.IdUsuario = u.IdUsuario
+                         INNER JOIN Estados e ON t.IdEstado = e.IdEstado
+                         INNER JOIN Prioridades p1 ON t.IdPrioridadUsuario = p1.IdPrioridad
+                         LEFT JOIN Prioridades p2 ON t.IdPrioridadReal = p2.IdPrioridad
+                         WHERE t.IdTicket = @id";
+                SqlDataAdapter da = new SqlDataAdapter(query, cn);
+                da.SelectCommand.Parameters.AddWithValue("@id", idTicket);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
+        }
+
+        // Obtener comentarios de un ticket
+        public DataTable ObtenerComentarios(int idTicket)
+        {
+            using (SqlConnection cn = AbrirConexion())
+            {
+                string query = @"SELECT c.Comentario, c.Fecha, u.Nombre 
+                         FROM Comentarios c 
+                         INNER JOIN Usuarios u ON c.IdUsuario = u.IdUsuario
+                         WHERE c.IdTicket = @id ORDER BY c.Fecha DESC";
+                SqlDataAdapter da = new SqlDataAdapter(query, cn);
+                da.SelectCommand.Parameters.AddWithValue("@id", idTicket);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
+        }
+
+        // Guardar nuevo comentario
+        public bool AgregarComentario(int idTicket, int idUsuario, string texto)
+        {
+            try
+            {
+                using (SqlConnection cn = AbrirConexion())
+                {
+                    string query = "INSERT INTO Comentarios (IdTicket, IdUsuario, Comentario) VALUES (@idT, @idU, @txt)";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@idT", idTicket);
+                    cmd.Parameters.AddWithValue("@idU", idUsuario);
+                    cmd.Parameters.AddWithValue("@txt", texto);
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
+            catch { return false; }
         }
     }
 }

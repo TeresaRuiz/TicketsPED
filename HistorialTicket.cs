@@ -18,7 +18,7 @@ namespace TicketsMDB
         // =====================================
         // CARGAR TICKETS DESDE SQL
         // =====================================
-        public void CargarTickets()
+        public void CargarTickets(int idUsuarioActual)
         {
             listaTickets.Clear();
 
@@ -31,6 +31,7 @@ namespace TicketsMDB
                 string query = @"
                 SELECT 
                     t.IdTicket,
+                    t.Titulo,
                     u.Nombre,
                     t.Descripcion,
                     e.NombreEstado,
@@ -49,10 +50,12 @@ namespace TicketsMDB
                        p1.IdPrioridad
                 LEFT JOIN Prioridades p2
                     ON t.IdPrioridadReal =
-                       p2.IdPrioridad";
+                       p2.IdPrioridad
+                WHERE t.IdUsuario = @IdUsuario";
 
                 SqlCommand cmd =
                     new SqlCommand(query, cn);
+                cmd.Parameters.AddWithValue("@IdUsuario", idUsuarioActual);
 
                 SqlDataReader dr =
                     cmd.ExecuteReader();
@@ -64,7 +67,7 @@ namespace TicketsMDB
                     Ticket t = new Ticket(
                         dr["IdTicket"].ToString(),
                         dr["Nombre"].ToString(),
-                        dr["Descripcion"].ToString(),
+                        dr["Titulo"].ToString(),
                         dr["NombreEstado"].ToString(),
                         Convert.ToDateTime(
                             dr["FechaCreacion"]),

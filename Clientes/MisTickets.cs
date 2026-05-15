@@ -52,7 +52,7 @@ namespace TicketsMDB.Clientes
 
         private void CargarTickets()
         {
-            ticket.CargarTickets();
+            ticket.CargarTickets(SesionActual.IdUsuario);
 
             MostrarTickets(
                 ticket.ObtenerTodos());

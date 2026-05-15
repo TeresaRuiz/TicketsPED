@@ -16,6 +16,8 @@
         private void InitializeComponent()
         {
             this.pnlContent = new System.Windows.Forms.Panel();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnDetalle = new System.Windows.Forms.Button();
             this.lblPageTitle = new System.Windows.Forms.Label();
             this.lblPageSub = new System.Windows.Forms.Label();
             this.pnlFiltros = new System.Windows.Forms.Panel();
@@ -31,8 +33,6 @@
             this.colPrioReal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colFecha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colAccion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnDetalle = new System.Windows.Forms.Button();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.pnlContent.SuspendLayout();
             this.pnlFiltros.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,26 @@
             this.pnlContent.Size = new System.Drawing.Size(920, 600);
             this.pnlContent.TabIndex = 0;
             // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(565, 515);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(143, 62);
+            this.btnActualizar.TabIndex = 5;
+            this.btnActualizar.Text = "Actualizar Tikcet";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // btnDetalle
+            // 
+            this.btnDetalle.Location = new System.Drawing.Point(746, 515);
+            this.btnDetalle.Name = "btnDetalle";
+            this.btnDetalle.Size = new System.Drawing.Size(143, 62);
+            this.btnDetalle.TabIndex = 4;
+            this.btnDetalle.Text = "Detalle Ticket";
+            this.btnDetalle.UseVisualStyleBackColor = true;
+            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
+            // 
             // lblPageTitle
             // 
             this.lblPageTitle.AutoSize = true;
@@ -62,7 +82,7 @@
             this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.lblPageTitle.Location = new System.Drawing.Point(0, 0);
             this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(137, 35);
+            this.lblPageTitle.Size = new System.Drawing.Size(163, 41);
             this.lblPageTitle.TabIndex = 0;
             this.lblPageTitle.Text = "Mis tickets";
             // 
@@ -74,7 +94,7 @@
             this.lblPageSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.lblPageSub.Location = new System.Drawing.Point(0, 34);
             this.lblPageSub.Name = "lblPageSub";
-            this.lblPageSub.Size = new System.Drawing.Size(322, 20);
+            this.lblPageSub.Size = new System.Drawing.Size(388, 25);
             this.lblPageSub.TabIndex = 1;
             this.lblPageSub.Text = "Listado completo de tus solicitudes de soporte.";
             // 
@@ -220,29 +240,9 @@
             this.colAccion.Text = "Acción";
             this.colAccion.Width = 100;
             // 
-            // btnDetalle
-            // 
-            this.btnDetalle.Location = new System.Drawing.Point(746, 515);
-            this.btnDetalle.Name = "btnDetalle";
-            this.btnDetalle.Size = new System.Drawing.Size(143, 62);
-            this.btnDetalle.TabIndex = 4;
-            this.btnDetalle.Text = "Detalle Ticket";
-            this.btnDetalle.UseVisualStyleBackColor = true;
-            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(565, 515);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(143, 62);
-            this.btnActualizar.TabIndex = 5;
-            this.btnActualizar.Text = "Actualizar Tikcet";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
             // MisTickets
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.pnlContent);

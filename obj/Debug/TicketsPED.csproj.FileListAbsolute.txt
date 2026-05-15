@@ -61,7 +61,6 @@ C:\Users\2022\source\repos\TicketsPED1\bin\Debug\TicketsMDB.exe
 C:\Users\2022\source\repos\TicketsPED1\bin\Debug\TicketsMDB.pdb
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsPED.csproj.AssemblyReference.cache
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.exe.config
-C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Form1.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.FormInicioSesion.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.FormPrincipalAdmin.resources
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.FormPrincipalCliente.resources

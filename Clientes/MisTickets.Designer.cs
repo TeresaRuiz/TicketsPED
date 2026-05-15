@@ -33,14 +33,20 @@
             this.colPrioReal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colFecha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colAccion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.panelActualizar = new System.Windows.Forms.Panel();
+            this.txtNuevoTitulo = new System.Windows.Forms.TextBox();
+            this.cmbNuevoEstado = new System.Windows.Forms.ComboBox();
+            this.btnGuardarCambios = new System.Windows.Forms.Button();
             this.pnlContent.SuspendLayout();
             this.pnlFiltros.SuspendLayout();
+            this.panelActualizar.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlContent
             // 
             this.pnlContent.AutoScroll = true;
             this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Controls.Add(this.panelActualizar);
             this.pnlContent.Controls.Add(this.btnActualizar);
             this.pnlContent.Controls.Add(this.btnDetalle);
             this.pnlContent.Controls.Add(this.lblPageTitle);
@@ -82,7 +88,7 @@
             this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.lblPageTitle.Location = new System.Drawing.Point(0, 0);
             this.lblPageTitle.Name = "lblPageTitle";
-            this.lblPageTitle.Size = new System.Drawing.Size(163, 41);
+            this.lblPageTitle.Size = new System.Drawing.Size(137, 35);
             this.lblPageTitle.TabIndex = 0;
             this.lblPageTitle.Text = "Mis tickets";
             // 
@@ -94,7 +100,7 @@
             this.lblPageSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.lblPageSub.Location = new System.Drawing.Point(0, 34);
             this.lblPageSub.Name = "lblPageSub";
-            this.lblPageSub.Size = new System.Drawing.Size(388, 25);
+            this.lblPageSub.Size = new System.Drawing.Size(322, 20);
             this.lblPageSub.TabIndex = 1;
             this.lblPageSub.Text = "Listado completo de tus solicitudes de soporte.";
             // 
@@ -127,6 +133,7 @@
             this.btnFiltroTodos.TabIndex = 0;
             this.btnFiltroTodos.Text = "Todos";
             this.btnFiltroTodos.UseVisualStyleBackColor = false;
+            this.btnFiltroTodos.Click += new System.EventHandler(this.btnFiltroTodos_Click);
             // 
             // btnFiltroAbierto
             // 
@@ -143,6 +150,7 @@
             this.btnFiltroAbierto.TabIndex = 1;
             this.btnFiltroAbierto.Text = "Abiertos";
             this.btnFiltroAbierto.UseVisualStyleBackColor = false;
+            this.btnFiltroAbierto.Click += new System.EventHandler(this.btnFiltroAbierto_Click);
             // 
             // btnFiltroProceso
             // 
@@ -159,6 +167,7 @@
             this.btnFiltroProceso.TabIndex = 2;
             this.btnFiltroProceso.Text = "En proceso";
             this.btnFiltroProceso.UseVisualStyleBackColor = false;
+            this.btnFiltroProceso.Click += new System.EventHandler(this.btnFiltroProceso_Click);
             // 
             // btnFiltroCerrado
             // 
@@ -175,6 +184,7 @@
             this.btnFiltroCerrado.TabIndex = 3;
             this.btnFiltroCerrado.Text = "Cerrados";
             this.btnFiltroCerrado.UseVisualStyleBackColor = false;
+            this.btnFiltroCerrado.Click += new System.EventHandler(this.btnFiltroCerrado_Click);
             // 
             // lvTickets
             // 
@@ -204,6 +214,8 @@
             this.lvTickets.UseCompatibleStateImageBehavior = false;
             this.lvTickets.View = System.Windows.Forms.View.Details;
             this.lvTickets.SelectedIndexChanged += new System.EventHandler(this.lvTickets_SelectedIndexChanged);
+            this.lvTickets.DoubleClick += new System.EventHandler(this.lvTickets_DoubleClick);
+            this.lvTickets.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvTickets_MouseDoubleClick);
             // 
             // colId
             // 
@@ -240,9 +252,44 @@
             this.colAccion.Text = "Acción";
             this.colAccion.Width = 100;
             // 
+            // panelActualizar
+            // 
+            this.panelActualizar.Controls.Add(this.btnGuardarCambios);
+            this.panelActualizar.Controls.Add(this.cmbNuevoEstado);
+            this.panelActualizar.Controls.Add(this.txtNuevoTitulo);
+            this.panelActualizar.Location = new System.Drawing.Point(6, 329);
+            this.panelActualizar.Name = "panelActualizar";
+            this.panelActualizar.Size = new System.Drawing.Size(487, 248);
+            this.panelActualizar.TabIndex = 6;
+            // 
+            // txtNuevoTitulo
+            // 
+            this.txtNuevoTitulo.Location = new System.Drawing.Point(54, 94);
+            this.txtNuevoTitulo.Name = "txtNuevoTitulo";
+            this.txtNuevoTitulo.Size = new System.Drawing.Size(140, 29);
+            this.txtNuevoTitulo.TabIndex = 0;
+            // 
+            // cmbNuevoEstado
+            // 
+            this.cmbNuevoEstado.FormattingEnabled = true;
+            this.cmbNuevoEstado.Location = new System.Drawing.Point(54, 145);
+            this.cmbNuevoEstado.Name = "cmbNuevoEstado";
+            this.cmbNuevoEstado.Size = new System.Drawing.Size(163, 29);
+            this.cmbNuevoEstado.TabIndex = 1;
+            // 
+            // btnGuardarCambios
+            // 
+            this.btnGuardarCambios.Location = new System.Drawing.Point(294, 186);
+            this.btnGuardarCambios.Name = "btnGuardarCambios";
+            this.btnGuardarCambios.Size = new System.Drawing.Size(158, 46);
+            this.btnGuardarCambios.TabIndex = 2;
+            this.btnGuardarCambios.Text = "Guardar Cambios";
+            this.btnGuardarCambios.UseVisualStyleBackColor = true;
+            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
+            // 
             // MisTickets
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.pnlContent);
@@ -254,6 +301,8 @@
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
             this.pnlFiltros.ResumeLayout(false);
+            this.panelActualizar.ResumeLayout(false);
+            this.panelActualizar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -280,5 +329,9 @@
         private System.Windows.Forms.ColumnHeader colAccion;
         private System.Windows.Forms.Button btnDetalle;
         private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Panel panelActualizar;
+        private System.Windows.Forms.Button btnGuardarCambios;
+        private System.Windows.Forms.ComboBox cmbNuevoEstado;
+        private System.Windows.Forms.TextBox txtNuevoTitulo;
     }
 }

@@ -13,10 +13,16 @@ namespace TicketsMDB.Clientes
 {
     public partial class MisTickets : UserControl
     {
+        HistorialTicket ticket = new HistorialTicket();
         public MisTickets()
         {
             InitializeComponent();
             ConfigurarListView();
+            panelActualizar.Visible = false;
+
+            cmbNuevoEstado.Items.Add("Abierto");
+            cmbNuevoEstado.Items.Add("En proceso");
+            cmbNuevoEstado.Items.Add("Cerrado");
             CargarTickets();
         }
 
@@ -27,6 +33,9 @@ namespace TicketsMDB.Clientes
             lvTickets.FullRowSelect = true;
 
             lvTickets.GridLines = true;
+
+            // PERMITE EDITAR EL TEXTO
+            lvTickets.LabelEdit = true;
 
             lvTickets.Columns.Add("#", 50);
             lvTickets.Columns.Add("Título", 200);
@@ -43,62 +52,35 @@ namespace TicketsMDB.Clientes
 
         private void CargarTickets()
         {
+            ticket.CargarTickets();
+
+            MostrarTickets(
+                ticket.ObtenerTodos());
+        }
+
+        private void MostrarTickets(List<Ticket> lista)
+        {
             lvTickets.Items.Clear();
-            Conexion db = new Conexion();
 
-            SqlConnection cn = null;
-
-            try
+            foreach (Ticket t in lista)
             {
-                cn = db.AbrirConexion();
+                ListViewItem item =
+                    new ListViewItem(t.Id);
 
-                string query = @"
-                SELECT 
-                    t.IdTicket,
-                    t.Titulo,
-                    e.NombreEstado,
-                    p1.NombrePrioridad AS PrioridadUsuario,
-                    ISNULL(p2.NombrePrioridad, 'Sin asignar') AS PrioridadReal,
-                    t.FechaCreacion
-                FROM Tickets t
-                INNER JOIN Estados e
-                    ON t.IdEstado = e.IdEstado
-                INNER JOIN Prioridades p1
-                    ON t.IdPrioridadUsuario = p1.IdPrioridad
-                LEFT JOIN Prioridades p2
-                    ON t.IdPrioridadReal = p2.IdPrioridad
-                WHERE t.IdUsuario = @IdUsuario";
+                item.SubItems.Add(t.Detalle);
 
-                SqlCommand cmd = new SqlCommand(query, cn);
-                cmd.Parameters.AddWithValue("@IdUsuario", SesionActual.IdUsuario);
+                item.SubItems.Add(t.Estado);
 
-                SqlDataReader dr = cmd.ExecuteReader();
+                item.SubItems.Add(
+                    t.PrioridadUsuario);
 
-                while (dr.Read())
-                {
-                    ListViewItem item =
-                        new ListViewItem(dr["IdTicket"].ToString());
+                item.SubItems.Add(
+                    t.PrioridadReal);
 
-                    item.SubItems.Add(dr["Titulo"].ToString());
-                    item.SubItems.Add(dr["NombreEstado"].ToString());
-                    item.SubItems.Add(dr["PrioridadUsuario"].ToString());
-                    item.SubItems.Add(dr["PrioridadReal"].ToString());
-                    item.SubItems.Add(
-                        Convert.ToDateTime(dr["FechaCreacion"])
-                        .ToString("dd/MM/yyyy"));
+                item.SubItems.Add(
+                    t.Fecha.ToString("dd/MM/yyyy"));
 
-                    lvTickets.Items.Add(item);
-                }
-
-                dr.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al cargar tickets: " + ex.Message);
-            }
-            finally
-            {
-                db.CerrarConexion(cn);
+                lvTickets.Items.Add(item);
             }
         }
 
@@ -106,113 +88,189 @@ namespace TicketsMDB.Clientes
         {
             if (lvTickets.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Seleccione un ticket");
+                MessageBox.Show(
+                    "Seleccione un ticket");
+
                 return;
             }
 
-            int idTicket =
-                Convert.ToInt32(lvTickets.SelectedItems[0].Text);
+            string idTicket =
+                lvTickets.SelectedItems[0].Text;
 
-            VerDetalle(idTicket);
+            Ticket t =
+                ticket.listaTickets.Find(
+                    x => x.Id == idTicket);
+
+            if (t != null)
+            {
+                string detalle =
+                    "ID: " + t.Id + "\n\n" +
+                    "Usuario: " + t.Usuario + "\n\n" +
+                    "Detalle: " + t.Detalle + "\n\n" +
+                    "Estado: " + t.Estado + "\n\n" +
+                    "Prioridad Usuario: "
+                        + t.PrioridadUsuario + "\n\n" +
+                    "Prioridad Real: "
+                        + t.PrioridadReal + "\n\n" +
+                    "Fecha: "
+                        + t.Fecha.ToString(
+                            "dd/MM/yyyy HH:mm");
+
+                MessageBox.Show(
+                    detalle,
+                    "Detalle Ticket",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+            
         }
 
-        private void VerDetalle(int idTicket)
-        {
-            Conexion db = new Conexion();
-            SqlConnection cn = null;
-
-            try
-            {
-                cn = db.AbrirConexion();
-
-                string query = @"
-                SELECT 
-                    t.IdTicket,
-                    t.Titulo,
-                    t.Descripcion,
-                    e.NombreEstado,
-                    p.NombrePrioridad,
-                    t.FechaCreacion
-                FROM Tickets t
-                INNER JOIN Estados e
-                    ON t.IdEstado = e.IdEstado
-                INNER JOIN Prioridades p
-                    ON t.IdPrioridadUsuario = p.IdPrioridad
-                WHERE t.IdTicket = @IdTicket AND t.IdUsuario = @IdUsuario";
-
-                SqlCommand cmd = new SqlCommand(query, cn);
-
-                cmd.Parameters.AddWithValue("@IdTicket", idTicket);
-                cmd.Parameters.AddWithValue("@IdUsuario", SesionActual.IdUsuario);
-
-                SqlDataReader dr = cmd.ExecuteReader();
-
-                if (dr.Read())
-                {
-                    string detalle =
-                        "ID: " + dr["IdTicket"] + "\n\n" +
-                        "Título: " + dr["Titulo"] + "\n\n" +
-                        "Descripción: " + dr["Descripcion"] + "\n\n" +
-                        "Estado: " + dr["NombreEstado"] + "\n\n" +
-                        "Prioridad: " + dr["NombrePrioridad"] + "\n\n" +
-                        "Fecha: " + dr["FechaCreacion"];
-
-                    MessageBox.Show(detalle,
-                        "Detalle Ticket",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
-            finally
-            {
-                db.CerrarConexion(cn);
-            }
-        }
+        
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             if (lvTickets.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Seleccione un ticket");
+                MessageBox.Show(
+                    "Seleccione un ticket");
+
                 return;
             }
 
-            int idTicket =
-                 Convert.ToInt32(lvTickets.SelectedItems[0].Text); 
+            ListViewItem item =
+                lvTickets.SelectedItems[0];
 
-            Conexion db = new Conexion();
-            SqlConnection cn = null;
+            string estado =
+                item.SubItems[2].Text;
 
-            try
+            // SI YA ESTÁ CERRADO
+            if (estado == "Cerrado")
             {
-                cn = db.AbrirConexion();
+                MessageBox.Show(
+                    "Este ticket ya fue cerrado");
 
-                string query = @"
-                UPDATE Tickets
-                SET IdEstado = 2
-                WHERE IdTicket = @IdTicket";
+                return;
+            }
 
-                SqlCommand cmd = new SqlCommand(query, cn);
+            // MOSTRAR PANEL
+            panelActualizar.Visible = true;
 
-                cmd.Parameters.AddWithValue("@IdTicket", idTicket);
+            // CARGAR DATOS ACTUALES
+            txtNuevoTitulo.Text =
+                item.SubItems[1].Text;
 
-                cmd.ExecuteNonQuery();
+            cmbNuevoEstado.Text =
+                item.SubItems[2].Text;
+        }
 
-                MessageBox.Show("Ticket actualizado");
+        private void btnFiltroTodos_Click(object sender, EventArgs e)
+        {
+            MostrarTickets(
+           ticket.ObtenerTodos());
+        }
+
+        private void btnFiltroAbierto_Click(object sender, EventArgs e)
+        {
+            MostrarTickets(
+           ticket.ObtenerAbiertos());
+        }
+
+        private void btnFiltroProceso_Click(object sender, EventArgs e)
+        {
+            MostrarTickets(
+            ticket.ObtenerEnProceso());
+        }
+
+        private void btnFiltroCerrado_Click(object sender, EventArgs e)
+        {
+            MostrarTickets(
+        ticket.ObtenerCerrados());
+        
+        }
+
+        private void lvTickets_DoubleClick(object sender, EventArgs e)
+        {
+            if (lvTickets.SelectedItems.Count > 0)
+            {
+                lvTickets.SelectedItems[0].BeginEdit();
+            }
+        }
+
+        private void lvTickets_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (lvTickets.SelectedItems.Count == 0)
+                return;
+
+            ListViewItem item =
+                lvTickets.SelectedItems[0];
+
+            string estado =
+                item.SubItems[2].Text;
+
+            switch (estado)
+            {
+                case "Abierto":
+                    item.SubItems[2].Text =
+                        "En proceso";
+                    break;
+
+                case "En proceso":
+                    item.SubItems[2].Text =
+                        "Cerrado";
+                    break;
+            }
+        }
+
+        private void btnGuardarCambios_Click(object sender, EventArgs e)
+        {
+            if (lvTickets.SelectedItems.Count == 0)
+                return;
+
+            string idTicket =
+                lvTickets.SelectedItems[0].Text;
+
+            string nuevoTitulo =
+                txtNuevoTitulo.Text;
+
+            string nuevoEstado =
+                cmbNuevoEstado.Text;
+
+            int idEstado = 1;
+
+            switch (nuevoEstado)
+            {
+                case "Abierto":
+                    idEstado = 1;
+                    break;
+
+                case "En proceso":
+                    idEstado = 2;
+                    break;
+
+                case "Cerrado":
+                    idEstado = 3;
+                    break;
+            }
+
+            bool actualizado =
+                ticket.ActualizarTicket(
+                    idTicket,
+                    nuevoTitulo,
+                    idEstado);
+
+            if (actualizado)
+            {
+                MessageBox.Show(
+                    "Ticket actualizado");
+
+                panelActualizar.Visible = false;
 
                 CargarTickets();
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Error al actualizar: " + ex.Message);
-            }
-            finally
-            {
-                db.CerrarConexion(cn);
+                MessageBox.Show(
+                    "No se pudo actualizar");
             }
         }
     }

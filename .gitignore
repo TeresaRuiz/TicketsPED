@@ -36,3 +36,6 @@ appsettings.Development.json
 *.dll
 *.pdb
 
+# Context file
+CONTEXT.md
+

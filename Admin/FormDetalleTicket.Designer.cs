@@ -2,15 +2,8 @@
 {
     partial class FormDetalleTicket
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.pnlHeader = new System.Windows.Forms.Panel();
@@ -38,8 +27,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNuevoComentario = new System.Windows.Forms.TextBox();
             this.btnGuardarComentario = new System.Windows.Forms.Button();
+            this.pnlAccionesDetalle = new System.Windows.Forms.Panel();
+            this.btnPriorizar = new System.Windows.Forms.Button();
+            this.btnTomarTicket = new System.Windows.Forms.Button();
+            this.btnCerrarTicket = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvComentarios)).BeginInit();
+            this.pnlAccionesDetalle.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -50,7 +44,7 @@
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(876, 92);
+            this.pnlHeader.Size = new System.Drawing.Size(1220, 92);
             this.pnlHeader.TabIndex = 0;
             // 
             // lblID
@@ -156,12 +150,74 @@
             this.btnGuardarComentario.UseVisualStyleBackColor = false;
             this.btnGuardarComentario.Click += new System.EventHandler(this.btnGuardarComentario_Click);
             // 
+            // pnlAccionesDetalle
+            // 
+            this.pnlAccionesDetalle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.pnlAccionesDetalle.Controls.Add(this.btnPriorizar);
+            this.pnlAccionesDetalle.Controls.Add(this.btnTomarTicket);
+            this.pnlAccionesDetalle.Controls.Add(this.btnCerrarTicket);
+            this.pnlAccionesDetalle.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlAccionesDetalle.Location = new System.Drawing.Point(880, 92);
+            this.pnlAccionesDetalle.Name = "pnlAccionesDetalle";
+            this.pnlAccionesDetalle.Padding = new System.Windows.Forms.Padding(15);
+            this.pnlAccionesDetalle.Size = new System.Drawing.Size(340, 702);
+            this.pnlAccionesDetalle.TabIndex = 9;
+            // 
+            // btnPriorizar
+            // 
+            this.btnPriorizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.btnPriorizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPriorizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(219)))), ((int)(((byte)(254)))));
+            this.btnPriorizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPriorizar.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.btnPriorizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.btnPriorizar.Location = new System.Drawing.Point(15, 25);
+            this.btnPriorizar.Name = "btnPriorizar";
+            this.btnPriorizar.Size = new System.Drawing.Size(310, 60);
+            this.btnPriorizar.TabIndex = 0;
+            this.btnPriorizar.Text = "Priorizar ticket";
+            this.btnPriorizar.UseVisualStyleBackColor = false;
+            this.btnPriorizar.Click += new System.EventHandler(this.btnPriorizar_Click);
+            // 
+            // btnTomarTicket
+            // 
+            this.btnTomarTicket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(253)))), ((int)(((byte)(245)))));
+            this.btnTomarTicket.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTomarTicket.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(243)))), ((int)(((byte)(208)))));
+            this.btnTomarTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTomarTicket.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.btnTomarTicket.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(122)))), ((int)(((byte)(85)))));
+            this.btnTomarTicket.Location = new System.Drawing.Point(15, 105);
+            this.btnTomarTicket.Name = "btnTomarTicket";
+            this.btnTomarTicket.Size = new System.Drawing.Size(310, 60);
+            this.btnTomarTicket.TabIndex = 1;
+            this.btnTomarTicket.Text = "Tomar ticket";
+            this.btnTomarTicket.UseVisualStyleBackColor = false;
+            this.btnTomarTicket.Click += new System.EventHandler(this.btnTomarTicket_Click);
+            // 
+            // btnCerrarTicket
+            // 
+            this.btnCerrarTicket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.btnCerrarTicket.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrarTicket.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(202)))), ((int)(((byte)(202)))));
+            this.btnCerrarTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarTicket.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.btnCerrarTicket.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.btnCerrarTicket.Location = new System.Drawing.Point(15, 185);
+            this.btnCerrarTicket.Name = "btnCerrarTicket";
+            this.btnCerrarTicket.Size = new System.Drawing.Size(310, 60);
+            this.btnCerrarTicket.TabIndex = 2;
+            this.btnCerrarTicket.Text = "Cerrar ticket";
+            this.btnCerrarTicket.UseVisualStyleBackColor = false;
+            this.btnCerrarTicket.Click += new System.EventHandler(this.btnCerrarTicket_Click);
+            // 
             // FormDetalleTicket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(876, 740);
+            this.ClientSize = new System.Drawing.Size(1220, 794);
+            this.Controls.Add(this.pnlAccionesDetalle);
             this.Controls.Add(this.btnGuardarComentario);
             this.Controls.Add(this.txtNuevoComentario);
             this.Controls.Add(this.label2);
@@ -181,10 +237,12 @@
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvComentarios)).EndInit();
+            this.pnlAccionesDetalle.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
+
         private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblEstado;
@@ -195,6 +253,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNuevoComentario;
         private System.Windows.Forms.Button btnGuardarComentario;
+        private System.Windows.Forms.Panel pnlAccionesDetalle;
+        private System.Windows.Forms.Button btnPriorizar;
+        private System.Windows.Forms.Button btnTomarTicket;
+        private System.Windows.Forms.Button btnCerrarTicket;
         #endregion
     }
 }

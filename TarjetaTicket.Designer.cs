@@ -40,7 +40,7 @@
             this.pnlCard.Controls.Add(this.pnlFooter);
             this.pnlCard.Location = new System.Drawing.Point(0, 0);
             this.pnlCard.Name = "pnlCard";
-            this.pnlCard.Size = new System.Drawing.Size(278, 168);
+            this.pnlCard.Size = new System.Drawing.Size(280, 168);
             this.pnlCard.TabIndex = 0;
             // 
             // pnlBarra
@@ -61,7 +61,7 @@
             this.lblID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblID.Location = new System.Drawing.Point(14, 12);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(46, 21);
+            this.lblID.Size = new System.Drawing.Size(41, 19);
             this.lblID.TabIndex = 1;
             this.lblID.Text = "#000";
             // 
@@ -73,7 +73,7 @@
             this.lblUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.lblUsuario.Location = new System.Drawing.Point(14, 30);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(81, 28);
+            this.lblUsuario.Size = new System.Drawing.Size(68, 23);
             this.lblUsuario.TabIndex = 2;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -97,7 +97,7 @@
             this.pnlFooter.Controls.Add(this.lblPrioridad);
             this.pnlFooter.Location = new System.Drawing.Point(0, 128);
             this.pnlFooter.Name = "pnlFooter";
-            this.pnlFooter.Size = new System.Drawing.Size(278, 40);
+            this.pnlFooter.Size = new System.Drawing.Size(280, 40);
             this.pnlFooter.TabIndex = 4;
             // 
             // lblEstado
@@ -126,7 +126,7 @@
             // 
             // TarjetaTicket
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlCard);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);

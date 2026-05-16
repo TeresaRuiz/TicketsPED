@@ -25,7 +25,6 @@
             this.lblSeguridadTitulo = new System.Windows.Forms.Label();
             this.pnlDivSeg = new System.Windows.Forms.Panel();
             this.chkBloqueado = new System.Windows.Forms.CheckBox();
-            this.btnResetPassword = new System.Windows.Forms.Button();
             this.pnlFormCard = new System.Windows.Forms.Panel();
             this.lblFormTitulo = new System.Windows.Forms.Label();
             this.pnlDivForm = new System.Windows.Forms.Panel();
@@ -42,15 +41,16 @@
             this.lblPasswordLbl = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.pnlLeft = new System.Windows.Forms.Panel();
+            this.flpUsuario = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlLeftHeader = new System.Windows.Forms.Panel();
             this.lblTituloLista = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.btnNuevoUsuario = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.pnlFiltroRoles = new System.Windows.Forms.Panel();
-            this.btnFiltroTodos = new System.Windows.Forms.Button();
-            this.btnFiltroAdmin = new System.Windows.Forms.Button();
-            this.btnFiltroCliente = new System.Windows.Forms.Button();
-            this.btnFiltroBloqueado = new System.Windows.Forms.Button();
+            this.btnTodos = new System.Windows.Forms.Button();
+            this.btnAdmin = new System.Windows.Forms.Button();
+            this.btnCliente = new System.Windows.Forms.Button();
+            this.btnBloqueados = new System.Windows.Forms.Button();
             this.lvUsuarios = new System.Windows.Forms.ListView();
             this.colId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -121,6 +121,7 @@
             this.btnGuardar.TabIndex = 0;
             this.btnGuardar.Text = "Guardar cambios";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnEliminar
             // 
@@ -137,6 +138,7 @@
             this.btnEliminar.TabIndex = 1;
             this.btnEliminar.Text = "Eliminar usuario";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnLimpiar
             // 
@@ -153,6 +155,7 @@
             this.btnLimpiar.TabIndex = 2;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // pnlSeguridad
             // 
@@ -160,7 +163,6 @@
             this.pnlSeguridad.Controls.Add(this.lblSeguridadTitulo);
             this.pnlSeguridad.Controls.Add(this.pnlDivSeg);
             this.pnlSeguridad.Controls.Add(this.chkBloqueado);
-            this.pnlSeguridad.Controls.Add(this.btnResetPassword);
             this.pnlSeguridad.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSeguridad.Location = new System.Drawing.Point(16, 394);
             this.pnlSeguridad.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
@@ -177,7 +179,7 @@
             this.lblSeguridadTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblSeguridadTitulo.Location = new System.Drawing.Point(16, 12);
             this.lblSeguridadTitulo.Name = "lblSeguridadTitulo";
-            this.lblSeguridadTitulo.Size = new System.Drawing.Size(101, 21);
+            this.lblSeguridadTitulo.Size = new System.Drawing.Size(87, 19);
             this.lblSeguridadTitulo.TabIndex = 0;
             this.lblSeguridadTitulo.Text = "SEGURIDAD";
             // 
@@ -200,26 +202,11 @@
             this.chkBloqueado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.chkBloqueado.Location = new System.Drawing.Point(16, 46);
             this.chkBloqueado.Name = "chkBloqueado";
-            this.chkBloqueado.Size = new System.Drawing.Size(199, 29);
+            this.chkBloqueado.Size = new System.Drawing.Size(164, 25);
             this.chkBloqueado.TabIndex = 2;
             this.chkBloqueado.Text = "Usuario bloqueado";
             this.chkBloqueado.UseVisualStyleBackColor = false;
-            // 
-            // btnResetPassword
-            // 
-            this.btnResetPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.btnResetPassword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnResetPassword.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(202)))), ((int)(((byte)(202)))));
-            this.btnResetPassword.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.btnResetPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnResetPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnResetPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.btnResetPassword.Location = new System.Drawing.Point(272, 44);
-            this.btnResetPassword.Name = "btnResetPassword";
-            this.btnResetPassword.Size = new System.Drawing.Size(160, 30);
-            this.btnResetPassword.TabIndex = 3;
-            this.btnResetPassword.Text = "Resetear contraseña";
-            this.btnResetPassword.UseVisualStyleBackColor = false;
+            this.chkBloqueado.CheckedChanged += new System.EventHandler(this.chkBloqueado_CheckedChanged);
             // 
             // pnlFormCard
             // 
@@ -253,7 +240,7 @@
             this.lblFormTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblFormTitulo.Location = new System.Drawing.Point(16, 14);
             this.lblFormTitulo.Name = "lblFormTitulo";
-            this.lblFormTitulo.Size = new System.Drawing.Size(169, 21);
+            this.lblFormTitulo.Size = new System.Drawing.Size(148, 19);
             this.lblFormTitulo.TabIndex = 0;
             this.lblFormTitulo.Text = "DATOS DEL USUARIO";
             // 
@@ -275,7 +262,7 @@
             this.lblNombreLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblNombreLbl.Location = new System.Drawing.Point(16, 46);
             this.lblNombreLbl.Name = "lblNombreLbl";
-            this.lblNombreLbl.Size = new System.Drawing.Size(76, 23);
+            this.lblNombreLbl.Size = new System.Drawing.Size(67, 20);
             this.lblNombreLbl.TabIndex = 2;
             this.lblNombreLbl.Text = "Nombre";
             // 
@@ -289,8 +276,9 @@
             this.txtNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtNombre.Location = new System.Drawing.Point(13, 68);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(416, 33);
+            this.txtNombre.Size = new System.Drawing.Size(416, 29);
             this.txtNombre.TabIndex = 3;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblApellidoLbl
             // 
@@ -300,7 +288,7 @@
             this.lblApellidoLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblApellidoLbl.Location = new System.Drawing.Point(16, 104);
             this.lblApellidoLbl.Name = "lblApellidoLbl";
-            this.lblApellidoLbl.Size = new System.Drawing.Size(78, 23);
+            this.lblApellidoLbl.Size = new System.Drawing.Size(67, 20);
             this.lblApellidoLbl.TabIndex = 4;
             this.lblApellidoLbl.Text = "Apellido";
             // 
@@ -314,8 +302,9 @@
             this.txtApellido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtApellido.Location = new System.Drawing.Point(16, 122);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(416, 33);
+            this.txtApellido.Size = new System.Drawing.Size(416, 29);
             this.txtApellido.TabIndex = 5;
+            this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellido_KeyPress);
             // 
             // lblCorreoLbl
             // 
@@ -325,7 +314,7 @@
             this.lblCorreoLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblCorreoLbl.Location = new System.Drawing.Point(16, 162);
             this.lblCorreoLbl.Name = "lblCorreoLbl";
-            this.lblCorreoLbl.Size = new System.Drawing.Size(157, 23);
+            this.lblCorreoLbl.Size = new System.Drawing.Size(137, 20);
             this.lblCorreoLbl.TabIndex = 6;
             this.lblCorreoLbl.Text = "Correo electrónico";
             // 
@@ -339,7 +328,7 @@
             this.txtCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtCorreo.Location = new System.Drawing.Point(16, 180);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(416, 33);
+            this.txtCorreo.Size = new System.Drawing.Size(416, 29);
             this.txtCorreo.TabIndex = 7;
             // 
             // lblTelefonoLbl
@@ -350,7 +339,7 @@
             this.lblTelefonoLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblTelefonoLbl.Location = new System.Drawing.Point(16, 220);
             this.lblTelefonoLbl.Name = "lblTelefonoLbl";
-            this.lblTelefonoLbl.Size = new System.Drawing.Size(78, 23);
+            this.lblTelefonoLbl.Size = new System.Drawing.Size(70, 20);
             this.lblTelefonoLbl.TabIndex = 8;
             this.lblTelefonoLbl.Text = "Teléfono";
             // 
@@ -362,8 +351,9 @@
             this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtTelefono.Location = new System.Drawing.Point(16, 238);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(192, 33);
+            this.txtTelefono.Size = new System.Drawing.Size(192, 29);
             this.txtTelefono.TabIndex = 9;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // lblRolLbl
             // 
@@ -373,7 +363,7 @@
             this.lblRolLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblRolLbl.Location = new System.Drawing.Point(224, 220);
             this.lblRolLbl.Name = "lblRolLbl";
-            this.lblRolLbl.Size = new System.Drawing.Size(36, 23);
+            this.lblRolLbl.Size = new System.Drawing.Size(32, 20);
             this.lblRolLbl.TabIndex = 10;
             this.lblRolLbl.Text = "Rol";
             // 
@@ -384,9 +374,13 @@
             this.cmbRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbRol.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.cmbRol.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.cmbRol.Items.AddRange(new object[] {
+            "Admin",
+            "Cliente",
+            "SuperAdmin"});
             this.cmbRol.Location = new System.Drawing.Point(224, 238);
             this.cmbRol.Name = "cmbRol";
-            this.cmbRol.Size = new System.Drawing.Size(192, 33);
+            this.cmbRol.Size = new System.Drawing.Size(192, 29);
             this.cmbRol.TabIndex = 11;
             // 
             // lblPasswordLbl
@@ -397,7 +391,7 @@
             this.lblPasswordLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblPasswordLbl.Location = new System.Drawing.Point(16, 278);
             this.lblPasswordLbl.Name = "lblPasswordLbl";
-            this.lblPasswordLbl.Size = new System.Drawing.Size(339, 23);
+            this.lblPasswordLbl.Size = new System.Drawing.Size(296, 20);
             this.lblPasswordLbl.TabIndex = 12;
             this.lblPasswordLbl.Text = "Contraseña (dejar vacío para no cambiar)";
             // 
@@ -412,12 +406,14 @@
             this.txtPassword.Location = new System.Drawing.Point(16, 296);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '●';
-            this.txtPassword.Size = new System.Drawing.Size(416, 33);
+            this.txtPassword.Size = new System.Drawing.Size(416, 29);
             this.txtPassword.TabIndex = 13;
+            this.txtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPassword_KeyPress);
             // 
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.White;
+            this.pnlLeft.Controls.Add(this.flpUsuario);
             this.pnlLeft.Controls.Add(this.pnlLeftHeader);
             this.pnlLeft.Controls.Add(this.pnlFiltroRoles);
             this.pnlLeft.Controls.Add(this.lvUsuarios);
@@ -427,12 +423,20 @@
             this.pnlLeft.Size = new System.Drawing.Size(720, 740);
             this.pnlLeft.TabIndex = 1;
             // 
+            // flpUsuario
+            // 
+            this.flpUsuario.AutoScroll = true;
+            this.flpUsuario.Location = new System.Drawing.Point(20, 115);
+            this.flpUsuario.Name = "flpUsuario";
+            this.flpUsuario.Size = new System.Drawing.Size(690, 613);
+            this.flpUsuario.TabIndex = 3;
+            // 
             // pnlLeftHeader
             // 
             this.pnlLeftHeader.BackColor = System.Drawing.Color.White;
             this.pnlLeftHeader.Controls.Add(this.lblTituloLista);
             this.pnlLeftHeader.Controls.Add(this.txtBuscar);
-            this.pnlLeftHeader.Controls.Add(this.btnNuevoUsuario);
+            this.pnlLeftHeader.Controls.Add(this.btnBuscar);
             this.pnlLeftHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLeftHeader.Location = new System.Drawing.Point(0, 42);
             this.pnlLeftHeader.Name = "pnlLeftHeader";
@@ -448,7 +452,7 @@
             this.lblTituloLista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.lblTituloLista.Location = new System.Drawing.Point(16, 16);
             this.lblTituloLista.Name = "lblTituloLista";
-            this.lblTituloLista.Size = new System.Drawing.Size(257, 36);
+            this.lblTituloLista.Size = new System.Drawing.Size(214, 30);
             this.lblTituloLista.TabIndex = 0;
             this.lblTituloLista.Text = "Usuarios del sistema";
             // 
@@ -460,33 +464,34 @@
             this.txtBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.txtBuscar.Location = new System.Drawing.Point(220, 18);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(240, 33);
+            this.txtBuscar.Size = new System.Drawing.Size(240, 29);
             this.txtBuscar.TabIndex = 1;
-            this.txtBuscar.Text = "Buscar usuario...";
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
-            // btnNuevoUsuario
+            // btnBuscar
             // 
-            this.btnNuevoUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.btnNuevoUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNuevoUsuario.FlatAppearance.BorderSize = 0;
-            this.btnNuevoUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(50)))), ((int)(((byte)(96)))));
-            this.btnNuevoUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevoUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.btnNuevoUsuario.ForeColor = System.Drawing.Color.White;
-            this.btnNuevoUsuario.Location = new System.Drawing.Point(490, 16);
-            this.btnNuevoUsuario.Name = "btnNuevoUsuario";
-            this.btnNuevoUsuario.Size = new System.Drawing.Size(130, 30);
-            this.btnNuevoUsuario.TabIndex = 2;
-            this.btnNuevoUsuario.Text = "+ Nuevo usuario";
-            this.btnNuevoUsuario.UseVisualStyleBackColor = false;
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(50)))), ((int)(((byte)(96)))));
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnBuscar.ForeColor = System.Drawing.Color.White;
+            this.btnBuscar.Location = new System.Drawing.Point(490, 16);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(130, 30);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Buscar usuario";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // pnlFiltroRoles
             // 
             this.pnlFiltroRoles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.pnlFiltroRoles.Controls.Add(this.btnFiltroTodos);
-            this.pnlFiltroRoles.Controls.Add(this.btnFiltroAdmin);
-            this.pnlFiltroRoles.Controls.Add(this.btnFiltroCliente);
-            this.pnlFiltroRoles.Controls.Add(this.btnFiltroBloqueado);
+            this.pnlFiltroRoles.Controls.Add(this.btnTodos);
+            this.pnlFiltroRoles.Controls.Add(this.btnAdmin);
+            this.pnlFiltroRoles.Controls.Add(this.btnCliente);
+            this.pnlFiltroRoles.Controls.Add(this.btnBloqueados);
             this.pnlFiltroRoles.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlFiltroRoles.Location = new System.Drawing.Point(0, 0);
             this.pnlFiltroRoles.Name = "pnlFiltroRoles";
@@ -494,68 +499,68 @@
             this.pnlFiltroRoles.Size = new System.Drawing.Size(720, 42);
             this.pnlFiltroRoles.TabIndex = 1;
             // 
-            // btnFiltroTodos
+            // btnTodos
             // 
-            this.btnFiltroTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.btnFiltroTodos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFiltroTodos.FlatAppearance.BorderSize = 0;
-            this.btnFiltroTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiltroTodos.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
-            this.btnFiltroTodos.ForeColor = System.Drawing.Color.White;
-            this.btnFiltroTodos.Location = new System.Drawing.Point(16, 7);
-            this.btnFiltroTodos.Name = "btnFiltroTodos";
-            this.btnFiltroTodos.Size = new System.Drawing.Size(66, 24);
-            this.btnFiltroTodos.TabIndex = 0;
-            this.btnFiltroTodos.Text = "Todos";
-            this.btnFiltroTodos.UseVisualStyleBackColor = false;
+            this.btnTodos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.btnTodos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTodos.FlatAppearance.BorderSize = 0;
+            this.btnTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTodos.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.btnTodos.ForeColor = System.Drawing.Color.White;
+            this.btnTodos.Location = new System.Drawing.Point(16, 7);
+            this.btnTodos.Name = "btnTodos";
+            this.btnTodos.Size = new System.Drawing.Size(66, 24);
+            this.btnTodos.TabIndex = 0;
+            this.btnTodos.Text = "Todos";
+            this.btnTodos.UseVisualStyleBackColor = false;
             // 
-            // btnFiltroAdmin
+            // btnAdmin
             // 
-            this.btnFiltroAdmin.BackColor = System.Drawing.Color.White;
-            this.btnFiltroAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFiltroAdmin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.btnFiltroAdmin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.btnFiltroAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiltroAdmin.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.btnFiltroAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
-            this.btnFiltroAdmin.Location = new System.Drawing.Point(90, 7);
-            this.btnFiltroAdmin.Name = "btnFiltroAdmin";
-            this.btnFiltroAdmin.Size = new System.Drawing.Size(66, 24);
-            this.btnFiltroAdmin.TabIndex = 1;
-            this.btnFiltroAdmin.Text = "Admin";
-            this.btnFiltroAdmin.UseVisualStyleBackColor = false;
+            this.btnAdmin.BackColor = System.Drawing.Color.White;
+            this.btnAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdmin.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.btnAdmin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmin.Font = new System.Drawing.Font("Segoe UI", 8.5F);
+            this.btnAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.btnAdmin.Location = new System.Drawing.Point(90, 7);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(66, 24);
+            this.btnAdmin.TabIndex = 1;
+            this.btnAdmin.Text = "Admin";
+            this.btnAdmin.UseVisualStyleBackColor = false;
             // 
-            // btnFiltroCliente
+            // btnCliente
             // 
-            this.btnFiltroCliente.BackColor = System.Drawing.Color.White;
-            this.btnFiltroCliente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFiltroCliente.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.btnFiltroCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.btnFiltroCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiltroCliente.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.btnFiltroCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
-            this.btnFiltroCliente.Location = new System.Drawing.Point(164, 7);
-            this.btnFiltroCliente.Name = "btnFiltroCliente";
-            this.btnFiltroCliente.Size = new System.Drawing.Size(66, 24);
-            this.btnFiltroCliente.TabIndex = 2;
-            this.btnFiltroCliente.Text = "Cliente";
-            this.btnFiltroCliente.UseVisualStyleBackColor = false;
+            this.btnCliente.BackColor = System.Drawing.Color.White;
+            this.btnCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCliente.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.btnCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCliente.Font = new System.Drawing.Font("Segoe UI", 8.5F);
+            this.btnCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.btnCliente.Location = new System.Drawing.Point(164, 7);
+            this.btnCliente.Name = "btnCliente";
+            this.btnCliente.Size = new System.Drawing.Size(66, 24);
+            this.btnCliente.TabIndex = 2;
+            this.btnCliente.Text = "Cliente";
+            this.btnCliente.UseVisualStyleBackColor = false;
             // 
-            // btnFiltroBloqueado
+            // btnBloqueados
             // 
-            this.btnFiltroBloqueado.BackColor = System.Drawing.Color.White;
-            this.btnFiltroBloqueado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFiltroBloqueado.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.btnFiltroBloqueado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.btnFiltroBloqueado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiltroBloqueado.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.btnFiltroBloqueado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
-            this.btnFiltroBloqueado.Location = new System.Drawing.Point(238, 7);
-            this.btnFiltroBloqueado.Name = "btnFiltroBloqueado";
-            this.btnFiltroBloqueado.Size = new System.Drawing.Size(90, 24);
-            this.btnFiltroBloqueado.TabIndex = 3;
-            this.btnFiltroBloqueado.Text = "Bloqueados";
-            this.btnFiltroBloqueado.UseVisualStyleBackColor = false;
+            this.btnBloqueados.BackColor = System.Drawing.Color.White;
+            this.btnBloqueados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBloqueados.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
+            this.btnBloqueados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.btnBloqueados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBloqueados.Font = new System.Drawing.Font("Segoe UI", 8.5F);
+            this.btnBloqueados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.btnBloqueados.Location = new System.Drawing.Point(238, 7);
+            this.btnBloqueados.Name = "btnBloqueados";
+            this.btnBloqueados.Size = new System.Drawing.Size(90, 24);
+            this.btnBloqueados.TabIndex = 3;
+            this.btnBloqueados.Text = "Bloqueados";
+            this.btnBloqueados.UseVisualStyleBackColor = false;
             // 
             // lvUsuarios
             // 
@@ -614,7 +619,7 @@
             // 
             // FormGestionUsuarios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.Controls.Add(this.pnlBody);
@@ -643,12 +648,12 @@
         private System.Windows.Forms.Panel pnlLeftHeader;
         private System.Windows.Forms.Label lblTituloLista;
         private System.Windows.Forms.TextBox txtBuscar;
-        private System.Windows.Forms.Button btnNuevoUsuario;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Panel pnlFiltroRoles;
-        private System.Windows.Forms.Button btnFiltroTodos;
-        private System.Windows.Forms.Button btnFiltroAdmin;
-        private System.Windows.Forms.Button btnFiltroCliente;
-        private System.Windows.Forms.Button btnFiltroBloqueado;
+        private System.Windows.Forms.Button btnTodos;
+        private System.Windows.Forms.Button btnAdmin;
+        private System.Windows.Forms.Button btnCliente;
+        private System.Windows.Forms.Button btnBloqueados;
         private System.Windows.Forms.ListView lvUsuarios;
         private System.Windows.Forms.ColumnHeader colId;
         private System.Windows.Forms.ColumnHeader colNombre;
@@ -676,10 +681,10 @@
         private System.Windows.Forms.Label lblSeguridadTitulo;
         private System.Windows.Forms.Panel pnlDivSeg;
         private System.Windows.Forms.CheckBox chkBloqueado;
-        private System.Windows.Forms.Button btnResetPassword;
         private System.Windows.Forms.Panel pnlAcciones;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.FlowLayoutPanel flpUsuario;
     }
 }

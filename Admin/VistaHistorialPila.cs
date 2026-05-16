@@ -13,24 +13,22 @@ namespace TicketsMDB
     public partial class VistaHistorialPila : UserControl
     {
         private TAD_Pila pila;
+        private Conexion con = new Conexion();
 
         // 2. CONSTRUCTOR
         public VistaHistorialPila()
         {
             InitializeComponent();
-
-            // 3. INICIALIZACIÓN
-            // Creamos la instancia de la pila para que no sea null
             this.pila = new TAD_Pila();
-
-            // 4. LLENADO DESDE SQL
-            Conexion con = new Conexion();
-            con.LlenarPilaDesdeSQL(this.pila);
-
-            // 5. DIBUJO
-            actualizarPantallaPila();
+            CargarPilaGlobal();
         }
 
+        private void CargarPilaGlobal()
+        {
+            this.pila.VaciarPila();
+            con.LlenarPilaDesdeSQL(this.pila);
+            actualizarPantallaPila();
+        }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -38,51 +36,84 @@ namespace TicketsMDB
 
         private void btnDeshaer_Click(object sender, EventArgs e)
         {
-            Ticket eliminado = this.pila.Pop(); // Quitamos de la RAM
+            // Operación POP en memoria RAM
+            Ticket eliminado = this.pila.Pop();
 
             if (eliminado != null)
             {
-                // AQUÍ PODÉS MANDAR EL DELETE A SQL LUEGO
-                actualizarPantallaPila(); // Refrescamos la vista para que desaparezca la tarjeta
-                MessageBox.Show("Se ha deshecho el cambio: " + eliminado.Estado);
+                // Revertir el estado físico en SQL
+                int idTicketTarget = int.Parse(eliminado.Id);
+                string valorAnterior = eliminado.Responsable; // Almacenado en la pila
+
+                if (eliminado.Titulo == "IdEstado")
+                {
+                    int idEstadoViejo = valorAnterior == "Abierto" ? 1 : valorAnterior == "En proceso" ? 2 : 3;
+                    con.CambiarEstadoTicket(idTicketTarget, idEstadoViejo);
+                }
+                else if (eliminado.Titulo == "IdPrioridadReal")
+                {
+                    int idPrioridadVieja = valorAnterior == "Baja" ? 1 : valorAnterior == "Media" ? 2 : 3;
+                    con.CambiarPrioridadReal(idTicketTarget, idPrioridadVieja);
+                }
+
+                // Borrar el registro correspondiente del historial de auditoría
+                con.EliminarRegistroHistorial(int.Parse(eliminado.Usuario));
+
+                MessageBox.Show($"Se ha deshecho con éxito el cambio del ticket #{eliminado.Id}. Regresó a '{valorAnterior}'.", "Deshecho exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CargarPilaGlobal();
+            }
+            else
+            {
+                MessageBox.Show("No existen más acciones de trazabilidad en la pila global.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         public void actualizarPantallaPila()
         {
-            // Verificación de seguridad si no hay pila o panel, no hacemos nada
             if (this.pila == null || pnlContenedorPila == null) return;
 
-            // Limpiamos el panel para no duplicar tarjetas al refrescar
             pnlContenedorPila.Controls.Clear();
-
-                               
-            // Usamos un nodo auxiliar para no perder la referencia original de la pila
             Nodo aux = this.pila.Tope;
 
-            // Ciclo para recorrer la estructura LIFO
+            bool esPrimero = true;
             while (aux != null)
             {
-                
-                // Le pasamos el 'Dato' que es el objeto Ticket del nodo actual
                 TarjetaHistorial tarjeta = new TarjetaHistorial(aux.Dato);
+                tarjeta.Width = pnlContenedorPila.Width - 25;
 
-                tarjeta.BackColor = Color.White;
-                // Resaltar la primera tarjeta es opcional (el Cambio Más Reciente)
-                if (aux == this.pila.Tope)
+                // 🌟 AQUÍ ESTÁ LA MAGIA: Nos suscribimos al doble clic de la tarjeta
+                tarjeta.OnTarjetaDoubleClic += (idTicketSeleccionado) =>
                 {
-                    tarjeta.BackColor = Color.FromArgb(230, 240, 255);
-                    tarjeta.BorderStyle = BorderStyle.FixedSingle;// Un azulito muy claro
-                                                                 
+                    // Instanciamos el formulario de gestión profunda pasándole el ID
+                    TicketsMDB.Admin.DetalleTicket frmDetalle = new TicketsMDB.Admin.DetalleTicket(idTicketSeleccionado);
+                    frmDetalle.ShowDialog(); // Se abre como ventana modal por encima
+
+                    // Al cerrar el detalle, refrescamos la pila global por si el admin hizo cambios nuevos desde ahí
+                    CargarPilaGlobal();
+                };
+
+                if (esPrimero)
+                {
+                    tarjeta.BackColor = Color.FromArgb(239, 246, 255);
+                    tarjeta.BorderStyle = BorderStyle.FixedSingle;
+
+                    label4.Text = $"#TK-{int.Parse(aux.Dato.Id):D4}";
+                    label3.Text = aux.Dato.Estado.ToUpper();
+                    esPrimero = false;
                 }
                 else
                 {
+                    tarjeta.BackColor = Color.White;
                     tarjeta.BorderStyle = BorderStyle.None;
                 }
-                //  Agregamos la tarjeta al panel visual
-                pnlContenedorPila.Controls.Add(tarjeta);
 
-                //  Avanzamos al siguiente nodo (el que está "abajo" en la pila)
+                pnlContenedorPila.Controls.Add(tarjeta);
                 aux = aux.Siguiente;
+            }
+
+            if (this.pila.Tope == null)
+            {
+                label4.Text = "—";
+                label3.Text = "SIN CAMBIOS";
             }
         }
     }

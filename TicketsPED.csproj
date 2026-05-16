@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\DetalleTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DetalleTicket.Designer.cs">
+      <DependentUpon>DetalleTicket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\FormDetalleTicket.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     <Compile Include="Admin\VistaHistorialPila.Designer.cs">
       <DependentUpon>VistaHistorialPila.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin\DetalleTicket.resx">
+      <DependentUpon>DetalleTicket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\FormDetalleTicket.resx">
       <DependentUpon>FormDetalleTicket.cs</DependentUpon>
     </EmbeddedResource>

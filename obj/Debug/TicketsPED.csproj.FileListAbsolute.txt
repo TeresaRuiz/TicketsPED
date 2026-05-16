@@ -212,3 +212,4 @@ C:\Users\lisan\Documents\Tickets ped\TicketsPED\obj\Debug\TicketsMDB.exe
 C:\Users\lisan\Documents\Tickets ped\TicketsPED\obj\Debug\TicketsMDB.pdb
 C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Admin.FormDetalleTicket.resources
 C:\Users\Marco Rivas\Desktop\TicketsPED\obj\Debug\TicketsMDB.Admin.FormDetalleTicket.resources
+C:\Users\2022\source\repos\TicketsPED1\obj\Debug\TicketsMDB.Admin.DetalleTicket.resources

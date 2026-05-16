@@ -1,54 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\",
+  "WorkspaceRootPath": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetahistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formdetalleticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\2022\\source\\repos\\ticketsped1\\tarjetaticket.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:tarjetaticket.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistacola.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\formdetalleticket.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\2022\\source\\repos\\TicketsPED1\\admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\vistacola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,154 +46,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TarjetaTicket.resx",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.resx",
-              "RelativeDocumentMoniker": "TarjetaTicket.resx",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.resx*",
-              "RelativeToolTip": "TarjetaTicket.resx*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-16T00:14:12.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormDetalleTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.Designer.cs",
-              "RelativeDocumentMoniker": "Admin\\FormDetalleTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.Designer.cs",
-              "RelativeToolTip": "Admin\\FormDetalleTicket.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T14:30:14.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormDetalleTicket.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs",
-              "RelativeDocumentMoniker": "Admin\\FormDetalleTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs",
-              "RelativeToolTip": "Admin\\FormDetalleTicket.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAAALgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T14:30:09.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormDetalleTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs",
-              "RelativeDocumentMoniker": "Admin\\FormDetalleTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\FormDetalleTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Admin\\FormDetalleTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T14:30:07.134Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TarjetaTicket.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs*",
-              "RelativeToolTip": "TarjetaTicket.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAAxAAAAAAAAAA==",
+              "Title": "FormAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
+              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwBMAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T23:36:34.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VistaCola.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.Designer.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaCola.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.Designer.cs",
-              "RelativeToolTip": "Admin\\VistaCola.Designer.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAMAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:42:06.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VistaCola.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
-              "RelativeToolTip": "Admin\\VistaCola.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAG8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T16:40:23.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TarjetaTicket.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.Designer.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.Designer.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.Designer.cs*",
-              "RelativeToolTip": "TarjetaTicket.Designer.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T07:09:46.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VistaCola.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs",
-              "RelativeDocumentMoniker": "Admin\\VistaCola.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Admin\\VistaCola.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Admin\\VistaCola.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:39:04.537Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Ticket.cs",
-              "RelativeDocumentMoniker": "Ticket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\Ticket.cs",
-              "RelativeToolTip": "Ticket.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:45.62Z",
+              "WhenOpened": "2026-05-16T03:56:04.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TarjetaTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs",
-              "RelativeDocumentMoniker": "TarjetaTicket.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaTicket.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "TarjetaTicket.cs [Dise\u00F1o]*",
+              "Title": "FormAuditoria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs [Design]",
+              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:42.184Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-16T03:52:02.218Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Admin\\Inicio.cs",
+              "RelativeDocumentMoniker": "Admin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Admin\\Inicio.cs",
+              "RelativeToolTip": "Admin\\Inicio.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T03:08:41.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TarjetaHistorial.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs",
-              "RelativeDocumentMoniker": "TarjetaHistorial.cs",
-              "ToolTip": "C:\\Users\\2022\\source\\repos\\TicketsPED1\\TarjetaHistorial.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TarjetaHistorial.cs [Dise\u00F1o]",
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs",
+              "RelativeToolTip": "SuperAdmin\\Inicio.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T03:38:38.263Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-16T02:54:44.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormInicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs",
+              "RelativeDocumentMoniker": "FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs",
+              "RelativeToolTip": "FormInicioSesion.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwFcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T02:51:52.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormInicioSesion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs",
+              "RelativeDocumentMoniker": "FormInicioSesion.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs [Design]",
+              "RelativeToolTip": "FormInicioSesion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T02:51:47.79Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inicio.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs",
+              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs [Design]",
+              "RelativeToolTip": "SuperAdmin\\Inicio.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T02:51:08.44Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

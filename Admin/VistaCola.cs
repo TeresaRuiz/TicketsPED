@@ -7,63 +7,81 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TicketsMDB.Admin;
 
 namespace TicketsMDB
 {
     public partial class VistaCola : UserControl
     {
-        private TAD_Lista lista; // Para guardar la referencia
+        private TAD_Lista lista;
+        private Ticket ticketSeleccionado = null;
 
-        //  Este es el constructor 
         public VistaCola()
         {
             InitializeComponent();
         }
 
-        
         public VistaCola(TAD_Lista listaCompartida)
         {
             InitializeComponent();
-
-            // Guardamos la lista que viene del FormPrincipal
             this.lista = listaCompartida;
-
-            // Llamamos a un método para dibujar las tarjetas en horizontal
             actualizarColaEstatica();
         }
 
         public void actualizarColaEstatica()
         {
             pnlColaHorizontal.Controls.Clear();
+            ticketSeleccionado = null;
+
+            if (this.lista == null) return;
+
+            int total = 0;
             Nodo aux = this.lista.Inicio;
 
             while (aux != null)
             {
-             
-                //  Creamos la tarjeta visual
                 TarjetaTicket tarjeta = new TarjetaTicket(aux.Dato);
+                Ticket datoActual = aux.Dato;
 
-                
-                tarjeta.Margin = new Padding(20, 10, 20, 10);
+                // Al hacer clic en la tarjeta se selecciona
+                tarjeta.Click += (s, e) => SeleccionarTicket(datoActual, tarjeta);
 
-                // 5. La agregamos al riel horizontal
+                // Suscribirse al evento del botón "Ver Detalle" interno de la tarjeta
+                tarjeta.OnVerDetalleClick += (idTicket) => {
+                    AbrirDetalle(idTicket);
+                };
+
                 pnlColaHorizontal.Controls.Add(tarjeta);
 
-                // Dibujamos la fecla sol sí (hay un siguiente nodo)
                 if (aux.Siguiente != null)
                 {
                     Label flecha = new Label();
                     flecha.Text = "➡";
-                    flecha.Font = new Font("Segoe UI", 25, FontStyle.Bold);
-                    flecha.ForeColor = Color.Black; // full negro aaa
+                    flecha.Font = new Font("Segoe UI", 22, FontStyle.Bold);
+                    flecha.ForeColor = Color.FromArgb(148, 163, 184);
                     flecha.AutoSize = true;
-                    flecha.Padding = new Padding(0, 80, 0, 0); // Ajusta esto para centrarla verticalmente
+                    flecha.Padding = new Padding(0, 70, 0, 0);
                     pnlColaHorizontal.Controls.Add(flecha);
                 }
 
-                // Saltamos al siguiente nodo de la lista
+                total++;
                 aux = aux.Siguiente;
             }
+
+            label6.Text = total.ToString();
+        }
+
+        private void SeleccionarTicket(Ticket ticket, TarjetaTicket tarjeta)
+        {
+            ticketSeleccionado = ticket;
+
+            foreach (Control ctrl in pnlColaHorizontal.Controls)
+            {
+                if (ctrl is TarjetaTicket t)
+                    t.BackColor = Color.White;
+            }
+            tarjeta.BackColor = Color.FromArgb(239, 246, 255);
+            label1.Text = "➡  SELECCIONADO: #" + ticket.Id;
         }
 
         private void VistaCola_Load(object sender, EventArgs e)
@@ -74,6 +92,33 @@ namespace TicketsMDB
         private void pnlColaHorizontal_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnAtenderSiguiente_Click(object sender, EventArgs e)
+        {
+            if (lista == null || lista.Inicio == null)
+            {
+                MessageBox.Show("No hay tickets en la cola.", "Cola vacía",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            Ticket primero = lista.Inicio.Dato;
+
+            // Abrir automáticamente el detalle enviando la lista para que pueda ser gestionado internamente
+            FormDetalleTicket frmDetalle = new FormDetalleTicket(primero.Id, lista);
+            frmDetalle.ShowDialog();
+
+            // Refrescar al cerrar la ventana modal
+            actualizarColaEstatica();
+            label1.Text = "➡  SIGUIENTE EN ATENDER";
+        }
+
+        private void AbrirDetalle(string idTicket)
+        {
+            FormDetalleTicket frmDetalle = new FormDetalleTicket(idTicket, lista);
+            frmDetalle.ShowDialog();
+            actualizarColaEstatica();
         }
     }
 }

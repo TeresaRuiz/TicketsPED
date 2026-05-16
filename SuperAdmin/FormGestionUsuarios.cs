@@ -19,6 +19,7 @@ namespace TicketsMDB.SuperAdmin
         public FormGestionUsuarios()
         { //PARA LOS BOTONES DE FILTRO
             InitializeComponent();
+            btnTodos.Click += (s, e) => FiltrarUsuariosPorCategoria("todos");
             btnAdmin.Click += (s, e) => FiltrarUsuariosPorCategoria("admin");
             btnCliente.Click += (s, e) => FiltrarUsuariosPorCategoria("cliente");
             btnBloqueados.Click += (s, e) => FiltrarUsuariosPorCategoria("bloqueados");

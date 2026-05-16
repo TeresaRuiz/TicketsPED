@@ -42,28 +42,51 @@ namespace TicketsMDB
 
         public void actualizarPantalla()
         {
-            // 1. Verificación de seguridad
             if (this.lista == null || pnlContenedorTickets == null) return;
-
             pnlContenedorTickets.Controls.Clear();
 
+            int total = 0, abiertos = 0, proceso = 0, resueltos = 0, alta = 0;
             Nodo aux = this.lista.Inicio;
+            Nodo ultimo = null;
 
-            // 2. Si la lista está vacía, esto ni siquiera entrará al bucle
             while (aux != null)
             {
-                // Creamos la tarjeta con el objeto Ticket que viene del NODO
                 TarjetaTicket tarjeta = new TarjetaTicket(aux.Dato);
-
-                // La agregamos al panel
                 pnlContenedorTickets.Controls.Add(tarjeta);
-
-                // Avanzamos el puntero al siguiente eslabón
+                total++;
+                if (aux.Dato.Estado == "Abierto") abiertos++;
+                if (aux.Dato.Estado == "En proceso") proceso++;
+                if (aux.Dato.Estado == "Cerrado") resueltos++;
+                if (aux.Dato.PrioridadUsuario == "Alta") alta++;
+                ultimo = aux;
                 aux = aux.Siguiente;
+            }
+
+            label2.Text = "Total: " + total.ToString();
+            label4.Text = "Abiertos: " + abiertos.ToString();
+            label3.Text = "En proceso: " + proceso.ToString();
+            label5.Text = "Resueltos: " + resueltos.ToString();
+            lblAltaLbl.Text = "Alta prioridad: " + alta.ToString();
+
+            if (ultimo != null)
+            {
+                lblUltimoId.Text = "#" + ultimo.Dato.Id;
+                lblUltimoUsuario.Text = "Usuario: " + ultimo.Dato.Usuario;
+                lblUltimoEstado.Text = "Estado: " + ultimo.Dato.Estado;
             }
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlResumen_Paint(object sender, PaintEventArgs e)
         {
 
         }

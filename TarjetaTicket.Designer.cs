@@ -16,6 +16,7 @@
         private void InitializeComponent()
         {
             this.pnlCard = new System.Windows.Forms.Panel();
+            this.btnVerDetalleInterno = new System.Windows.Forms.Button();
             this.pnlBarra = new System.Windows.Forms.Panel();
             this.lblID = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
@@ -33,6 +34,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlCard.BackColor = System.Drawing.Color.White;
+            this.pnlCard.Controls.Add(this.btnVerDetalleInterno);
             this.pnlCard.Controls.Add(this.pnlBarra);
             this.pnlCard.Controls.Add(this.lblID);
             this.pnlCard.Controls.Add(this.lblUsuario);
@@ -42,6 +44,22 @@
             this.pnlCard.Name = "pnlCard";
             this.pnlCard.Size = new System.Drawing.Size(280, 168);
             this.pnlCard.TabIndex = 0;
+            // 
+            // btnVerDetalleInterno
+            // 
+            this.btnVerDetalleInterno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
+            this.btnVerDetalleInterno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVerDetalleInterno.FlatAppearance.BorderSize = 0;
+            this.btnVerDetalleInterno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerDetalleInterno.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.btnVerDetalleInterno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.btnVerDetalleInterno.Location = new System.Drawing.Point(192, 7);
+            this.btnVerDetalleInterno.Name = "btnVerDetalleInterno";
+            this.btnVerDetalleInterno.Size = new System.Drawing.Size(85, 30);
+            this.btnVerDetalleInterno.TabIndex = 5;
+            this.btnVerDetalleInterno.Text = "Ver detalle...";
+            this.btnVerDetalleInterno.UseVisualStyleBackColor = false;
+            this.btnVerDetalleInterno.Click += new System.EventHandler(this.btnVerDetalleInterno_Click);
             // 
             // pnlBarra
             // 
@@ -82,9 +100,9 @@
             this.lblDetalle.BackColor = System.Drawing.Color.Transparent;
             this.lblDetalle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblDetalle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.lblDetalle.Location = new System.Drawing.Point(14, 56);
+            this.lblDetalle.Location = new System.Drawing.Point(14, 60);
             this.lblDetalle.Name = "lblDetalle";
-            this.lblDetalle.Size = new System.Drawing.Size(258, 52);
+            this.lblDetalle.Size = new System.Drawing.Size(250, 52);
             this.lblDetalle.TabIndex = 3;
             this.lblDetalle.Text = "Descripción del ticket...";
             // 
@@ -117,9 +135,9 @@
             this.lblPrioridad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(251)))), ((int)(((byte)(235)))));
             this.lblPrioridad.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.lblPrioridad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(83)))), ((int)(((byte)(9)))));
-            this.lblPrioridad.Location = new System.Drawing.Point(191, 9);
+            this.lblPrioridad.Location = new System.Drawing.Point(156, 9);
             this.lblPrioridad.Name = "lblPrioridad";
-            this.lblPrioridad.Size = new System.Drawing.Size(60, 22);
+            this.lblPrioridad.Size = new System.Drawing.Size(95, 22);
             this.lblPrioridad.TabIndex = 1;
             this.lblPrioridad.Text = "Media";
             this.lblPrioridad.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -150,5 +168,6 @@
         private System.Windows.Forms.Panel pnlFooter;
         private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.Label lblPrioridad;
+        private System.Windows.Forms.Button btnVerDetalleInterno;
     }
 }

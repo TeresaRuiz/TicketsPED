@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\formauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:admin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:superadmin\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|c:\\users\\winception\\downloads\\ped\\ticketsped\\clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B63AE6-5810-41BB-8CCE-6AF16C7A8400}|TicketsPED.csproj|solutionrelative:clientes\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,90 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAuditoria.cs",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
-              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwBIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T03:56:04.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormAuditoria.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\FormAuditoria.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\FormAuditoria.cs [Design]",
-              "RelativeToolTip": "SuperAdmin\\FormAuditoria.cs [Design]",
+              "Title": "FormDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Clientes\\FormDashboard.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Clientes\\FormDashboard.cs",
+              "RelativeToolTip": "Clientes\\FormDashboard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T03:52:02.218Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Admin\\Inicio.cs",
-              "RelativeDocumentMoniker": "Admin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Admin\\Inicio.cs",
-              "RelativeToolTip": "Admin\\Inicio.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T03:08:41.732Z",
+              "WhenOpened": "2026-05-16T04:42:53.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs",
-              "RelativeToolTip": "SuperAdmin\\Inicio.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Clientes\\FormDashboard.cs",
+              "RelativeDocumentMoniker": "Clientes\\FormDashboard.cs",
+              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\Clientes\\FormDashboard.cs [Design]",
+              "RelativeToolTip": "Clientes\\FormDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T02:54:44.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormInicioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs",
-              "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs",
-              "RelativeToolTip": "FormInicioSesion.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAwwFcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T02:51:52.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormInicioSesion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs",
-              "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\FormInicioSesion.cs [Design]",
-              "RelativeToolTip": "FormInicioSesion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T02:51:47.79Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inicio.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs",
-              "RelativeDocumentMoniker": "SuperAdmin\\Inicio.cs",
-              "ToolTip": "C:\\Users\\winception\\Downloads\\PED\\TicketsPED\\SuperAdmin\\Inicio.cs [Design]",
-              "RelativeToolTip": "SuperAdmin\\Inicio.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T02:51:08.44Z",
+              "WhenOpened": "2026-05-16T04:39:11.389Z",
               "EditorCaption": " [Design]"
             }
           ]

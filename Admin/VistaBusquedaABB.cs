@@ -16,6 +16,8 @@ namespace TicketsMDB
         private int idTicketSeleccionado = 0;
         private string estadoActual = "";
         private DataView vistaFiltroMemoria;
+        private TAD_ABB arbolTickets = new TAD_ABB();
+
         public VistaBusquedaABB()
         {
             InitializeComponent();
@@ -34,18 +36,29 @@ namespace TicketsMDB
 
                 if (datos != null)
                 {
-                    // Inicializamos el DataView con la tabla recuperada de la BD
                     vistaFiltroMemoria = new DataView(datos);
                     dgvTickets.DataSource = vistaFiltroMemoria;
 
-                    // Asignación de Alias limpios para las columnas del DataGrid
+                    arbolTickets.VaciarArbol();
+                    foreach (DataRow row in datos.Rows)
+                    {
+                        Ticket tk = new Ticket
+                        {
+                            Id = row["IdTicket"].ToString(),
+                            Titulo = row["Titulo"].ToString(),
+                            Usuario = row["Nombre"].ToString(),
+                            Detalle = row["Descripcion"].ToString(),
+                            Estado = row["NombreEstado"].ToString()
+                        };
+                        arbolTickets.Insertar(tk); 
+                    }
+                   
                     dgvTickets.Columns["IdTicket"].HeaderText = "N° Ticket";
                     dgvTickets.Columns["Titulo"].HeaderText = "Asunto";
                     dgvTickets.Columns["Nombre"].HeaderText = "Cliente";
                     dgvTickets.Columns["Descripcion"].HeaderText = "Detalle";
                     dgvTickets.Columns["NombreEstado"].HeaderText = "Estado";
 
-                    // Formatear columnas secundarias para priorizar legibilidad en 460px de ancho
                     if (dgvTickets.Columns["Descripcion"] != null) dgvTickets.Columns["Descripcion"].Visible = false;
 
                     dgvTickets.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -58,10 +71,6 @@ namespace TicketsMDB
             }
         }
 
-        public VistaBusquedaABB(TAD_Lista listaCompartida)
-        {
-
-        }
         private void VistaBusquedaABB_Load(object sender, EventArgs e)
         {
 
@@ -71,14 +80,13 @@ namespace TicketsMDB
         {
 
         }
-        //QUITAR PARA LA FASE 2, se usó con el fin de mostrar los datos en el prototipo
         private void dgvTickets_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow fila = dgvTickets.Rows[e.RowIndex];
 
-                // Extraemos valores de la fila seleccionada
+              
                 lblID.Text = "#" + fila.Cells["IdTicket"].Value.ToString();
                 lblUsuario.Text = fila.Cells["Nombre"].Value.ToString();
                 lblDetalle.Text = fila.Cells["Descripcion"].Value.ToString();
@@ -86,13 +94,11 @@ namespace TicketsMDB
                 string estado = fila.Cells["NombreEstado"].Value.ToString();
                 lblEstado.Text = estado.ToUpper();
 
-                // Estilización dinámica del color según el estado del ticket auditado
                 if (estado == "Abierto") lblEstado.ForeColor = Color.FromArgb(220, 38, 38);       // Rojo
                 else if (estado == "En proceso") lblEstado.ForeColor = Color.FromArgb(180, 83, 9); // Ámbar
                 else lblEstado.ForeColor = Color.FromArgb(5, 122, 85);                             // Verde Esmeralda
 
-                // Habilitamos cambio lógico del ciclo
-                idTicketSeleccionado = Convert.ToInt32(fila.Cells["IdTicket"].Value);
+               idTicketSeleccionado = Convert.ToInt32(fila.Cells["IdTicket"].Value);
                 estadoActual = estado;
 
                 lblDetalle.Font = new Font("Segoe UI", 9F, FontStyle.Regular);
@@ -105,15 +111,13 @@ namespace TicketsMDB
             if (cmbEstado.SelectedItem == null) return;
             string opcion = cmbEstado.SelectedItem.ToString();
 
-            // Si es la opción por defecto restauramos la procedencia completa
             if (opcion == "MOSTRAR TODOS")
             {
                 CargarDatosAlGrid();
                 return;
             }
 
-            // Ejecuta el ordenamiento directo desde la base de datos según tu lógica existente
-            Conexion conexion = new Conexion();
+           Conexion conexion = new Conexion();
             DataTable datos = conexion.ObtenerTicketsOrdenados(opcion);
 
             if (datos != null)
@@ -133,20 +137,45 @@ namespace TicketsMDB
 
             if (string.IsNullOrEmpty(filtroText))
             {
-                // Si el buscador está vacío limpiamos el filtro del DataView
                 vistaFiltroMemoria.RowFilter = "";
+                LimpiarPanelDetalles();
             }
             else
             {
-                // Lógica de consulta en memoria: Busca coincidencia exacta en ID, o parcial en Nombre de cliente o Título
                 int idBuscado;
                 if (int.TryParse(filtroText, out idBuscado))
                 {
                     vistaFiltroMemoria.RowFilter = $"Convert(IdTicket, 'System.String') LIKE '{idBuscado}%'";
+
+                   Ticket ticketEncontrado = arbolTickets.Buscar(idBuscado);
+
+                    if (ticketEncontrado != null)
+                    {
+                        lblID.Text = "#" + ticketEncontrado.Id;
+                        lblUsuario.Text = ticketEncontrado.Usuario;
+                        lblDetalle.Text = ticketEncontrado.Detalle;
+                        lblEstado.Text = ticketEncontrado.Estado.ToUpper();
+
+                        if (ticketEncontrado.Estado == "Abierto") lblEstado.ForeColor = Color.FromArgb(220, 38, 38);
+                        else if (ticketEncontrado.Estado == "En proceso") lblEstado.ForeColor = Color.FromArgb(180, 83, 9);
+                        else lblEstado.ForeColor = Color.FromArgb(5, 122, 85);
+
+                        idTicketSeleccionado = Convert.ToInt32(ticketEncontrado.Id);
+                        estadoActual = ticketEncontrado.Estado;
+
+                        lblDetalle.Font = new Font("Segoe UI", 9F, FontStyle.Regular);
+                        lblDetalle.ForeColor = Color.FromArgb(15, 23, 42);
+                    }
+                    else
+                    {
+                        LimpiarPanelDetalles();
+                        lblDetalle.Text = "No se encontró ningún registro en el Árbol Binario con ese ID.";
+                    }
                 }
                 else
                 {
                     vistaFiltroMemoria.RowFilter = $"Nombre LIKE '%{filtroText}%' OR Titulo LIKE '%{filtroText}%'";
+                    LimpiarPanelDetalles();
                 }
             }
         }

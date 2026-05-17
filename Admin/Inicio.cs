@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -74,16 +72,6 @@ namespace TicketsMDB
                 lblUltimoUsuario.Text = "Usuario: " + ultimo.Dato.Usuario;
                 lblUltimoEstado.Text = "Estado: " + ultimo.Dato.Estado;
             }
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Inicio_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void pnlResumen_Paint(object sender, PaintEventArgs e)

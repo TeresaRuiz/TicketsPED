@@ -125,12 +125,10 @@
     <Compile Include="Admin\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-
     <Compile Include="GestionUsuario.cs" />
-
     <Compile Include="HistorialTicket.cs" />
-
     <Compile Include="Nodo.cs" />
+    <Compile Include="NodoABB.cs" />
     <Compile Include="NodoUsuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -173,6 +171,7 @@
     <Compile Include="SuperAdmin\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="TAB_ABB.cs" />
     <Compile Include="TAD_Lista.cs" />
     <Compile Include="TAD_ListaUsuarios.cs" />
     <Compile Include="TAD_Pila.cs" />

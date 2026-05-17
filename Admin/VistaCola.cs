@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using TicketsMDB.Admin;
 
@@ -84,15 +78,6 @@ namespace TicketsMDB
             label1.Text = "➡  SELECCIONADO: #" + ticket.Id;
         }
 
-        private void VistaCola_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pnlColaHorizontal_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void btnAtenderSiguiente_Click(object sender, EventArgs e)
         {

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -15,7 +14,6 @@ namespace TicketsMDB
         private TAD_Pila pila;
         private Conexion con = new Conexion();
 
-        // 2. CONSTRUCTOR
         public VistaHistorialPila()
         {
             InitializeComponent();
@@ -29,10 +27,7 @@ namespace TicketsMDB
             con.LlenarPilaDesdeSQL(this.pila);
             actualizarPantallaPila();
         }
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
 
         private void btnDeshaer_Click(object sender, EventArgs e)
         {
@@ -80,10 +75,8 @@ namespace TicketsMDB
                 TarjetaHistorial tarjeta = new TarjetaHistorial(aux.Dato);
                 tarjeta.Width = pnlContenedorPila.Width - 25;
 
-                // 🌟 AQUÍ ESTÁ LA MAGIA: Nos suscribimos al doble clic de la tarjeta
                 tarjeta.OnTarjetaDoubleClic += (idTicketSeleccionado) =>
                 {
-                    // Instanciamos el formulario de gestión profunda pasándole el ID
                     TicketsMDB.Admin.DetalleTicket frmDetalle = new TicketsMDB.Admin.DetalleTicket(idTicketSeleccionado);
                     frmDetalle.ShowDialog(); // Se abre como ventana modal por encima
 

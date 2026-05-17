@@ -75,7 +75,6 @@ namespace TicketsMDB
             this.panel1.Padding = new System.Windows.Forms.Padding(12, 10, 12, 10);
             this.panel1.Size = new System.Drawing.Size(320, 180); // Reducido ancho y alto
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label29
             // 

@@ -67,7 +67,7 @@ namespace TicketsMDB.Clientes
                 ListViewItem item =
                     new ListViewItem(t.Id);
 
-                item.SubItems.Add(t.Detalle);
+                item.SubItems.Add(t.Titulo);
 
                 item.SubItems.Add(t.Estado);
 

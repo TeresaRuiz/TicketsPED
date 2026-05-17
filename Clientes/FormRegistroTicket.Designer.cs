@@ -60,7 +60,6 @@
             this.pnlHeader.Padding = new System.Windows.Forms.Padding(24, 14, 24, 14);
             this.pnlHeader.Size = new System.Drawing.Size(1081, 118);
             this.pnlHeader.TabIndex = 1;
-            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
             // 
             // lblBadge
             // 
@@ -162,7 +161,6 @@
             this.pnlBody.Padding = new System.Windows.Forms.Padding(24, 20, 24, 10);
             this.pnlBody.Size = new System.Drawing.Size(1081, 713);
             this.pnlBody.TabIndex = 0;
-            this.pnlBody.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBody_Paint);
             // 
             // btnEnviar
             // 
@@ -214,7 +212,6 @@
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(984, 29);
             this.txtTitulo.TabIndex = 1;
-            this.txtTitulo.TextChanged += new System.EventHandler(this.txtTitulo_TextChanged);
             // 
             // lblCharTitulo
             // 

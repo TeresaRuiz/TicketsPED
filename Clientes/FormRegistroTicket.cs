@@ -22,15 +22,6 @@ namespace TicketsMDB
             CargarEstados();
         }
 
-        private void pnlBody_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void txtTitulo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
@@ -107,19 +98,6 @@ namespace TicketsMDB
             }
         }
 
-        private void pnlHeader_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void FrmNuevoTicket_Load(object sender, EventArgs e)
-        {
-            CargarEstados();
-
-            dtpFechaCreacion.Value = DateTime.Now;
-
-            // Estado por defecto
-            cmbEstado.SelectedIndex = 0;
-        }
         private void CargarEstados()
         {
             Conexion db = new Conexion();

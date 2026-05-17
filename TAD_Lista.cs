@@ -38,5 +38,32 @@ namespace TicketsMDB
         {
             Inicio = null;
         }
+        public void OrdenarPorFechaDescendente()
+        {
+            if (Inicio == null || Inicio.Siguiente == null) return;
+
+            bool intercambiado;
+            do
+            {
+                intercambiado = false;
+                Nodo actual = Inicio;
+
+                while (actual.Siguiente != null)
+                {
+                    // Si la fecha del actual es MENOR que la del siguiente, los intercambiamos
+                    // (así los más recientes/mayores quedan al principio -> Descendente)
+                    if (actual.Dato.Fecha < actual.Siguiente.Dato.Fecha)
+                    {
+                        // Intercambio de la información del Ticket dentro de los nodos
+                        Ticket temporal = actual.Dato;
+                        actual.Dato = actual.Siguiente.Dato;
+                        actual.Siguiente.Dato = temporal;
+
+                        intercambiado = true;
+                    }
+                    actual = actual.Siguiente;
+                }
+            } while (intercambiado);
+        }
     }
 }

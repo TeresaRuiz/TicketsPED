@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -58,29 +56,27 @@ namespace TicketsMDB.Clientes
                 ticket.ObtenerTodos());
         }
 
-        private void MostrarTickets(List<Ticket> lista)
+        private void MostrarTickets(TAD_Lista lista) 
         {
             lvTickets.Items.Clear();
+            if (lista == null) return;
 
-            foreach (Ticket t in lista)
+            Nodo aux = lista.Inicio;
+
+            while (aux != null)
             {
-                ListViewItem item =
-                    new ListViewItem(t.Id);
+                Ticket t = aux.Dato;
 
+                ListViewItem item = new ListViewItem(t.Id);
                 item.SubItems.Add(t.Titulo);
-
                 item.SubItems.Add(t.Estado);
-
-                item.SubItems.Add(
-                    t.PrioridadUsuario);
-
-                item.SubItems.Add(
-                    t.PrioridadReal);
-
-                item.SubItems.Add(
-                    t.Fecha.ToString("dd/MM/yyyy"));
+                item.SubItems.Add(t.PrioridadUsuario);
+                item.SubItems.Add(t.PrioridadReal);
+                item.SubItems.Add(t.Fecha.ToString("dd/MM/yyyy"));
 
                 lvTickets.Items.Add(item);
+
+                aux = aux.Siguiente; 
             }
         }
 
@@ -88,18 +84,24 @@ namespace TicketsMDB.Clientes
         {
             if (lvTickets.SelectedItems.Count == 0)
             {
-                MessageBox.Show(
-                    "Seleccione un ticket");
-
+                MessageBox.Show("Seleccione un ticket");
                 return;
             }
 
-            string idTicket =
-                lvTickets.SelectedItems[0].Text;
+            string idTicket = lvTickets.SelectedItems[0].Text;
 
-            Ticket t =
-                ticket.listaTickets.Find(
-                    x => x.Id == idTicket);
+            Ticket t = null;
+            Nodo aux = ticket.listaTickets.Inicio; 
+
+            while (aux != null)
+            {
+                if (aux.Dato.Id == idTicket)
+                {
+                    t = aux.Dato; 
+                    break;      
+                }
+                aux = aux.Siguiente; 
+            }
 
             if (t != null)
             {
@@ -108,21 +110,17 @@ namespace TicketsMDB.Clientes
                     "Usuario: " + t.Usuario + "\n\n" +
                     "Detalle: " + t.Detalle + "\n\n" +
                     "Estado: " + t.Estado + "\n\n" +
-                    "Prioridad Usuario: "
-                        + t.PrioridadUsuario + "\n\n" +
-                    "Prioridad Real: "
-                        + t.PrioridadReal + "\n\n" +
-                    "Fecha: "
-                        + t.Fecha.ToString(
-                            "dd/MM/yyyy HH:mm");
+                    "Prioridad Usuario: " + t.PrioridadUsuario + "\n\n" +
+                    "Prioridad Real: " + t.PrioridadReal + "\n\n" +
+                    "Fecha: " + t.Fecha.ToString("dd/MM/yyyy HH:mm");
 
                 MessageBox.Show(
                     detalle,
-                    "Detalle Ticket",
+                    "Detail Ticket",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
             }
-            
+
         }
 
         
@@ -143,7 +141,6 @@ namespace TicketsMDB.Clientes
             string estado =
                 item.SubItems[2].Text;
 
-            // SI YA ESTÁ CERRADO
             if (estado == "Cerrado")
             {
                 MessageBox.Show(

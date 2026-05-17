@@ -8,15 +8,13 @@ namespace TicketsMDB
     {
         Conexion db = new Conexion();
 
-        // ESTRUCTURA DE DATOS PRINCIPAL
-        public List<Ticket> listaTickets = new List<Ticket>();
+       
+        public TAD_Lista listaTickets = new TAD_Lista();
 
-        // =====================================
-        // CARGAR TICKETS DESDE SQL
-        // =====================================
+        
         public void CargarTickets(int idUsuarioActual)
         {
-            listaTickets.Clear();
+            listaTickets.VaciarLista();
             SqlConnection cn = null;
 
             try
@@ -47,20 +45,19 @@ namespace TicketsMDB
 
                 while (dr.Read())
                 {
-                    // Ensamblado perfecto siguiendo el orden del Constructor Completo Corregido de Ticket
                     Ticket t = new Ticket(
-                        dr["IdTicket"].ToString(),                     // string id
-                        dr["Nombre"].ToString(),                       // string usuario
-                        dr["Titulo"].ToString(),                       // string titulo
-                        dr["Descripcion"].ToString(),                  // string descripcion
-                        dr["NombreEstado"].ToString(),                 // string estado
-                        Convert.ToDateTime(dr["FechaCreacion"]),       // DateTime fecha
-                        "Sistema",                                     // string responsable
-                        dr["PrioridadUsuario"].ToString(),             // string prioridadUsuario
-                        dr["PrioridadReal"].ToString()                 // string prioridadReal
+                        dr["IdTicket"].ToString(),
+                        dr["Nombre"].ToString(),
+                        dr["Titulo"].ToString(),
+                        dr["Descripcion"].ToString(),
+                        dr["NombreEstado"].ToString(),
+                        Convert.ToDateTime(dr["FechaCreacion"]),
+                        "Sistema",
+                        dr["PrioridadUsuario"].ToString(),
+                        dr["PrioridadReal"].ToString()
                     );
 
-                    listaTickets.Add(t);
+                    listaTickets.Insertar(t);
                 }
 
                 dr.Close();
@@ -75,37 +72,62 @@ namespace TicketsMDB
             }
         }
 
-        // =====================================
-        // FILTROS EN MEMORIA (LINQ)
-        // =====================================
-
-        // Todos
-        public List<Ticket> ObtenerTodos()
+        public TAD_Lista ObtenerTodos()
         {
             return listaTickets;
         }
 
-        // Abiertos
-        public List<Ticket> ObtenerAbiertos()
+       
+        public TAD_Lista ObtenerAbiertos()
         {
-            return listaTickets.FindAll(t => t.Estado.Trim().Equals("Abierto", StringComparison.OrdinalIgnoreCase));
+            TAD_Lista filtrada = new TAD_Lista();
+            Nodo aux = listaTickets.Inicio;
+
+            while (aux != null)
+            {
+                if (aux.Dato.Estado.Trim().Equals("Abierto", StringComparison.OrdinalIgnoreCase))
+                {
+                    filtrada.Insertar(aux.Dato);
+                }
+                aux = aux.Siguiente;
+            }
+            return filtrada;
         }
 
-        // En Proceso
-        public List<Ticket> ObtenerEnProceso()
+        
+        public TAD_Lista ObtenerEnProceso()
         {
-            return listaTickets.FindAll(t => t.Estado.Trim().Equals("En proceso", StringComparison.OrdinalIgnoreCase));
+            TAD_Lista filtrada = new TAD_Lista();
+            Nodo aux = listaTickets.Inicio;
+
+            while (aux != null)
+            {
+                if (aux.Dato.Estado.Trim().Equals("En proceso", StringComparison.OrdinalIgnoreCase))
+                {
+                    filtrada.Insertar(aux.Dato);
+                }
+                aux = aux.Siguiente;
+            }
+            return filtrada;
         }
 
-        // Cerrados
-        public List<Ticket> ObtenerCerrados()
+        public TAD_Lista ObtenerCerrados()
         {
-            return listaTickets.FindAll(t => t.Estado.Trim().Equals("Cerrado", StringComparison.OrdinalIgnoreCase));
+            TAD_Lista filtrada = new TAD_Lista();
+            Nodo aux = listaTickets.Inicio;
+
+            while (aux != null)
+            {
+                if (aux.Dato.Estado.Trim().Equals("Cerrado", StringComparison.OrdinalIgnoreCase))
+                {
+                    filtrada.Insertar(aux.Dato);
+                }
+                aux = aux.Siguiente;
+            }
+            return filtrada;
         }
 
-        // =====================================
-        // ACTUALIZACIONES DIRECTAS EN BASE DE DATOS
-        // =====================================
+    
         public bool ActualizarEstado(string idTicket, int nuevoEstado)
         {
             SqlConnection cn = null;

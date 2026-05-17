@@ -124,6 +124,7 @@
             this.txtPassActual.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.txtPassActual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtPassActual.Location = new System.Drawing.Point(18, 68);
+            this.txtPassActual.MaxLength = 100;
             this.txtPassActual.Name = "txtPassActual";
             this.txtPassActual.PasswordChar = '●';
             this.txtPassActual.Size = new System.Drawing.Size(1017, 29);
@@ -148,6 +149,7 @@
             this.txtPassNueva.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.txtPassNueva.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtPassNueva.Location = new System.Drawing.Point(18, 126);
+            this.txtPassNueva.MaxLength = 100;
             this.txtPassNueva.Name = "txtPassNueva";
             this.txtPassNueva.PasswordChar = '●';
             this.txtPassNueva.Size = new System.Drawing.Size(322, 29);
@@ -172,6 +174,7 @@
             this.txtPassConf.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.txtPassConf.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtPassConf.Location = new System.Drawing.Point(360, 126);
+            this.txtPassConf.MaxLength = 100;
             this.txtPassConf.Name = "txtPassConf";
             this.txtPassConf.PasswordChar = '●';
             this.txtPassConf.Size = new System.Drawing.Size(322, 29);
@@ -251,6 +254,7 @@
             this.txtCorreoVal.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.txtCorreoVal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtCorreoVal.Location = new System.Drawing.Point(22, 150);
+            this.txtCorreoVal.MaxLength = 100;
             this.txtCorreoVal.Name = "txtCorreoVal";
             this.txtCorreoVal.Size = new System.Drawing.Size(1013, 29);
             this.txtCorreoVal.TabIndex = 10;

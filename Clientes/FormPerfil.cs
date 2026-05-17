@@ -75,33 +75,33 @@ namespace TicketsMDB.Clientes
 
         private void btnGuardarCorreo_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrWhiteSpace(txtCorreoVal.Text))
+
+            string correoVal = txtCorreoVal.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(txtCorreoVal.Text))
             {
                 MessageBox.Show("Por favor, completa el campo de correo.", "Aviso",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if(!txtCorreoVal.Text.Contains("@") || !txtCorreoVal.Text.Contains(".com"))
+            if(!txtCorreoVal.Text.Contains("@") || !txtCorreoVal.Text.Contains("."))
             {
                 MessageBox.Show("Por favor, ingresa un correo electrónico válido.", "Aviso",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            if (correoVal == correoOriginal)
+            {
+                MessageBox.Show("No se han realizado cambios en el correo electrónico.", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
 
-            string correoVal = txtCorreoVal.Text.Trim();
 
             try
             {
                 using (SqlConnection cn = conexion.AbrirConexion())
                 {
-
-                    if(correoVal == correoOriginal)
-                    {
-                        MessageBox.Show("No se han realizado cambios en el correo electrónico.", "Aviso",
-                            MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        return;
-                    }
-
                     string queryVerificar = "SELECT COUNT(*) FROM Usuarios WHERE Correo = @correo AND IdUsuario != @idUsuario";
                     SqlCommand cmdVerificar = new SqlCommand(queryVerificar, cn);
                     cmdVerificar.Parameters.AddWithValue("@correo", correoVal);
@@ -143,29 +143,30 @@ namespace TicketsMDB.Clientes
         {
             string contrasenaActual = txtPassActual.Text.Trim();
             string contrasenaNueva = txtPassNueva.Text.Trim();
-            string contraseñaconf = txtPassConf.Text.Trim();
+            string contrasenaConf = txtPassConf.Text.Trim();
 
-            if (contrasenaActual == "" || contrasenaNueva == "" || contraseñaconf == "")
+            if (string.IsNullOrWhiteSpace(contrasenaActual) || string.IsNullOrWhiteSpace(contrasenaNueva) || string.IsNullOrWhiteSpace(contrasenaConf))
             {
                 MessageBox.Show("Por favor, completa todos los campos.", "Aviso",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if(contrasenaNueva.Length < 8 || contraseñaconf.Length < 8)
-            {
-                MessageBox.Show("La nueva contraseña y su confirmación no cumplen con el requisito de longitud mínima.", "Aviso",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            if(contrasenaNueva != contraseñaconf)
+            if(contrasenaNueva != contrasenaConf)
             {
                 MessageBox.Show("La nueva contraseña y su confirmación no coinciden.", "Aviso",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            if (contrasenaNueva.Length < 8)
+            {
+                MessageBox.Show("La nueva contraseña debe tener al menos 8 caracteres.", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             if (contrasenaActual == contrasenaNueva)
             {
-                MessageBox.Show("La nueva contraseña no puede ser igual a la actual. Por favor, elige una diferente.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("La nueva contraseña no puede ser igual a la actual. Por favor, elige una diferente.", "Aviso", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 

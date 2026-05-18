@@ -39,6 +39,16 @@ namespace TicketsMDB
             while (aux != null)
             {
                 TarjetaTicket tarjeta = new TarjetaTicket(aux.Dato);
+
+                tarjeta.OnVerDetalleClick += (idTicket) =>
+                {
+                    TicketsMDB.Admin.FormDetalleTicket frmDetalle =
+                        new TicketsMDB.Admin.FormDetalleTicket(idTicket, lista);
+
+                    frmDetalle.ShowDialog();
+                    actualizarPantalla();
+                };
+
                 pnlContenedorTickets.Controls.Add(tarjeta);
                 total++;
                 if (aux.Dato.Estado == "Abierto") abiertos++;

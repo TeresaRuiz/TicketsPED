@@ -103,6 +103,7 @@
             this.lblUsuario.Size = new System.Drawing.Size(64, 22);
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = "label1";
+            this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
             // 
             // btnInicio
             // 

@@ -2,22 +2,41 @@
 {
     partial class MisTickets
     {
+        /// <summary> 
+        /// Variable del diseñador necesaria.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        /// <summary> 
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
+            {
                 components.Dispose();
+            }
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código generado por el Diseñador de componentes
 
+        /// <summary> 
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
         private void InitializeComponent()
         {
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnDetalle = new System.Windows.Forms.Button();
+            this.panelActualizar = new System.Windows.Forms.Panel();
+            this.lblNvaPrioridad = new System.Windows.Forms.Label();
+            this.lblNvaDesc = new System.Windows.Forms.Label();
+            this.lblNvoTitulo = new System.Windows.Forms.Label();
+            this.btnGuardarCambios = new System.Windows.Forms.Button();
+            this.cmbNuevaPrioridad = new System.Windows.Forms.ComboBox();
+            this.txtNuevaDescripcion = new System.Windows.Forms.TextBox();
+            this.txtNuevoTitulo = new System.Windows.Forms.TextBox();
             this.lblPageTitle = new System.Windows.Forms.Label();
             this.lblPageSub = new System.Windows.Forms.Label();
             this.pnlFiltros = new System.Windows.Forms.Panel();
@@ -33,13 +52,9 @@
             this.colPrioReal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colFecha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colAccion = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.panelActualizar = new System.Windows.Forms.Panel();
-            this.txtNuevoTitulo = new System.Windows.Forms.TextBox();
-            this.cmbNuevoEstado = new System.Windows.Forms.ComboBox();
-            this.btnGuardarCambios = new System.Windows.Forms.Button();
             this.pnlContent.SuspendLayout();
-            this.pnlFiltros.SuspendLayout();
             this.panelActualizar.SuspendLayout();
+            this.pnlFiltros.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlContent
@@ -47,8 +62,6 @@
             this.pnlContent.AutoScroll = true;
             this.pnlContent.BackColor = System.Drawing.Color.White;
             this.pnlContent.Controls.Add(this.panelActualizar);
-            this.pnlContent.Controls.Add(this.btnActualizar);
-            this.pnlContent.Controls.Add(this.btnDetalle);
             this.pnlContent.Controls.Add(this.lblPageTitle);
             this.pnlContent.Controls.Add(this.lblPageSub);
             this.pnlContent.Controls.Add(this.pnlFiltros);
@@ -60,25 +73,88 @@
             this.pnlContent.Size = new System.Drawing.Size(920, 600);
             this.pnlContent.TabIndex = 0;
             // 
-            // btnActualizar
+            // panelActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(565, 515);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(143, 62);
-            this.btnActualizar.TabIndex = 5;
-            this.btnActualizar.Text = "Actualizar Tikcet";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            this.panelActualizar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panelActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.panelActualizar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelActualizar.Controls.Add(this.lblNvaPrioridad);
+            this.panelActualizar.Controls.Add(this.lblNvaDesc);
+            this.panelActualizar.Controls.Add(this.lblNvoTitulo);
+            this.panelActualizar.Controls.Add(this.btnGuardarCambios);
+            this.panelActualizar.Controls.Add(this.cmbNuevaPrioridad);
+            this.panelActualizar.Controls.Add(this.txtNuevaDescripcion);
+            this.panelActualizar.Controls.Add(this.txtNuevoTitulo);
+            this.panelActualizar.Location = new System.Drawing.Point(185, 120);
+            this.panelActualizar.Name = "panelActualizar";
+            this.panelActualizar.Size = new System.Drawing.Size(550, 380);
+            this.panelActualizar.TabIndex = 6;
             // 
-            // btnDetalle
+            // lblNvaPrioridad
             // 
-            this.btnDetalle.Location = new System.Drawing.Point(746, 515);
-            this.btnDetalle.Name = "btnDetalle";
-            this.btnDetalle.Size = new System.Drawing.Size(143, 62);
-            this.btnDetalle.TabIndex = 4;
-            this.btnDetalle.Text = "Detalle Ticket";
-            this.btnDetalle.UseVisualStyleBackColor = true;
-            this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
+            this.lblNvaPrioridad.AutoSize = true;
+            this.lblNvaPrioridad.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lblNvaPrioridad.Location = new System.Drawing.Point(40, 255);
+            this.lblNvaPrioridad.Name = "lblNvaPrioridad";
+            this.lblNvaPrioridad.Size = new System.Drawing.Size(126, 20);
+            this.lblNvaPrioridad.TabIndex = 6;
+            this.lblNvaPrioridad.Text = "Sugerir Prioridad:";
+            // 
+            // lblNvaDesc
+            // 
+            this.lblNvaDesc.AutoSize = true;
+            this.lblNvaDesc.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lblNvaDesc.Location = new System.Drawing.Point(40, 90);
+            this.lblNvaDesc.Name = "lblNvaDesc";
+            this.lblNvaDesc.Size = new System.Drawing.Size(142, 20);
+            this.lblNvaDesc.TabIndex = 5;
+            this.lblNvaDesc.Text = "Nueva Descripción:";
+            // 
+            // lblNvoTitulo
+            // 
+            this.lblNvoTitulo.AutoSize = true;
+            this.lblNvoTitulo.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lblNvoTitulo.Location = new System.Drawing.Point(40, 20);
+            this.lblNvoTitulo.Name = "lblNvoTitulo";
+            this.lblNvoTitulo.Size = new System.Drawing.Size(103, 20);
+            this.lblNvoTitulo.TabIndex = 4;
+            this.lblNvoTitulo.Text = "Nuevo Título:";
+            // 
+            // btnGuardarCambios
+            // 
+            this.btnGuardarCambios.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCambios.Location = new System.Drawing.Point(350, 320);
+            this.btnGuardarCambios.Name = "btnGuardarCambios";
+            this.btnGuardarCambios.Size = new System.Drawing.Size(160, 40);
+            this.btnGuardarCambios.TabIndex = 3;
+            this.btnGuardarCambios.Text = "Guardar Cambios";
+            this.btnGuardarCambios.UseVisualStyleBackColor = true;
+            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
+            // 
+            // cmbNuevaPrioridad
+            // 
+            this.cmbNuevaPrioridad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNuevaPrioridad.FormattingEnabled = true;
+            this.cmbNuevaPrioridad.Location = new System.Drawing.Point(40, 280);
+            this.cmbNuevaPrioridad.Name = "cmbNuevaPrioridad";
+            this.cmbNuevaPrioridad.Size = new System.Drawing.Size(200, 29);
+            this.cmbNuevaPrioridad.TabIndex = 2;
+            // 
+            // txtNuevaDescripcion
+            // 
+            this.txtNuevaDescripcion.Location = new System.Drawing.Point(40, 115);
+            this.txtNuevaDescripcion.Multiline = true;
+            this.txtNuevaDescripcion.Name = "txtNuevaDescripcion";
+            this.txtNuevaDescripcion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtNuevaDescripcion.Size = new System.Drawing.Size(470, 120);
+            this.txtNuevaDescripcion.TabIndex = 1;
+            // 
+            // txtNuevoTitulo
+            // 
+            this.txtNuevoTitulo.Location = new System.Drawing.Point(40, 45);
+            this.txtNuevoTitulo.Name = "txtNuevoTitulo";
+            this.txtNuevoTitulo.Size = new System.Drawing.Size(470, 29);
+            this.txtNuevoTitulo.TabIndex = 0;
             // 
             // lblPageTitle
             // 
@@ -86,7 +162,7 @@
             this.lblPageTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblPageTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
             this.lblPageTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.lblPageTitle.Location = new System.Drawing.Point(0, 0);
+            this.lblPageTitle.Location = new System.Drawing.Point(24, 15);
             this.lblPageTitle.Name = "lblPageTitle";
             this.lblPageTitle.Size = new System.Drawing.Size(137, 35);
             this.lblPageTitle.TabIndex = 0;
@@ -98,7 +174,7 @@
             this.lblPageSub.BackColor = System.Drawing.Color.Transparent;
             this.lblPageSub.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblPageSub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
-            this.lblPageSub.Location = new System.Drawing.Point(0, 34);
+            this.lblPageSub.Location = new System.Drawing.Point(25, 49);
             this.lblPageSub.Name = "lblPageSub";
             this.lblPageSub.Size = new System.Drawing.Size(322, 20);
             this.lblPageSub.TabIndex = 1;
@@ -106,16 +182,16 @@
             // 
             // pnlFiltros
             // 
-            this.pnlFiltros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pnlFiltros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlFiltros.BackColor = System.Drawing.Color.Transparent;
             this.pnlFiltros.Controls.Add(this.btnFiltroTodos);
             this.pnlFiltros.Controls.Add(this.btnFiltroAbierto);
             this.pnlFiltros.Controls.Add(this.btnFiltroProceso);
             this.pnlFiltros.Controls.Add(this.btnFiltroCerrado);
-            this.pnlFiltros.Location = new System.Drawing.Point(0, 66);
+            this.pnlFiltros.Location = new System.Drawing.Point(28, 85);
             this.pnlFiltros.Name = "pnlFiltros";
-            this.pnlFiltros.Size = new System.Drawing.Size(1580, 34);
+            this.pnlFiltros.Size = new System.Drawing.Size(864, 34);
             this.pnlFiltros.TabIndex = 2;
             // 
             // btnFiltroTodos
@@ -188,8 +264,8 @@
             // 
             // lvTickets
             // 
-            this.lvTickets.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.lvTickets.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lvTickets.BackColor = System.Drawing.Color.White;
             this.lvTickets.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -206,31 +282,29 @@
             this.lvTickets.FullRowSelect = true;
             this.lvTickets.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvTickets.HideSelection = false;
-            this.lvTickets.Location = new System.Drawing.Point(-3, 100);
+            this.lvTickets.Location = new System.Drawing.Point(28, 135);
             this.lvTickets.MultiSelect = false;
             this.lvTickets.Name = "lvTickets";
-            this.lvTickets.Size = new System.Drawing.Size(1580, 920);
+            this.lvTickets.Size = new System.Drawing.Size(864, 435);
             this.lvTickets.TabIndex = 3;
             this.lvTickets.UseCompatibleStateImageBehavior = false;
             this.lvTickets.View = System.Windows.Forms.View.Details;
-            this.lvTickets.SelectedIndexChanged += new System.EventHandler(this.lvTickets_SelectedIndexChanged);
-            this.lvTickets.DoubleClick += new System.EventHandler(this.lvTickets_DoubleClick);
-            this.lvTickets.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lvTickets_MouseDoubleClick);
+            this.lvTickets.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lvTickets_MouseClick);
             // 
             // colId
             // 
             this.colId.Text = "#";
-            this.colId.Width = 52;
+            this.colId.Width = 50;
             // 
             // colTitulo
             // 
             this.colTitulo.Text = "Título";
-            this.colTitulo.Width = 280;
+            this.colTitulo.Width = 200;
             // 
             // colEstado
             // 
             this.colEstado.Text = "Estado";
-            this.colEstado.Width = 100;
+            this.colEstado.Width = 110;
             // 
             // colPrioUser
             // 
@@ -245,47 +319,12 @@
             // colFecha
             // 
             this.colFecha.Text = "Fecha";
-            this.colFecha.Width = 130;
+            this.colFecha.Width = 100;
             // 
             // colAccion
             // 
-            this.colAccion.Text = "Acción";
-            this.colAccion.Width = 100;
-            // 
-            // panelActualizar
-            // 
-            this.panelActualizar.Controls.Add(this.btnGuardarCambios);
-            this.panelActualizar.Controls.Add(this.cmbNuevoEstado);
-            this.panelActualizar.Controls.Add(this.txtNuevoTitulo);
-            this.panelActualizar.Location = new System.Drawing.Point(6, 329);
-            this.panelActualizar.Name = "panelActualizar";
-            this.panelActualizar.Size = new System.Drawing.Size(487, 248);
-            this.panelActualizar.TabIndex = 6;
-            // 
-            // txtNuevoTitulo
-            // 
-            this.txtNuevoTitulo.Location = new System.Drawing.Point(54, 94);
-            this.txtNuevoTitulo.Name = "txtNuevoTitulo";
-            this.txtNuevoTitulo.Size = new System.Drawing.Size(140, 29);
-            this.txtNuevoTitulo.TabIndex = 0;
-            // 
-            // cmbNuevoEstado
-            // 
-            this.cmbNuevoEstado.FormattingEnabled = true;
-            this.cmbNuevoEstado.Location = new System.Drawing.Point(54, 145);
-            this.cmbNuevoEstado.Name = "cmbNuevoEstado";
-            this.cmbNuevoEstado.Size = new System.Drawing.Size(163, 29);
-            this.cmbNuevoEstado.TabIndex = 1;
-            // 
-            // btnGuardarCambios
-            // 
-            this.btnGuardarCambios.Location = new System.Drawing.Point(294, 186);
-            this.btnGuardarCambios.Name = "btnGuardarCambios";
-            this.btnGuardarCambios.Size = new System.Drawing.Size(158, 46);
-            this.btnGuardarCambios.TabIndex = 2;
-            this.btnGuardarCambios.Text = "Guardar Cambios";
-            this.btnGuardarCambios.UseVisualStyleBackColor = true;
-            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
+            this.colAccion.Text = "Acciones";
+            this.colAccion.Width = 140;
             // 
             // MisTickets
             // 
@@ -300,9 +339,9 @@
             this.Size = new System.Drawing.Size(920, 600);
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
-            this.pnlFiltros.ResumeLayout(false);
             this.panelActualizar.ResumeLayout(false);
             this.panelActualizar.PerformLayout();
+            this.pnlFiltros.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -312,13 +351,11 @@
         private System.Windows.Forms.Panel pnlContent;
         private System.Windows.Forms.Label lblPageTitle;
         private System.Windows.Forms.Label lblPageSub;
-
         private System.Windows.Forms.Panel pnlFiltros;
         private System.Windows.Forms.Button btnFiltroTodos;
         private System.Windows.Forms.Button btnFiltroAbierto;
         private System.Windows.Forms.Button btnFiltroProceso;
         private System.Windows.Forms.Button btnFiltroCerrado;
-
         private System.Windows.Forms.ListView lvTickets;
         private System.Windows.Forms.ColumnHeader colId;
         private System.Windows.Forms.ColumnHeader colTitulo;
@@ -327,11 +364,13 @@
         private System.Windows.Forms.ColumnHeader colPrioReal;
         private System.Windows.Forms.ColumnHeader colFecha;
         private System.Windows.Forms.ColumnHeader colAccion;
-        private System.Windows.Forms.Button btnDetalle;
-        private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Panel panelActualizar;
         private System.Windows.Forms.Button btnGuardarCambios;
-        private System.Windows.Forms.ComboBox cmbNuevoEstado;
+        private System.Windows.Forms.ComboBox cmbNuevaPrioridad;
+        private System.Windows.Forms.TextBox txtNuevaDescripcion;
         private System.Windows.Forms.TextBox txtNuevoTitulo;
+        private System.Windows.Forms.Label lblNvoTitulo;
+        private System.Windows.Forms.Label lblNvaDesc;
+        private System.Windows.Forms.Label lblNvaPrioridad;
     }
 }

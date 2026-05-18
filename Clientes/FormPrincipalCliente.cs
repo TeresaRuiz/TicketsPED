@@ -26,6 +26,7 @@ namespace TicketsMDB
             this.WindowState = FormWindowState.Maximized;
 
             MostrarControl(new FormDashboard());
+            lblUsuario.Text = "Usuario: " + SesionActual.Nombre;
         }
 
 

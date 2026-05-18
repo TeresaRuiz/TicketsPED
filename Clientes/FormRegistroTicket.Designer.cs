@@ -69,7 +69,7 @@
             this.lblBadge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(197)))), ((int)(((byte)(253)))));
             this.lblBadge.Location = new System.Drawing.Point(24, 14);
             this.lblBadge.Name = "lblBadge";
-            this.lblBadge.Size = new System.Drawing.Size(105, 20);
+            this.lblBadge.Size = new System.Drawing.Size(121, 23);
             this.lblBadge.TabIndex = 0;
             this.lblBadge.Text = "● Nuevo ticket";
             // 
@@ -81,7 +81,7 @@
             this.lblTituloForm.ForeColor = System.Drawing.Color.White;
             this.lblTituloForm.Location = new System.Drawing.Point(24, 40);
             this.lblTituloForm.Name = "lblTituloForm";
-            this.lblTituloForm.Size = new System.Drawing.Size(277, 30);
+            this.lblTituloForm.Size = new System.Drawing.Size(330, 36);
             this.lblTituloForm.TabIndex = 1;
             this.lblTituloForm.Text = "Registrar ticket de soporte";
             // 
@@ -93,7 +93,7 @@
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(24, 74);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(452, 20);
+            this.lblSubtitulo.Size = new System.Drawing.Size(517, 23);
             this.lblSubtitulo.TabIndex = 2;
             this.lblSubtitulo.Text = "Complete los campos para enviar su solicitud al equipo de soporte";
             // 
@@ -129,7 +129,7 @@
             this.lblNombreUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
             this.lblNombreUsuario.Location = new System.Drawing.Point(1405, 28);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(76, 21);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(93, 25);
             this.lblNombreUsuario.TabIndex = 4;
             this.lblNombreUsuario.Text = "Juan Díaz";
             // 
@@ -184,7 +184,7 @@
             this.dtpFechaCreacion.Enabled = false;
             this.dtpFechaCreacion.Location = new System.Drawing.Point(396, 323);
             this.dtpFechaCreacion.Name = "dtpFechaCreacion";
-            this.dtpFechaCreacion.Size = new System.Drawing.Size(399, 29);
+            this.dtpFechaCreacion.Size = new System.Drawing.Size(399, 33);
             this.dtpFechaCreacion.TabIndex = 17;
             // 
             // lblTituloLbl
@@ -195,7 +195,7 @@
             this.lblTituloLbl.ForeColor = System.Drawing.Color.Black;
             this.lblTituloLbl.Location = new System.Drawing.Point(51, 63);
             this.lblTituloLbl.Name = "lblTituloLbl";
-            this.lblTituloLbl.Size = new System.Drawing.Size(65, 19);
+            this.lblTituloLbl.Size = new System.Drawing.Size(71, 21);
             this.lblTituloLbl.TabIndex = 0;
             this.lblTituloLbl.Text = "TÍTULO *";
             // 
@@ -210,7 +210,7 @@
             this.txtTitulo.Location = new System.Drawing.Point(55, 104);
             this.txtTitulo.MaxLength = 100;
             this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(984, 29);
+            this.txtTitulo.Size = new System.Drawing.Size(984, 33);
             this.txtTitulo.TabIndex = 1;
             // 
             // lblCharTitulo
@@ -222,7 +222,7 @@
             this.lblCharTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblCharTitulo.Location = new System.Drawing.Point(1455, 80);
             this.lblCharTitulo.Name = "lblCharTitulo";
-            this.lblCharTitulo.Size = new System.Drawing.Size(54, 19);
+            this.lblCharTitulo.Size = new System.Drawing.Size(60, 21);
             this.lblCharTitulo.TabIndex = 2;
             this.lblCharTitulo.Text = "0 / 100";
             // 
@@ -234,7 +234,7 @@
             this.lblDescLbl.ForeColor = System.Drawing.Color.Black;
             this.lblDescLbl.Location = new System.Drawing.Point(51, 150);
             this.lblDescLbl.Name = "lblDescLbl";
-            this.lblDescLbl.Size = new System.Drawing.Size(96, 19);
+            this.lblDescLbl.Size = new System.Drawing.Size(109, 21);
             this.lblDescLbl.TabIndex = 3;
             this.lblDescLbl.Text = "DESCRIPCIÓN";
             // 
@@ -263,7 +263,7 @@
             this.lblCharDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
             this.lblCharDesc.Location = new System.Drawing.Point(1455, 198);
             this.lblCharDesc.Name = "lblCharDesc";
-            this.lblCharDesc.Size = new System.Drawing.Size(54, 19);
+            this.lblCharDesc.Size = new System.Drawing.Size(60, 21);
             this.lblCharDesc.TabIndex = 5;
             this.lblCharDesc.Text = "0 / 255";
             // 
@@ -285,7 +285,7 @@
             this.lblEstadoLbl.ForeColor = System.Drawing.Color.Black;
             this.lblEstadoLbl.Location = new System.Drawing.Point(55, 285);
             this.lblEstadoLbl.Name = "lblEstadoLbl";
-            this.lblEstadoLbl.Size = new System.Drawing.Size(69, 19);
+            this.lblEstadoLbl.Size = new System.Drawing.Size(78, 21);
             this.lblEstadoLbl.TabIndex = 7;
             this.lblEstadoLbl.Text = "ESTADO *";
             // 
@@ -298,7 +298,7 @@
             this.cmbEstado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
             this.cmbEstado.Location = new System.Drawing.Point(55, 307);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(294, 29);
+            this.cmbEstado.Size = new System.Drawing.Size(294, 33);
             this.cmbEstado.TabIndex = 8;
             // 
             // lblFechaLbl
@@ -306,10 +306,10 @@
             this.lblFechaLbl.AutoSize = true;
             this.lblFechaLbl.BackColor = System.Drawing.Color.Transparent;
             this.lblFechaLbl.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.lblFechaLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
+            this.lblFechaLbl.ForeColor = System.Drawing.Color.Black;
             this.lblFechaLbl.Location = new System.Drawing.Point(369, 285);
             this.lblFechaLbl.Name = "lblFechaLbl";
-            this.lblFechaLbl.Size = new System.Drawing.Size(143, 19);
+            this.lblFechaLbl.Size = new System.Drawing.Size(160, 21);
             this.lblFechaLbl.TabIndex = 9;
             this.lblFechaLbl.Text = "FECHA DE CREACIÓN";
             // 
@@ -331,7 +331,7 @@
             this.lblPrioridadLbl.ForeColor = System.Drawing.Color.Black;
             this.lblPrioridadLbl.Location = new System.Drawing.Point(55, 371);
             this.lblPrioridadLbl.Name = "lblPrioridadLbl";
-            this.lblPrioridadLbl.Size = new System.Drawing.Size(182, 19);
+            this.lblPrioridadLbl.Size = new System.Drawing.Size(204, 21);
             this.lblPrioridadLbl.TabIndex = 12;
             this.lblPrioridadLbl.Text = "PRIORIDAD DEL USUARIO *";
             // 
@@ -401,7 +401,7 @@
             // 
             // FormRegistroTicket
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
             this.Controls.Add(this.pnlBody);

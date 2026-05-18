@@ -323,5 +323,33 @@ public void LlenarListaDesdeSQL(TAD_Lista listaDestino)
             }
             catch { return false; }
         }
+        public bool ActualizarTicketCompletoCliente(int idTicket, string titulo, string descripcion, int idPrioridadUsuario)
+        {
+            try
+            {
+                using (SqlConnection cn = AbrirConexion())
+                {
+                    string query = @"
+                UPDATE Tickets 
+                SET 
+                    Titulo = @titulo, 
+                    Descripcion = @desc, 
+                    IdPrioridadUsuario = @prio 
+                WHERE IdTicket = @id";
+
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@titulo", titulo);
+                    cmd.Parameters.AddWithValue("@desc", descripcion);
+                    cmd.Parameters.AddWithValue("@prio", idPrioridadUsuario);
+                    cmd.Parameters.AddWithValue("@id", idTicket);
+
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

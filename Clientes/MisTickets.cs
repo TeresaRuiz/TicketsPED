@@ -18,34 +18,19 @@ namespace TicketsMDB.Clientes
             ConfigurarListView();
             panelActualizar.Visible = false;
 
-            cmbNuevoEstado.Items.Add("Abierto");
-            cmbNuevoEstado.Items.Add("En proceso");
-            cmbNuevoEstado.Items.Add("Cerrado");
+            // Cargamos los ítems del catálogo de prioridades
+            cmbNuevaPrioridad.Items.Add("Baja");
+            cmbNuevaPrioridad.Items.Add("Media");
+            cmbNuevaPrioridad.Items.Add("Alta");
             CargarTickets();
         }
 
         private void ConfigurarListView()
         {
             lvTickets.View = View.Details;
-
             lvTickets.FullRowSelect = true;
-
             lvTickets.GridLines = true;
-
-            // PERMITE EDITAR EL TEXTO
-            lvTickets.LabelEdit = true;
-
-            lvTickets.Columns.Add("#", 50);
-            lvTickets.Columns.Add("Título", 200);
-            lvTickets.Columns.Add("Estado", 120);
-            lvTickets.Columns.Add("Prioridad usuario", 150);
-            lvTickets.Columns.Add("Prioridad real", 150);
-            lvTickets.Columns.Add("Fecha", 150);
-        }
-
-        private void lvTickets_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            lvTickets.LabelEdit = false; 
         }
 
         private void CargarTickets()
@@ -74,92 +59,14 @@ namespace TicketsMDB.Clientes
                 item.SubItems.Add(t.PrioridadReal);
                 item.SubItems.Add(t.Fecha.ToString("dd/MM/yyyy"));
 
+                item.SubItems.Add("🔍 Ver   |   📝 Editar");
+
                 lvTickets.Items.Add(item);
-
-                aux = aux.Siguiente; 
+                aux = aux.Siguiente;
             }
-        }
-
-        private void btnDetalle_Click(object sender, EventArgs e)
-        {
-            if (lvTickets.SelectedItems.Count == 0)
-            {
-                MessageBox.Show("Seleccione un ticket");
-                return;
-            }
-
-            string idTicket = lvTickets.SelectedItems[0].Text;
-
-            Ticket t = null;
-            Nodo aux = ticket.listaTickets.Inicio; 
-
-            while (aux != null)
-            {
-                if (aux.Dato.Id == idTicket)
-                {
-                    t = aux.Dato; 
-                    break;      
-                }
-                aux = aux.Siguiente; 
-            }
-
-            if (t != null)
-            {
-                string detalle =
-                    "ID: " + t.Id + "\n\n" +
-                    "Usuario: " + t.Usuario + "\n\n" +
-                    "Detalle: " + t.Detalle + "\n\n" +
-                    "Estado: " + t.Estado + "\n\n" +
-                    "Prioridad Usuario: " + t.PrioridadUsuario + "\n\n" +
-                    "Prioridad Real: " + t.PrioridadReal + "\n\n" +
-                    "Fecha: " + t.Fecha.ToString("dd/MM/yyyy HH:mm");
-
-                MessageBox.Show(
-                    detalle,
-                    "Detail Ticket",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
-            }
-
         }
 
         
-
-        private void btnActualizar_Click(object sender, EventArgs e)
-        {
-            if (lvTickets.SelectedItems.Count == 0)
-            {
-                MessageBox.Show(
-                    "Seleccione un ticket");
-
-                return;
-            }
-
-            ListViewItem item =
-                lvTickets.SelectedItems[0];
-
-            string estado =
-                item.SubItems[2].Text;
-
-            if (estado == "Cerrado")
-            {
-                MessageBox.Show(
-                    "Este ticket ya fue cerrado");
-
-                return;
-            }
-
-            // MOSTRAR PANEL
-            panelActualizar.Visible = true;
-
-            // CARGAR DATOS ACTUALES
-            txtNuevoTitulo.Text =
-                item.SubItems[1].Text;
-
-            cmbNuevoEstado.Text =
-                item.SubItems[2].Text;
-        }
-
         private void btnFiltroTodos_Click(object sender, EventArgs e)
         {
             MostrarTickets(
@@ -185,89 +92,132 @@ namespace TicketsMDB.Clientes
         
         }
 
-        private void lvTickets_DoubleClick(object sender, EventArgs e)
-        {
-            if (lvTickets.SelectedItems.Count > 0)
-            {
-                lvTickets.SelectedItems[0].BeginEdit();
-            }
-        }
 
-        private void lvTickets_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            if (lvTickets.SelectedItems.Count == 0)
-                return;
-
-            ListViewItem item =
-                lvTickets.SelectedItems[0];
-
-            string estado =
-                item.SubItems[2].Text;
-
-            switch (estado)
-            {
-                case "Abierto":
-                    item.SubItems[2].Text =
-                        "En proceso";
-                    break;
-
-                case "En proceso":
-                    item.SubItems[2].Text =
-                        "Cerrado";
-                    break;
-            }
-        }
-
+       
         private void btnGuardarCambios_Click(object sender, EventArgs e)
         {
-            if (lvTickets.SelectedItems.Count == 0)
-                return;
+            if (panelActualizar.Tag == null) return;
 
-            string idTicket =
-                lvTickets.SelectedItems[0].Text;
-
-            string nuevoTitulo =
-                txtNuevoTitulo.Text;
-
-            string nuevoEstado =
-                cmbNuevoEstado.Text;
-
-            int idEstado = 1;
-
-            switch (nuevoEstado)
+            if (string.IsNullOrWhiteSpace(txtNuevoTitulo.Text) || string.IsNullOrWhiteSpace(txtNuevaDescripcion.Text))
             {
-                case "Abierto":
-                    idEstado = 1;
-                    break;
-
-                case "En proceso":
-                    idEstado = 2;
-                    break;
-
-                case "Cerrado":
-                    idEstado = 3;
-                    break;
+                MessageBox.Show("Por favor, complete el título y la descripción.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
 
-            bool actualizado =
-                ticket.ActualizarTicket(
-                    idTicket,
-                    nuevoTitulo,
-                    idEstado);
+            string idTicket = panelActualizar.Tag.ToString();
+            string nuevoTitulo = txtNuevoTitulo.Text.Trim();
+            string nuevaDesc = txtNuevaDescripcion.Text.Trim();
+            string nuevaPrio = cmbNuevaPrioridad.Text;
+
+           int idPrioridad = nuevaPrio == "Baja" ? 1 : nuevaPrio == "Media" ? 2 : 3;
+
+
+             Conexion con = new Conexion();
+            bool actualizado = con.ActualizarTicketCompletoCliente(int.Parse(idTicket), nuevoTitulo, nuevaDesc, idPrioridad);
 
             if (actualizado)
             {
-                MessageBox.Show(
-                    "Ticket actualizado");
-
+                MessageBox.Show("Solicitud de ticket modificada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 panelActualizar.Visible = false;
-
-                CargarTickets();
+                panelActualizar.Tag = null;
+                CargarTickets(); 
             }
             else
             {
-                MessageBox.Show(
-                    "No se pudo actualizar");
+                MessageBox.Show("No se pudieron guardar los cambios en la base de datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void lvTickets_MouseClick(object sender, MouseEventArgs e)
+        {
+            ListViewHitTestInfo hit = lvTickets.HitTest(e.Location);
+
+            if (hit.Item != null && hit.SubItem != null)
+            {
+                int indiceColumnaAccion = lvTickets.Columns.Count - 1; 
+
+               if (hit.Item.SubItems[indiceColumnaAccion] == hit.SubItem)
+                {
+                    Rectangle limitesSubItem = hit.SubItem.Bounds;
+                    int puntoXRelativo = e.X - limitesSubItem.Left;
+                    int anchoMitad = limitesSubItem.Width / 2;
+
+                    string idTicket = hit.Item.Text;
+                    if (puntoXRelativo < anchoMitad)
+                    {
+                        EjecutarAccionDetalle(idTicket);
+                    }
+                    else
+                    {
+                        EjecutarAccionActualizar(hit.Item);
+                    }
+                }
+            }
+        }
+        private void EjecutarAccionDetalle(string idTicket)
+        {
+            Ticket t = null;
+            Nodo aux = ticket.listaTickets.Inicio;
+
+            while (aux != null)
+            {
+                if (aux.Dato.Id == idTicket)
+                {
+                    t = aux.Dato;
+                    break;
+                }
+                aux = aux.Siguiente;
+            }
+
+            if (t != null)
+            {
+                string detalle =
+                    "ID: " + t.Id + "\n\n" +
+                    "Usuario: " + t.Usuario + "\n\n" +
+                    "Detalle: " + t.Detalle + "\n\n" +
+                    "Estado: " + t.Estado + "\n\n" +
+                    "Prioridad Usuario: " + t.PrioridadUsuario + "\n\n" +
+                    "Prioridad Real: " + t.PrioridadReal + "\n\n" +
+                    "Fecha: " + t.Fecha.ToString("dd/MM/yyyy HH:mm");
+
+                MessageBox.Show(detalle, "Detalle del Ticket", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void EjecutarAccionActualizar(ListViewItem item)
+        {
+            string idTicket = item.Text;
+            string estado = item.SubItems[2].Text;
+
+            if (estado == "Cerrado")
+            {
+                MessageBox.Show("Este ticket ya fue cerrado y no puede ser modificado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            Ticket ticketEncontrado = null;
+            Nodo aux = ticket.listaTickets.Inicio;
+
+            while (aux != null)
+            {
+                if (aux.Dato.Id == idTicket)
+                {
+                    ticketEncontrado = aux.Dato;
+                    break;
+                }
+                aux = aux.Siguiente;
+            }
+
+            if (ticketEncontrado != null)
+            {
+                panelActualizar.Visible = true;
+                panelActualizar.BringToFront();
+
+                 txtNuevoTitulo.Text = ticketEncontrado.Titulo;
+                txtNuevaDescripcion.Text = ticketEncontrado.Detalle;
+                cmbNuevaPrioridad.Text = ticketEncontrado.PrioridadUsuario;
+
+                panelActualizar.Tag = idTicket; 
             }
         }
     }

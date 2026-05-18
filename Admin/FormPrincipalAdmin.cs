@@ -22,6 +22,7 @@ namespace TicketsMDB
             this.WindowState = FormWindowState.Maximized;
 
             MostrarControl(new Inicio(miListaCompartida));
+            lblUsuario.Text = "Usuario: " + SesionActual.Nombre;
         }
 
         private void btnInicio_Click(object sender, EventArgs e)

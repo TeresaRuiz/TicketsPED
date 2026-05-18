@@ -15,7 +15,7 @@ namespace TicketsMDB.SuperAdmin
         public FormSuperAdminDashboard()
         {
             InitializeComponent();
-
+            lblUsuario.Text = "Usuario: " + SesionActual.Nombre;
             this.WindowState = FormWindowState.Maximized;
 
             MostrarControl(new Inicio());
@@ -70,6 +70,11 @@ namespace TicketsMDB.SuperAdmin
                 this.Hide();
 
             }
+        }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

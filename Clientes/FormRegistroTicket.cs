@@ -28,27 +28,19 @@ namespace TicketsMDB
 
             //validaciones
 
-            if(txtTitulo.Text.Trim() == "")
+            if (string.IsNullOrWhiteSpace(txtTitulo.Text))
             {
-                MessageBox.Show("El título no puede estar vacío.");
+                MessageBox.Show("El título no puede estar vacío.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            if(prioridadSeleccionada == 0)
+            if (prioridadSeleccionada == 0)
             {
-                MessageBox.Show("Debe seleccionar una prioridad.");
+                MessageBox.Show("Debe seleccionar una prioridad.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            if(cmbEstado.SelectedValue == null)
-            {
-                MessageBox.Show("Debe seleccionar un estado.");
-                return;
-            }
-            
 
             Conexion db = new Conexion();
-
             SqlConnection cn = null;
 
             try
@@ -77,26 +69,36 @@ namespace TicketsMDB
                 SqlCommand cmd = new SqlCommand(query, cn);
 
                 cmd.Parameters.AddWithValue("@IdUsuario", SesionActual.IdUsuario);
-                cmd.Parameters.AddWithValue("@Titulo", txtTitulo.Text);
-                // si la descripción está vacía, se inserta NULL en la base de datos
-                cmd.Parameters.AddWithValue("@Descripcion", string.IsNullOrWhiteSpace(txtDescripcion.Text) ? (object)DBNull.Value : txtDescripcion.Text);
-                cmd.Parameters.AddWithValue("@Fecha", dtpFechaCreacion.Value);
-                cmd.Parameters.AddWithValue("@Estado", cmbEstado.SelectedValue);
+                cmd.Parameters.AddWithValue("@Titulo", txtTitulo.Text.Trim());
+
+                cmd.Parameters.AddWithValue("@Descripcion", string.IsNullOrWhiteSpace(txtDescripcion.Text) ? (object)DBNull.Value : txtDescripcion.Text.Trim());
+                cmd.Parameters.AddWithValue("@Fecha", DateTime.Now);
+                cmd.Parameters.AddWithValue("@Estado", 4);
+
                 cmd.Parameters.AddWithValue("@Prioridad", prioridadSeleccionada);
 
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("Ticket registrado correctamente");
+                MessageBox.Show("Ticket registrado correctamente de forma pendiente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LimpiarCampos();
             }
+
             catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar: " + ex.Message);
+                MessageBox.Show("Error al guardar el ticket: " + ex.Message, "Error de Persistencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
                 db.CerrarConexion(cn);
             }
         }
+
+        private void LimpiarCampos()
+        {
+            txtTitulo.Clear();
+            txtDescripcion.Clear();
+            prioridadSeleccionada = 0;
+             }
 
         private void CargarEstados()
         {
@@ -109,7 +111,7 @@ namespace TicketsMDB
                 cn = db.AbrirConexion();
 
                 SqlDataAdapter da = new SqlDataAdapter(
-                    "SELECT IdEstado, NombreEstado FROM Estados",
+                    "SELECT IdEstado, NombreEstado FROM Estados WHERE IdEstado = 4",
                     cn);
 
                 DataTable dt = new DataTable();

@@ -139,7 +139,27 @@ namespace TicketsMDB.SuperAdmin
             }
 
             bool actualizarPass = !string.IsNullOrWhiteSpace(txtPassword.Text);
-            int idRol = cmbRol.SelectedIndex == 0 ? 1 : 2; 
+
+            int idRol;
+
+            switch (cmbRol.SelectedIndex)
+            {
+                case 0:// posiciomn del combo para admin
+                    idRol = 1;
+                    break;
+
+                case 1:// posicion del combo para cliente
+                    idRol = 2;
+                    break;
+
+                case 2:// posicion del combo para superadmin
+                    idRol = 3;
+                    break;
+
+                default:
+                    idRol = 2;// valor de seguridad
+                    break;
+            }
 
             try
             {

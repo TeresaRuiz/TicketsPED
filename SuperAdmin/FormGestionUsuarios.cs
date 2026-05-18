@@ -3,6 +3,8 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace TicketsMDB.SuperAdmin
 {
@@ -90,6 +92,22 @@ namespace TicketsMDB.SuperAdmin
             chkBloqueado.Checked = u.Bloqueado;
             txtPassword.Text = "";
             txtTelefono.Text = u.Telefono;
+        }
+
+        public string Hashear(string texto)
+        {
+            SHA256 sha = SHA256.Create();
+            byte[] bytes = Encoding.UTF8.GetBytes(texto);
+            byte[] hash = sha.ComputeHash(bytes);
+
+            string resultado = "";
+
+            for (int i = 0; i < hash.Length; i++)
+            {
+                resultado = resultado + hash[i].ToString("x2");
+            }
+
+            return resultado;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -181,7 +199,8 @@ namespace TicketsMDB.SuperAdmin
 
                     if (actualizarPass || !esEdicion)
                     {
-                        cmd.Parameters.AddWithValue("@pass", txtPassword.Text);
+                        string contrasenaHash = Hashear(txtPassword.Text);
+                        cmd.Parameters.AddWithValue("@pass", contrasenaHash);
                     }
 
                     if (!esEdicion)
@@ -449,6 +468,11 @@ namespace TicketsMDB.SuperAdmin
                 }
                 actual = actual.Siguiente;
             }
+        }
+
+        private void lblApellidoLbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
      

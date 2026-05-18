@@ -288,9 +288,10 @@
             this.lblApellidoLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
             this.lblApellidoLbl.Location = new System.Drawing.Point(16, 104);
             this.lblApellidoLbl.Name = "lblApellidoLbl";
-            this.lblApellidoLbl.Size = new System.Drawing.Size(67, 20);
+            this.lblApellidoLbl.Size = new System.Drawing.Size(63, 20);
             this.lblApellidoLbl.TabIndex = 4;
-            this.lblApellidoLbl.Text = "Apellido";
+            this.lblApellidoLbl.Text = "Usuario";
+            this.lblApellidoLbl.Click += new System.EventHandler(this.lblApellidoLbl_Click);
             // 
             // txtApellido
             // 

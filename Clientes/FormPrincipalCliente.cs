@@ -22,6 +22,10 @@ namespace TicketsMDB
         public FormPrincipalCliente()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Maximized;
+
+            MostrarControl(new FormDashboard());
         }
 
 

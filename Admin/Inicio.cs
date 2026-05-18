@@ -11,30 +11,19 @@ namespace TicketsMDB
 {
     public partial class Inicio : UserControl
     {
-        private TAD_Lista lista; // Esta es la variable global del control
+        private TAD_Lista lista;
 
-        // Constructor vacío para el Diseñador de Visual Studio
-        public Inicio()
-        {
-            InitializeComponent();
-        }
-
-        // Constructor que usas en el FormPrincipalAdmin
         public Inicio(TAD_Lista listaCompartida)
         {
             
 
-             InitializeComponent(); // ¡OBLIGATORIO para que se vea el panel!
+             InitializeComponent(); 
+            this.lista = listaCompartida;
 
-             // 1. Guardamos la referencia para que 'actualizarPantalla' la vea
-             this.lista = listaCompartida;
-
-             // 2. Instanciamos la conexión y llenamos la lista desde SQL
              Conexion con = new Conexion();
              this.lista.VaciarLista();
              con.LlenarListaDesdeSQL(this.lista);
 
-             // 3. Dibujamos
              actualizarPantalla();
         }
 

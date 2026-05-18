@@ -89,7 +89,7 @@
             this.btnPedido.Name = "btnPedido";
             this.btnPedido.Size = new System.Drawing.Size(252, 75);
             this.btnPedido.TabIndex = 14;
-            this.btnPedido.Text = "Busqueda Avanzada";
+            this.btnPedido.Text = "Búsqueda avanzada";
             this.btnPedido.UseVisualStyleBackColor = false;
             this.btnPedido.Click += new System.EventHandler(this.btnPedido_Click);
             // 
@@ -143,7 +143,7 @@
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(252, 55);
             this.btnProductos.TabIndex = 1;
-            this.btnProductos.Text = "Cola de Atención";
+            this.btnProductos.Text = "Cola de atención";
             this.btnProductos.UseVisualStyleBackColor = true;
             this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
@@ -157,7 +157,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormPrincipalAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormPrincipalAdmin";
+            this.Text = "Administradores - Sistema de tickets";
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);

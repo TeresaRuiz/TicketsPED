@@ -18,6 +18,10 @@ namespace TicketsMDB
         public FormPrincipalAdmin()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Maximized;
+
+            MostrarControl(new Inicio(miListaCompartida));
         }
 
         private void btnInicio_Click(object sender, EventArgs e)

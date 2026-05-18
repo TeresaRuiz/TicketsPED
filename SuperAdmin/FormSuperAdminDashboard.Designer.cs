@@ -45,7 +45,7 @@
             this.panelContenido.Location = new System.Drawing.Point(279, 0);
             this.panelContenido.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.panelContenido.Name = "panelContenido";
-            this.panelContenido.Size = new System.Drawing.Size(1014, 811);
+            this.panelContenido.Size = new System.Drawing.Size(1014, 1016);
             this.panelContenido.TabIndex = 7;
             // 
             // panelMenu
@@ -61,7 +61,7 @@
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(279, 811);
+            this.panelMenu.Size = new System.Drawing.Size(279, 1016);
             this.panelMenu.TabIndex = 6;
             // 
             // btnCerrarSesion
@@ -69,7 +69,7 @@
             this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(12, 740);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(12, 914);
             this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(249, 55);
@@ -98,7 +98,7 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(21, 704);
+            this.lblUsuario.Location = new System.Drawing.Point(21, 878);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(64, 22);
             this.lblUsuario.TabIndex = 0;
@@ -151,11 +151,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1293, 811);
+            this.ClientSize = new System.Drawing.Size(1293, 1016);
             this.Controls.Add(this.panelContenido);
             this.Controls.Add(this.panelMenu);
             this.Name = "FormSuperAdminDashboard";
-            this.Text = "Super Admin";
+            this.Text = "Super Admin - Sistema de tickets";
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);

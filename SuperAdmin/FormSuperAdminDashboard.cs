@@ -15,6 +15,10 @@ namespace TicketsMDB.SuperAdmin
         public FormSuperAdminDashboard()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Maximized;
+
+            MostrarControl(new Inicio());
         }
 
         private void MostrarControl(UserControl control)

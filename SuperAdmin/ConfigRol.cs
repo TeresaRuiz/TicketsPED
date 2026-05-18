@@ -10,8 +10,7 @@ namespace TicketsMDB.SuperAdmin
     {
         public int IdRol { get; set; }
         public string NombreRol { get; set; }
-        public string Descripcion { get; set; } // En C# lo podemos dejar corto para programar más rápido
-
+        public string Descripcion { get; set; } 
         public ConfigRol(int id, string nombre, string descripcion)
         {
             IdRol = id;

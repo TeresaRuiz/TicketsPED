@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
@@ -17,7 +11,7 @@ namespace TicketsMDB.SuperAdmin
         private TAD_ListaUsuarios listaDeUsuarios = new TAD_ListaUsuarios();
 
         public FormGestionUsuarios()
-        { //PARA LOS BOTONES DE FILTRO
+        { 
             InitializeComponent();
             btnTodos.Click += (s, e) => FiltrarUsuariosPorCategoria("todos");
             btnAdmin.Click += (s, e) => FiltrarUsuariosPorCategoria("admin");
@@ -35,7 +29,7 @@ namespace TicketsMDB.SuperAdmin
             {
                 using (SqlConnection con = new SqlConnection(Conexion.cadenaConexion))
                 {
-                    // Consulta con JOIN para traer el nombre del Rol
+                   
                     string query = @"SELECT u.Nombre, u.Usuario, u.Correo, u.Contrasena, r.NombreRol, u.Bloqueado, u.Telefono
                                      FROM Usuarios u 
                                      INNER JOIN Roles r ON u.IdRol = r.IdRol";
@@ -53,8 +47,6 @@ namespace TicketsMDB.SuperAdmin
                         string pas = dr["Contrasena"].ToString();
                         string rol = dr["NombreRol"].ToString();
                         bool bloq = dr["Bloqueado"] != DBNull.Value ? Convert.ToBoolean(dr["Bloqueado"]) : false;
-
-                        // Pasamos los 7 parámetros en el orden exacto del constructor
                         GestionUsuario nuevoU = new GestionUsuario(nom, usr, tel, em, pas, rol, bloq);
                         listaDeUsuarios.Insertar(nuevoU);
                     }
@@ -75,7 +67,6 @@ namespace TicketsMDB.SuperAdmin
             {
                 TarjetaGestionUsuario tarjeta = new TarjetaGestionUsuario(aux.Dato);
 
-                // Evento Click: Al tocar la tarjeta, los datos "vuelan" a los campos
                 tarjeta.Click += (s, e) =>
                 {
                     GestionUsuario u = tarjeta.ObtenerDatos();
@@ -89,7 +80,6 @@ namespace TicketsMDB.SuperAdmin
 
         private void CargarDatosEnCampos(GestionUsuario u)
         {
-            // Dividimos el nombre para los dos campos txt
             string[] partes = u.Nombre.Split(' ');
             txtNombre.Text = partes[0];
             txtApellido.Text = partes.Length > 1 ? partes[1] : "";
@@ -104,7 +94,6 @@ namespace TicketsMDB.SuperAdmin
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            // 1. VALIDACIONES DE FORMATO (Mantén las tuyas intactas)
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtApellido.Text) || string.IsNullOrWhiteSpace(txtCorreo.Text))
             {
                 MessageBox.Show("Por favor, complete los campos obligatorios (Nombre, Apellido y Correo).", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -132,7 +121,7 @@ namespace TicketsMDB.SuperAdmin
             }
 
             bool actualizarPass = !string.IsNullOrWhiteSpace(txtPassword.Text);
-            int idRol = cmbRol.SelectedIndex == 0 ? 1 : 2; // Mantén tu mapeo original
+            int idRol = cmbRol.SelectedIndex == 0 ? 1 : 2; 
 
             try
             {
@@ -140,32 +129,24 @@ namespace TicketsMDB.SuperAdmin
                 {
                     con.Open();
 
-                    // Verificamos si el correo ya existe en la base de datos
-                    string checkQuery = "SELECT COUNT(*) FROM Usuarios WHERE Correo = @em";
+                   string checkQuery = "SELECT COUNT(*) FROM Usuarios WHERE Correo = @em";
                     SqlCommand checkCmd = new SqlCommand(checkQuery, con);
                     checkCmd.Parameters.AddWithValue("@em", txtCorreo.Text.Trim());
                     int existe = (int)checkCmd.ExecuteScalar();
 
-                    // DETERMINAMOS SI ES EDICIÓN O CREACIÓN NUEVA
-                    // Si la caja está bloqueada, significa que seleccionamos una tarjeta previamente
                     bool esEdicion = txtCorreo.ReadOnly;
-
-                    // --- ¡EL ESCUDO CONTRA LA DUPLICACIÓN! ---
                     if (!esEdicion && existe > 0)
                     {
                         MessageBox.Show("¡Error! Este correo electrónico ya está registrado con otro usuario. Por favor, asigne un correo diferente.", "Correo Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return; // Rompe la ejecución aquí, salvando los datos del usuario existente
+                        return;
                     }
-
-                    // Si es edición pero el correo mágicamente no existe (caso raro), avisar
                     if (esEdicion && existe == 0)
                     {
                         MessageBox.Show("No se encontró el usuario original para editar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
-                    // 5. VALIDACIÓN EXTRA: Si el usuario es NUEVO, la contraseña SÍ es obligatoria
-                    if (!esEdicion && !actualizarPass)
+                     if (!esEdicion && !actualizarPass)
                     {
                         MessageBox.Show("Por favor, asigne una contraseña inicial para el nuevo usuario.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
@@ -173,8 +154,7 @@ namespace TicketsMDB.SuperAdmin
 
                     string finalQuery;
 
-                    // Definimos el Query correcto según la bandera segura 'esEdicion'
-                    if (esEdicion)
+                     if (esEdicion)
                     {
                         if (actualizarPass)
                         {
@@ -193,7 +173,7 @@ namespace TicketsMDB.SuperAdmin
 
                     SqlCommand cmd = new SqlCommand(finalQuery, con);
 
-                    // Parámetros comunes
+                 
                     cmd.Parameters.AddWithValue("@nom", txtNombre.Text.Trim() + " " + txtApellido.Text.Trim());
                     cmd.Parameters.AddWithValue("@em", txtCorreo.Text.Trim());
                     cmd.Parameters.AddWithValue("@idrol", idRol);
@@ -214,8 +194,7 @@ namespace TicketsMDB.SuperAdmin
                     string mensajeExito = esEdicion ? "¡Usuario actualizado exitosamente en SQL Server!" : "¡Usuario guardado exitosamente en SQL Server!";
                     MessageBox.Show(mensajeExito, "SoliTec", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // SINCRO EN MEMORIA RAM (Tu estructura de datos Lista Enlazada)
-                    if (esEdicion)
+                   if (esEdicion)
                     {
                         var actual = listaDeUsuarios.Primero;
                         while (actual != null)
@@ -290,8 +269,7 @@ namespace TicketsMDB.SuperAdmin
 
         private void chkBloqueado_CheckedChanged(object sender, EventArgs e)
         {
-            // CORREGIDO: Evita que el checkbox salte un error de SQL si se presiona sin haber seleccionado un usuario antes
-            if (string.IsNullOrWhiteSpace(txtCorreo.Text)) return;
+             if (string.IsNullOrWhiteSpace(txtCorreo.Text)) return;
 
             try
             {
@@ -394,9 +372,6 @@ namespace TicketsMDB.SuperAdmin
             }
         }
 
-        // ==========================================
-        // VALIDACIONES
-        // ==========================================
         private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Solo permite números, el guion (-) y teclas de control como borrar
@@ -437,8 +412,6 @@ namespace TicketsMDB.SuperAdmin
             }
         }
 
-
-        //PARA LOS BOTONES DE FILTRO
         private void FiltrarUsuariosPorCategoria(string categoria)
         {
             flpUsuario.Controls.Clear();

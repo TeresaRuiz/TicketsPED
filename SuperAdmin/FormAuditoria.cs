@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -52,7 +45,6 @@ namespace TicketsMDB.SuperAdmin
                 cmbUsuarioFiltro.SelectedIndex = 0;
             }
         }
-
         private void CargarTiposFiltro()
         {
             cmbTipoCambio.Items.Clear();
@@ -62,14 +54,12 @@ namespace TicketsMDB.SuperAdmin
             cmbTipoCambio.Items.Add("Comentario");
             cmbTipoCambio.SelectedIndex = 0;
         }
-
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
             var selectedUser = (dynamic)cmbUsuarioFiltro.SelectedItem;
             string selectedTipo = cmbTipoCambio.SelectedItem.ToString();
             CargarAuditoria((int)selectedUser.Value, dtpFechaInicio.Value.Date, dtpFechaFin.Value.Date.AddDays(1), selectedTipo);
         }
-
         private void btnLimpiarFiltro_Click(object sender, EventArgs e)
         {
             cmbUsuarioFiltro.SelectedIndex = 0;
@@ -84,14 +74,21 @@ namespace TicketsMDB.SuperAdmin
             Conexion conexion = new Conexion();
             using (SqlConnection cn = conexion.AbrirConexion())
             {
-                List<string> filters = new List<string>();
-                if (userId > 0) filters.Add("UsuarioId = @uId");
-                if (startDate != DateTime.MinValue && endDate != DateTime.MaxValue) 
-                    filters.Add("Fecha >= @start AND Fecha < @end");
-                if (tipo != "Todos") filters.Add("Tipo = @tipo");
-                
-                string filterClause = filters.Count > 0 ? "WHERE " + string.Join(" AND ", filters) : "";
-                
+                string filterClause = "";
+
+                if (userId > 0)
+                {
+                    filterClause += (filterClause == "" ? "WHERE " : " AND ") + "UsuarioId = @uId";
+                }
+                if (startDate != DateTime.MinValue && endDate != DateTime.MaxValue)
+                {
+                    filterClause += (filterClause == "" ? "WHERE " : " AND ") + "Fecha >= @start AND Fecha < @end";
+                }
+                if (tipo != "Todos")
+                {
+                    filterClause += (filterClause == "" ? "WHERE " : " AND ") + "Tipo = @tipo";
+                }
+              
                 string query = $@"
                     SELECT * FROM (
                         SELECT h.IdHistorial as Id, h.FechaCambio as Fecha, ISNULL(u.Nombre, 'Sistema') as Usuario, u.IdUsuario as UsuarioId, 'Actualización' as Tipo, 'Ticket #' + CAST(h.IdTicket AS VARCHAR) as Entidad, h.CampoModificado + ': ' + h.ValorAnterior + ' -> ' + h.ValorNuevo as Detalle
@@ -134,5 +131,7 @@ namespace TicketsMDB.SuperAdmin
                 }
                 lblTotalReg.Text = "Total: " + count + " registros";
             }
-        }    }
+
+        }
+    }
 }

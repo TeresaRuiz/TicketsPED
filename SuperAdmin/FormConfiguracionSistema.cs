@@ -13,10 +13,6 @@ namespace TicketsMDB.SuperAdmin
 {
     public partial class FormConfiguracionSistema : UserControl
     {
-        // ==========================================
-        // ESTRUCTURAS Y VARIABLES GLOBALES
-        // ==========================================
-
         public class NodoEstado
         {
             public ConfigEstado Dato { get; set; }
@@ -44,7 +40,6 @@ namespace TicketsMDB.SuperAdmin
         private NodoRol primeroRol = null;
         private int idRolSeleccionado = 0;
 
-        // Constructor
         public FormConfiguracionSistema()
         {
             InitializeComponent();
@@ -53,9 +48,6 @@ namespace TicketsMDB.SuperAdmin
             CargarRoles();
         }
 
-        // ==========================================
-        // MÓDULO: ESTADOS
-        // ==========================================
 
         private void btnGuardarEstado_Click(object sender, EventArgs e)
         {
@@ -65,8 +57,7 @@ namespace TicketsMDB.SuperAdmin
                 return;
             }
 
-            // CORREGIDO: Validación de duplicados en la RAM antes de ir a SQL
-            if (idEstadoSeleccionado == 0) // Solo al crear uno nuevo
+            if (idEstadoSeleccionado == 0) 
             {
                 var actual = primeroEstado;
                 while (actual != null)
@@ -74,7 +65,7 @@ namespace TicketsMDB.SuperAdmin
                     if (actual.Dato.NombreEstado.ToLower() == txtNombreEstado.Text.Trim().ToLower())
                     {
                         MessageBox.Show("Este estado ya existe en el catálogo actual.", "Validación de Datos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return; // Frena el guardado por completo
+                        return; 
                     }
                     actual = actual.Siguiente;
                 }
@@ -208,9 +199,6 @@ namespace TicketsMDB.SuperAdmin
             }
         }
 
-        // ==========================================
-        // MÓDULO: PRIORIDADES
-        // ==========================================
 
         private void lvPrioridades_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -218,7 +206,7 @@ namespace TicketsMDB.SuperAdmin
             {
                 ListViewItem itemSeleccionado = lvPrioridades.SelectedItems[0];
                 ConfigPrioridad prioridad = (ConfigPrioridad)itemSeleccionado.Tag;
-                idPrioridadSeleccionado = prioridad.IdPrioridad; // CORREGIDO: Match con variable global terminado en 'o'
+                idPrioridadSeleccionado = prioridad.IdPrioridad; 
                 txtNombrePrioridad.Text = prioridad.NombrePrioridad;
             }
         }
@@ -273,7 +261,6 @@ namespace TicketsMDB.SuperAdmin
                 return;
             }
 
-            // CORREGIDO: Reubicación de la validación RAM al inicio del guardado para registros NUEVOS
             if (idPrioridadSeleccionado == 0)
             {
                 var actual = primeroPrioridad;
@@ -282,7 +269,7 @@ namespace TicketsMDB.SuperAdmin
                     if (actual.Dato.NombrePrioridad.ToLower() == txtNombrePrioridad.Text.Trim().ToLower())
                     {
                         MessageBox.Show("Esta prioridad ya existe en el sistema.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return; // Bloquea la inserción duplicada
+                        return; 
                     }
                     actual = actual.Siguiente;
                 }
@@ -361,10 +348,6 @@ namespace TicketsMDB.SuperAdmin
             lvPrioridades.SelectedItems.Clear();
         }
 
-        // ==========================================
-        // MÓDULO: ROLES
-        // ==========================================
-
         private void CargarRoles()
         {
             primeroRol = null;
@@ -417,7 +400,6 @@ namespace TicketsMDB.SuperAdmin
                 return;
             }
 
-            // CORREGIDO: Mover validación RAM aquí (Antes de SQL)
             if (idRolSeleccionado == 0)
             {
                 var actualRol = primeroRol;
@@ -426,7 +408,7 @@ namespace TicketsMDB.SuperAdmin
                     if (actualRol.Dato.NombreRol.ToLower() == txtNombreRol.Text.Trim().ToLower())
                     {
                         MessageBox.Show("Este rol ya se encuentra registrado en el sistema.", "Validación de Datos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return; // Frena el insert duplicado
+                        return; 
                     }
                     actualRol = actualRol.Siguiente;
                 }
@@ -521,9 +503,6 @@ namespace TicketsMDB.SuperAdmin
             }
         }
 
-        // ==========================================
-        // VALIDACIONES KEYPRESS DE TECLADO
-        // ==========================================
 
         private void txtNombreEstado_KeyPress(object sender, KeyPressEventArgs e)
         {

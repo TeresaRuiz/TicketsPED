@@ -111,7 +111,7 @@ namespace TicketsMDB
                 cn = db.AbrirConexion();
 
                 SqlDataAdapter da = new SqlDataAdapter(
-                    "SELECT IdEstado, NombreEstado FROM Estados",
+                    "SELECT IdEstado, NombreEstado FROM Estados WHERE IdEstado = 4",
                     cn);
 
                 DataTable dt = new DataTable();

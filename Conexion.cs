@@ -21,7 +21,8 @@ namespace TicketsMDB
             if (cn != null && cn.State == ConnectionState.Open)
                 cn.Close();
         }
-public void LlenarListaDesdeSQL(TAD_Lista listaDestino)
+
+        public void LlenarListaDesdeSQL(TAD_Cola colaDestino) 
         {
             try
             {
@@ -29,28 +30,27 @@ public void LlenarListaDesdeSQL(TAD_Lista listaDestino)
                 {
                     // Consulta completa incluyendo Título y nombres descriptivos de Prioridades
                     string query = @"
-                        SELECT 
-                            t.IdTicket, 
-                            u.Nombre AS Usuario, 
-                            t.Titulo, 
-                            t.Descripcion, 
-                            e.NombreEstado,
-                            t.FechaCreacion,
-                            p1.NombrePrioridad AS PrioridadUsuario,
-                            ISNULL(p2.NombrePrioridad, 'Sin asignar') AS PrioridadReal
-                        FROM Tickets t 
-                        INNER JOIN Usuarios u ON t.IdUsuario = u.IdUsuario 
-                        INNER JOIN Estados e ON t.IdEstado = e.IdEstado
-                        INNER JOIN Prioridades p1 ON t.IdPrioridadUsuario = p1.IdPrioridad
-                        LEFT JOIN Prioridades p2 ON t.IdPrioridadReal = p2.IdPrioridad
-                        WHERE t.IdEstado <> 3"; // Evitamos cargar tickets cerrados en la cola activa
+                SELECT 
+                    t.IdTicket, 
+                    u.Nombre AS Usuario, 
+                    t.Titulo, 
+                    t.Descripcion, 
+                    e.NombreEstado,
+                    t.FechaCreacion,
+                    p1.NombrePrioridad AS PrioridadUsuario,
+                    ISNULL(p2.NombrePrioridad, 'Sin asignar') AS PrioridadReal
+                FROM Tickets t 
+                INNER JOIN Usuarios u ON t.IdUsuario = u.IdUsuario 
+                INNER JOIN Estados e ON t.IdEstado = e.IdEstado
+                INNER JOIN Prioridades p1 ON t.IdPrioridadUsuario = p1.IdPrioridad
+                LEFT JOIN Prioridades p2 ON t.IdPrioridadReal = p2.IdPrioridad
+                WHERE t.IdEstado <> 3"; // Evitamos cargar tickets cerrados en la cola activa
 
                     SqlCommand cmd = new SqlCommand(query, cn);
                     SqlDataReader dr = cmd.ExecuteReader();
 
                     while (dr.Read())
                     {
-                        // Invocación al constructor completo corregido de tu clase Ticket
                         Ticket nuevo = new Ticket(
                             dr["IdTicket"].ToString(),
                             dr["Usuario"].ToString(),
@@ -62,18 +62,18 @@ public void LlenarListaDesdeSQL(TAD_Lista listaDestino)
                             dr["PrioridadUsuario"].ToString(),
                             dr["PrioridadReal"].ToString()
                         );
-                        listaDestino.Insertar(nuevo);
+
+                        colaDestino.Enqueue(nuevo);
                     }
                     dr.Close();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al cargar datos en la Lista Enlazada (Cola): " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error al cargar datos en la Estructura de Cola: " + ex.Message, "Error de Datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-         public void LlenarPilaDesdeSQL(TAD_Pila pila)
+        public void LlenarPilaDesdeSQL(TAD_Pila pila)
         {
             SqlConnection cn = AbrirConexion();
             try

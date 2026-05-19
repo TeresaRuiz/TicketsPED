@@ -31,7 +31,6 @@ namespace TicketsMDB
 
         private void btnDeshaer_Click(object sender, EventArgs e)
         {
-            // Operación POP en memoria RAM
             Ticket eliminado = this.pila.Pop();
 
             if (eliminado != null)
@@ -78,10 +77,7 @@ namespace TicketsMDB
                 tarjeta.OnTarjetaDoubleClic += (idTicketSeleccionado) =>
                 {
                     TicketsMDB.Admin.DetalleTicket frmDetalle = new TicketsMDB.Admin.DetalleTicket(idTicketSeleccionado);
-                    frmDetalle.ShowDialog(); // Se abre como ventana modal por encima
-
-                    // Al cerrar el detalle, refrescamos la pila global por si el admin hizo cambios nuevos desde ahí
-                    CargarPilaGlobal();
+                    frmDetalle.ShowDialog();    CargarPilaGlobal();
                 };
 
                 if (esPrimero)

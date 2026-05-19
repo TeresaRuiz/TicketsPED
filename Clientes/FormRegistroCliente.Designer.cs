@@ -121,7 +121,7 @@
             this.pnlCard.Size = new System.Drawing.Size(580, 628);
             this.pnlCard.TabIndex = 0;
             // 
-            // label2  —  título "Registro de cliente"
+            // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
@@ -129,7 +129,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(300, 48);
+            this.label2.Size = new System.Drawing.Size(323, 48);
             this.label2.TabIndex = 51;
             this.label2.Text = "Registro de cliente";
             // 
@@ -164,7 +164,7 @@
             this.lblMensaje.Size = new System.Drawing.Size(0, 23);
             this.lblMensaje.TabIndex = 62;
             // 
-            // label3  —  Nombre
+            // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
@@ -187,7 +187,7 @@
             this.txtNombre.Size = new System.Drawing.Size(276, 33);
             this.txtNombre.TabIndex = 53;
             // 
-            // label9  —  Usuario
+            // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
@@ -210,7 +210,7 @@
             this.txtUsuario.Size = new System.Drawing.Size(276, 33);
             this.txtUsuario.TabIndex = 59;
             // 
-            // label1  —  Correo electrónico
+            // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
@@ -224,7 +224,7 @@
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txtCorreo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -235,7 +235,7 @@
             this.txtCorreo.Size = new System.Drawing.Size(572, 33);
             this.txtCorreo.TabIndex = 61;
             // 
-            // label4  —  Contraseña
+            // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
@@ -249,7 +249,7 @@
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txtContrasena.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtContrasena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.txtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -274,10 +274,11 @@
             this.register_showPass.TabIndex = 56;
             this.register_showPass.Text = "Mostrar contraseña";
             this.register_showPass.UseVisualStyleBackColor = false;
+            this.register_showPass.CheckedChanged += new System.EventHandler(this.register_showPass_CheckedChanged);
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.btnRegistrar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
             this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -307,7 +308,7 @@
             this.MaximizeBox = false;
             this.Name = "FormRegistroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TicketsMDB — Registro de cliente";
+            this.Text = "Registro de cliente";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -315,6 +316,7 @@
             this.pnlCard.ResumeLayout(false);
             this.pnlCard.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion

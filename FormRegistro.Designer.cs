@@ -308,7 +308,7 @@
             this.MaximizeBox = false;
             this.Name = "FormRegistro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TicketsMDB — Registro";
+            this.Text = " Registro super admin";
             this.Load += new System.EventHandler(this.FormRegistro_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

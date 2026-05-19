@@ -92,5 +92,10 @@ namespace TicketsMDB
                 conexion.CerrarConexion(cn);
             }
         }
+
+        private void register_showPass_CheckedChanged(object sender, EventArgs e)
+        {
+            txtContrasena.PasswordChar = register_showPass.Checked ? '\0' : '*';
+        }
     }
 }

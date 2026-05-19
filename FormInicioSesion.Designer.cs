@@ -252,7 +252,7 @@
             this.MaximizeBox = false;
             this.Name = "FormInicioSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TicketsMDB — Inicio de sesión";
+            this.Text = "Inicio de sesión";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

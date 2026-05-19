@@ -76,5 +76,10 @@ namespace TicketsMDB.SuperAdmin
         {
 
         }
+
+        private void FormSuperAdminDashboard_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

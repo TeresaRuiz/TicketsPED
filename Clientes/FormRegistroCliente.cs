@@ -126,5 +126,18 @@ namespace TicketsMDB
                 txtTelefono.SelectionStart = txtTelefono.Text.Length;
             }
         }
+
+        private void lblRegresar_Click(object sender, EventArgs e)
+        {
+            FormInicioSesion login = new FormInicioSesion();
+            login.Show();
+
+            this.Close();
+        }
+
+        private void FormRegistroCliente_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
     }
 }

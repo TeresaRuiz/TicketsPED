@@ -156,6 +156,7 @@
             this.Controls.Add(this.panelMenu);
             this.Name = "FormPrincipalCliente";
             this.Text = "Clientes - Sistema de tickets";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormPrincipalCliente_FormClosing);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);

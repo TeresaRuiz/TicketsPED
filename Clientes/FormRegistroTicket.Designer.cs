@@ -343,7 +343,7 @@
             this.btnBaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(16)))), ((int)(((byte)(185)))), ((int)(((byte)(129)))));
             this.btnBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaja.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
-            this.btnBaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
+            this.btnBaja.ForeColor = System.Drawing.Color.White;
             this.btnBaja.Location = new System.Drawing.Point(55, 395);
             this.btnBaja.Name = "btnBaja";
             this.btnBaja.Size = new System.Drawing.Size(194, 46);
@@ -360,7 +360,7 @@
             this.btnMedia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(245)))), ((int)(((byte)(158)))), ((int)(((byte)(11)))));
             this.btnMedia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMedia.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
-            this.btnMedia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
+            this.btnMedia.ForeColor = System.Drawing.Color.White;
             this.btnMedia.Location = new System.Drawing.Point(262, 395);
             this.btnMedia.Name = "btnMedia";
             this.btnMedia.Size = new System.Drawing.Size(194, 46);
@@ -377,7 +377,7 @@
             this.btnAlta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(239)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.btnAlta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlta.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
-            this.btnAlta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
+            this.btnAlta.ForeColor = System.Drawing.Color.White;
             this.btnAlta.Location = new System.Drawing.Point(469, 395);
             this.btnAlta.Name = "btnAlta";
             this.btnAlta.Size = new System.Drawing.Size(194, 46);

@@ -151,5 +151,10 @@ namespace TicketsMDB
             ventanaRegistro.Show();
             this.Hide();
         }
+
+        private void FormInicioSesion_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

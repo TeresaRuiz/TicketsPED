@@ -157,6 +157,7 @@
             this.Controls.Add(this.panelMenu);
             this.Name = "FormSuperAdminDashboard";
             this.Text = "Super Admin - Sistema de tickets";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormSuperAdminDashboard_FormClosing);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);

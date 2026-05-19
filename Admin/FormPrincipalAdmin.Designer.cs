@@ -158,6 +158,7 @@
             this.Name = "FormPrincipalAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administradores - Sistema de tickets";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormPrincipalAdmin_FormClosing);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);

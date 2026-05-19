@@ -24,7 +24,6 @@
             this.pnlCard = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.lblSubtitulo = new System.Windows.Forms.Label();
             this.pnlDivider = new System.Windows.Forms.Panel();
             this.lblMensaje = new System.Windows.Forms.Label();
@@ -38,6 +37,7 @@
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.register_showPass = new System.Windows.Forms.CheckBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlDerecho.SuspendLayout();
@@ -151,18 +151,6 @@
             this.txtTelefono.Size = new System.Drawing.Size(276, 33);
             this.txtTelefono.TabIndex = 64;
             this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.label2.Location = new System.Drawing.Point(53, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(226, 48);
-            this.label2.TabIndex = 51;
-            this.label2.Text = "Crear cuenta";
             // 
             // lblSubtitulo
             // 
@@ -326,6 +314,18 @@
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.label2.Location = new System.Drawing.Point(53, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(226, 48);
+            this.label2.TabIndex = 51;
+            this.label2.Text = "Crear cuenta";
+            // 
             // FormRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
@@ -340,6 +340,7 @@
             this.Name = "FormRegistro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Registro super admin";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormRegistro_FormClosing);
             this.Load += new System.EventHandler(this.FormRegistro_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

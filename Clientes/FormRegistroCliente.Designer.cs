@@ -22,6 +22,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pnlDerecho = new System.Windows.Forms.Panel();
             this.pnlCard = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblSubtitulo = new System.Windows.Forms.Label();
             this.pnlDivider = new System.Windows.Forms.Panel();
@@ -36,8 +38,7 @@
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.register_showPass = new System.Windows.Forms.CheckBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.lblRegresar = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlDerecho.SuspendLayout();
@@ -93,6 +94,7 @@
             // pnlDerecho
             // 
             this.pnlDerecho.BackColor = System.Drawing.Color.White;
+            this.pnlDerecho.Controls.Add(this.lblRegresar);
             this.pnlDerecho.Controls.Add(this.pnlCard);
             this.pnlDerecho.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDerecho.Location = new System.Drawing.Point(420, 0);
@@ -124,6 +126,32 @@
             this.pnlCard.Name = "pnlCard";
             this.pnlCard.Size = new System.Drawing.Size(580, 628);
             this.pnlCard.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
+            this.label5.Location = new System.Drawing.Point(296, 162);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 23);
+            this.label5.TabIndex = 63;
+            this.label5.Text = "Télefono";
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.txtTelefono.Location = new System.Drawing.Point(296, 182);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(276, 33);
+            this.txtTelefono.TabIndex = 64;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // label2
             // 
@@ -299,31 +327,18 @@
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
-            // label5
+            // lblRegresar
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
-            this.label5.Location = new System.Drawing.Point(296, 162);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 23);
-            this.label5.TabIndex = 63;
-            this.label5.Text = "Télefono";
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
-            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
-            this.txtTelefono.Location = new System.Drawing.Point(296, 182);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(276, 33);
-            this.txtTelefono.TabIndex = 64;
-            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
+            this.lblRegresar.AutoSize = true;
+            this.lblRegresar.BackColor = System.Drawing.Color.Transparent;
+            this.lblRegresar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblRegresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
+            this.lblRegresar.Location = new System.Drawing.Point(581, 9);
+            this.lblRegresar.Name = "lblRegresar";
+            this.lblRegresar.Size = new System.Drawing.Size(85, 25);
+            this.lblRegresar.TabIndex = 65;
+            this.lblRegresar.Text = "Regresar ";
+            this.lblRegresar.Click += new System.EventHandler(this.lblRegresar_Click);
             // 
             // FormRegistroCliente
             // 
@@ -339,10 +354,12 @@
             this.Name = "FormRegistroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro de cliente";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormRegistroCliente_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlDerecho.ResumeLayout(false);
+            this.pnlDerecho.PerformLayout();
             this.pnlCard.ResumeLayout(false);
             this.pnlCard.PerformLayout();
             this.ResumeLayout(false);
@@ -373,5 +390,6 @@
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.Label lblRegresar;
     }
 }

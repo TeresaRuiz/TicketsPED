@@ -89,5 +89,12 @@ namespace TicketsMDB
 
             }
         }
+
+        private void FormPrincipalAdmin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+
+            Application.Exit();
+        }
     }
 }

@@ -155,5 +155,10 @@ namespace TicketsMDB
                 txtTelefono.SelectionStart = txtTelefono.Text.Length;
             }
         }
+
+        private void FormRegistro_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -215,6 +215,7 @@
     </Compile>
     <EmbeddedResource Include="Admin\DetalleTicket.resx">
       <DependentUpon>DetalleTicket.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\FormDetalleTicket.resx">
       <DependentUpon>FormDetalleTicket.cs</DependentUpon>
@@ -259,6 +260,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SuperAdmin\FormAuditoria.resx">
       <DependentUpon>FormAuditoria.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="SuperAdmin\FormConfiguracionSistema.resx">
       <DependentUpon>FormConfiguracionSistema.cs</DependentUpon>

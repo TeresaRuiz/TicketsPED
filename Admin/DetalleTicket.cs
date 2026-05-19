@@ -196,5 +196,10 @@ namespace TicketsMDB.Admin
             CargarDatosTicket();
             CargarLineaTiempo();
         }
+
+        private void lblAsignadoVal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

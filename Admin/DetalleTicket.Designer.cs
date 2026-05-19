@@ -530,6 +530,7 @@
             this.lblAsignadoVal.Size = new System.Drawing.Size(30, 25);
             this.lblAsignadoVal.TabIndex = 13;
             this.lblAsignadoVal.Text = "—";
+            this.lblAsignadoVal.Click += new System.EventHandler(this.lblAsignadoVal_Click);
             // 
             // pnlRight
             // 

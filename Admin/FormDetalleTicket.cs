@@ -14,23 +14,24 @@ namespace TicketsMDB.Admin
     {
         private string ticketId;
         private Conexion con = new Conexion();
-        private TAD_Lista listaCompartida;
+        private TAD_Cola colaCompartida;
         private Ticket ticketActual = null;
 
-        public FormDetalleTicket(string id, TAD_Lista lista)
+        public FormDetalleTicket(string id, TAD_Cola cola) 
         {
             InitializeComponent();
             this.ticketId = id;
-            this.listaCompartida = lista;
-            BuscarTicketEnLista();
+            this.colaCompartida = cola;
+            BuscarTicketEnCola();
             CargarDatos();
             MarcarComoEnProcesoAutomatico();
         }
 
-        private void BuscarTicketEnLista()
+
+        private void BuscarTicketEnCola()
         {
-            if (listaCompartida == null) return;
-            Nodo aux = listaCompartida.Inicio;
+            if (colaCompartida == null) return;
+             Nodo aux = colaCompartida.Frente;
             while (aux != null)
             {
                 if (aux.Dato.Id == ticketId)
@@ -58,11 +59,9 @@ namespace TicketsMDB.Admin
 
         private void MarcarComoEnProcesoAutomatico()
         {
-            // Requisito: Si se abre desde 'Atender Siguiente' y está Abierto, pasa a 'En proceso' de inmediato
             if (ticketActual != null && ticketActual.Estado == "Abierto")
             {
                 con.CambiarEstadoTicket(int.Parse(ticketId), 2);
-
                 ticketActual.Estado = "En proceso";
                 CargarDatos();
             }
@@ -79,29 +78,30 @@ namespace TicketsMDB.Admin
             }
         }
 
-      
-      
-
-
-
-        private void EliminarDeLista(string id)
+        private void EliminarDeCola(string id)
         {
-            if (listaCompartida == null || listaCompartida.Inicio == null) return;
+            if (colaCompartida == null || colaCompartida.Frente == null) return;
 
-            if (listaCompartida.Inicio.Dato.Id == id)
+            
+            if (colaCompartida.Frente.Dato.Id == id)
             {
-                listaCompartida.Inicio = listaCompartida.Inicio.Siguiente;
+                colaCompartida.Dequeue();
                 return;
             }
 
-            Nodo prev = listaCompartida.Inicio;
-            Nodo actual = listaCompartida.Inicio.Siguiente;
+            Nodo prev = colaCompartida.Frente;
+            Nodo actual = colaCompartida.Frente.Siguiente;
 
             while (actual != null)
             {
                 if (actual.Dato.Id == id)
                 {
-                    prev.Siguiente = actual.Siguiente;
+                    prev.Siguiente = actual.Siguiente; 
+
+                   if (actual == colaCompartida.Final)
+                    {
+                        colaCompartida.Final = prev;
+                    }
                     return;
                 }
                 prev = actual;
@@ -111,17 +111,16 @@ namespace TicketsMDB.Admin
 
         private void btnPriorizar_Click(object sender, EventArgs e)
         {
-            if (ticketActual == null) return;
+            if (ticketActual == null || colaCompartida == null || colaCompartida.Frente == null) return;
 
-            if (listaCompartida.Inicio != null && listaCompartida.Inicio.Dato.Id == ticketActual.Id)
+            if (colaCompartida.Frente.Dato.Id == ticketActual.Id)
             {
-                MessageBox.Show("Este ticket ya está al inicio de la cola.", "Priorizar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Este ticket ya está al inicio de la cola de atención.", "Priorizar", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
             Nodo prev = null;
-            Nodo actual = listaCompartida.Inicio;
-
+            Nodo actual = colaCompartida.Frente;
             while (actual != null && actual.Dato.Id != ticketActual.Id)
             {
                 prev = actual;
@@ -133,10 +132,14 @@ namespace TicketsMDB.Admin
             if (prev != null)
                 prev.Siguiente = actual.Siguiente;
 
-            actual.Siguiente = listaCompartida.Inicio;
-            listaCompartida.Inicio = actual;
+            if (actual == colaCompartida.Final)
+            {
+                colaCompartida.Final = prev;
+            }
+            actual.Siguiente = colaCompartida.Frente;
+            colaCompartida.Frente = actual;
 
-            MessageBox.Show($"Ticket #{ticketActual.Id} movido al inicio de la cola.", "Priorizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show($"Ticket #{ticketActual.Id} movido al frente de la cola de atención.", "Priorizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             CargarDatos();
         }
 
@@ -174,14 +177,10 @@ namespace TicketsMDB.Admin
 
             con.CambiarEstadoTicket(int.Parse(ticketActual.Id), 3);
 
-            EliminarDeLista(ticketActual.Id);
+            // Remoción dynamic manual aplicada sobre la Cola en memoria RAM
+            EliminarDeCola(ticketActual.Id);
 
-            MessageBox.Show(
-                $"Ticket #{ticketActual.Id} cerrado correctamente.",
-                "Ticket cerrado",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
-
+            MessageBox.Show($"Ticket #{ticketActual.Id} cerrado correctamente.", "Ticket cerrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
     }

@@ -172,6 +172,7 @@
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="TAB_ABB.cs" />
+    <Compile Include="TAD_Cola.cs" />
     <Compile Include="TAD_Lista.cs" />
     <Compile Include="TAD_ListaUsuarios.cs" />
     <Compile Include="TAD_Pila.cs" />

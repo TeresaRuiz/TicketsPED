@@ -7,7 +7,7 @@ namespace TicketsMDB
 {
     public partial class VistaCola : UserControl
     {
-        private TAD_Lista lista;
+        private TAD_Cola colaDeTrabajo;
         private Ticket ticketSeleccionado = null;
 
         public VistaCola()
@@ -15,10 +15,10 @@ namespace TicketsMDB
             InitializeComponent();
         }
 
-        public VistaCola(TAD_Lista listaCompartida)
+        public VistaCola(TAD_Cola colaCompartida)
         {
             InitializeComponent();
-            this.lista = listaCompartida;
+            this.colaDeTrabajo = colaCompartida;
             actualizarColaEstatica();
         }
 
@@ -27,26 +27,26 @@ namespace TicketsMDB
             pnlColaHorizontal.Controls.Clear();
             ticketSeleccionado = null;
 
-            if (this.lista == null) return;
+            if (this.colaDeTrabajo == null) return;
 
             int total = 0;
-            Nodo aux = this.lista.Inicio;
+            // RECORRIDO MANUAL: Iniciamos desde la cima o Frente de la cola
+            Nodo aux = this.colaDeTrabajo.Frente;
 
             while (aux != null)
             {
                 TarjetaTicket tarjeta = new TarjetaTicket(aux.Dato);
                 Ticket datoActual = aux.Dato;
 
-                // Al hacer clic en la tarjeta se selecciona
                 tarjeta.Click += (s, e) => SeleccionarTicket(datoActual, tarjeta);
 
-                // Suscribirse al evento del botón "Ver Detalle" interno de la tarjeta
                 tarjeta.OnVerDetalleClick += (idTicket) => {
                     AbrirDetalle(idTicket);
                 };
 
                 pnlColaHorizontal.Controls.Add(tarjeta);
 
+                // Dibujamos la flecha si hay eslabones enlazados detrás
                 if (aux.Siguiente != null)
                 {
                     Label flecha = new Label();
@@ -59,7 +59,7 @@ namespace TicketsMDB
                 }
 
                 total++;
-                aux = aux.Siguiente;
+                aux = aux.Siguiente; // Avance secuencial manual
             }
 
             label6.Text = total.ToString();
@@ -81,27 +81,27 @@ namespace TicketsMDB
 
         private void btnAtenderSiguiente_Click(object sender, EventArgs e)
         {
-            if (lista == null || lista.Inicio == null)
+            if (colaDeTrabajo == null || colaDeTrabajo.Frente == null)
             {
-                MessageBox.Show("No hay tickets en la cola.", "Cola vacía",
+                MessageBox.Show("No hay tickets pendientes en la cola de atención.", "Cola vacía",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
-            Ticket primero = lista.Inicio.Dato;
+            // OPERACIÓN DE COLA PURA: Atendemos al primero y lo sacamos con Dequeue()
+            Ticket primero = colaDeTrabajo.Dequeue();
 
-            // Abrir automáticamente el detalle enviando la lista para que pueda ser gestionado internamente
-            FormDetalleTicket frmDetalle = new FormDetalleTicket(primero.Id, lista);
+            // Abrimos el formulario de detalle modal pasándole la cola para gestiones internas
+            FormDetalleTicket frmDetalle = new FormDetalleTicket(primero.Id, colaDeTrabajo);
             frmDetalle.ShowDialog();
 
-            // Refrescar al cerrar la ventana modal
             actualizarColaEstatica();
             label1.Text = "➡  SIGUIENTE EN ATENDER";
         }
 
         private void AbrirDetalle(string idTicket)
         {
-            FormDetalleTicket frmDetalle = new FormDetalleTicket(idTicket, lista);
+            FormDetalleTicket frmDetalle = new FormDetalleTicket(idTicket, colaDeTrabajo);
             frmDetalle.ShowDialog();
             actualizarColaEstatica();
         }

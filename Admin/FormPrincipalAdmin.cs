@@ -12,23 +12,22 @@ namespace TicketsMDB
 {
     public partial class FormPrincipalAdmin : Form
     {
-        // Creamos la lista global para todo el formulario
-        TAD_Lista miListaCompartida = new TAD_Lista();
+
+        TAD_Cola miColaCompartida = new TAD_Cola();
 
         public FormPrincipalAdmin()
         {
             InitializeComponent();
 
             this.WindowState = FormWindowState.Maximized;
-
-            MostrarControl(new Inicio(miListaCompartida));
+            MostrarControl(new Inicio(miColaCompartida));
             lblUsuario.Text = "Usuario: " + SesionActual.Nombre;
         }
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            
-            MostrarControl(new Inicio(miListaCompartida));
+
+            MostrarControl(new Inicio(miColaCompartida));
         }
 
         private void MostrarControl(UserControl control)
@@ -42,9 +41,9 @@ namespace TicketsMDB
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-         
 
-            MostrarControl(new VistaCola(miListaCompartida));
+
+            MostrarControl(new VistaCola(miColaCompartida));
         }
 
         private void btnPedido_Click(object sender, EventArgs e)

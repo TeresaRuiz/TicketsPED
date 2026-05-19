@@ -54,10 +54,10 @@ namespace TicketsMDB
             {
                 cn = conexion.AbrirConexion();
                 string contrasenaHash = Hashear(contrasena);
-                string query = @"SELECT u.IdUsuario, u.Nombre, r.NombreRol 
-                                 FROM Usuarios u
-                                 INNER JOIN Roles r ON u.IdRol = r.IdRol
-                                 WHERE u.Usuario = @usuario AND u.Contrasena = @contrasena";
+                string query = @"SELECT u.IdUsuario, u.Nombre, r.NombreRol, u.Bloqueado
+                 FROM Usuarios u
+                 INNER JOIN Roles r ON u.IdRol = r.IdRol
+                 WHERE u.Usuario = @usuario AND u.Contrasena = @contrasena";
 
                 SqlCommand cmd = new SqlCommand(query, cn);
                 cmd.Parameters.AddWithValue("@usuario", usuario);
@@ -67,6 +67,26 @@ namespace TicketsMDB
 
                 if (reader.Read())
                 {
+                    bool bloqueado = false;
+
+                    if (reader["Bloqueado"] != DBNull.Value)
+                    {
+                        bloqueado = Convert.ToBoolean(reader["Bloqueado"]);
+                    }
+
+                    if (bloqueado)
+                    {
+                        reader.Close();
+
+                        MessageBox.Show("Este usuario se encuentra bloqueado. Contacte al administrador.",
+                            "Acceso denegado",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Warning);
+
+                        return;
+                    }
+
+
                     // Guardar datos de sesión
                     SesionActual.IdUsuario = Convert.ToInt32(reader["IdUsuario"]);
                     SesionActual.Nombre = reader["Nombre"].ToString();

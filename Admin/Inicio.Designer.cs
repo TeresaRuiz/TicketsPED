@@ -25,7 +25,6 @@
             this.lblUltimoId = new System.Windows.Forms.Label();
             this.lblUltimoUsuario = new System.Windows.Forms.Label();
             this.lblUltimoEstado = new System.Windows.Forms.Label();
-            this.lblUltimoFecha = new System.Windows.Forms.Label();
             this.pnlResumen = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlDivResumen = new System.Windows.Forms.Panel();
@@ -108,7 +107,6 @@
             this.pnlUltimoTicket.Controls.Add(this.lblUltimoId);
             this.pnlUltimoTicket.Controls.Add(this.lblUltimoUsuario);
             this.pnlUltimoTicket.Controls.Add(this.lblUltimoEstado);
-            this.pnlUltimoTicket.Controls.Add(this.lblUltimoFecha);
             this.pnlUltimoTicket.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlUltimoTicket.Location = new System.Drawing.Point(16, 324);
             this.pnlUltimoTicket.Name = "pnlUltimoTicket";
@@ -173,18 +171,6 @@
             this.lblUltimoEstado.Size = new System.Drawing.Size(97, 25);
             this.lblUltimoEstado.TabIndex = 4;
             this.lblUltimoEstado.Text = "Estado: —";
-            // 
-            // lblUltimoFecha
-            // 
-            this.lblUltimoFecha.AutoSize = true;
-            this.lblUltimoFecha.BackColor = System.Drawing.Color.Transparent;
-            this.lblUltimoFecha.Font = new System.Drawing.Font("Segoe UI", 8.5F);
-            this.lblUltimoFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(148)))), ((int)(((byte)(163)))), ((int)(((byte)(184)))));
-            this.lblUltimoFecha.Location = new System.Drawing.Point(16, 112);
-            this.lblUltimoFecha.Name = "lblUltimoFecha";
-            this.lblUltimoFecha.Size = new System.Drawing.Size(101, 23);
-            this.lblUltimoFecha.TabIndex = 5;
-            this.lblUltimoFecha.Text = "Recibido: —";
             // 
             // pnlResumen
             // 
@@ -491,6 +477,5 @@
         private System.Windows.Forms.Label lblUltimoId;
         private System.Windows.Forms.Label lblUltimoUsuario;
         private System.Windows.Forms.Label lblUltimoEstado;
-        private System.Windows.Forms.Label lblUltimoFecha;
     }
 }

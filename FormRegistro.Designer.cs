@@ -22,6 +22,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pnlDerecho = new System.Windows.Forms.Panel();
             this.pnlCard = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblSubtitulo = new System.Windows.Forms.Label();
             this.pnlDivider = new System.Windows.Forms.Panel();
@@ -92,6 +94,7 @@
             // 
             this.pnlDerecho.BackColor = System.Drawing.Color.White;
             this.pnlDerecho.Controls.Add(this.pnlCard);
+            this.pnlDerecho.Controls.Add(this.label2);
             this.pnlDerecho.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDerecho.Location = new System.Drawing.Point(420, 0);
             this.pnlDerecho.Name = "pnlDerecho";
@@ -102,7 +105,8 @@
             // 
             this.pnlCard.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlCard.BackColor = System.Drawing.Color.White;
-            this.pnlCard.Controls.Add(this.label2);
+            this.pnlCard.Controls.Add(this.label5);
+            this.pnlCard.Controls.Add(this.txtTelefono);
             this.pnlCard.Controls.Add(this.lblSubtitulo);
             this.pnlCard.Controls.Add(this.pnlDivider);
             this.pnlCard.Controls.Add(this.lblMensaje);
@@ -116,10 +120,37 @@
             this.pnlCard.Controls.Add(this.txtContrasena);
             this.pnlCard.Controls.Add(this.register_showPass);
             this.pnlCard.Controls.Add(this.btnRegistrar);
-            this.pnlCard.Location = new System.Drawing.Point(56, 120);
+            this.pnlCard.Location = new System.Drawing.Point(56, 88);
             this.pnlCard.Name = "pnlCard";
-            this.pnlCard.Size = new System.Drawing.Size(580, 628);
+            this.pnlCard.Size = new System.Drawing.Size(580, 660);
             this.pnlCard.TabIndex = 0;
+            this.pnlCard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCard_Paint);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.5F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(85)))), ((int)(((byte)(105)))));
+            this.label5.Location = new System.Drawing.Point(296, 162);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 23);
+            this.label5.TabIndex = 63;
+            this.label5.Text = "Télefono";
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
+            this.txtTelefono.Location = new System.Drawing.Point(296, 182);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(276, 33);
+            this.txtTelefono.TabIndex = 64;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // label2
             // 
@@ -127,7 +158,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Location = new System.Drawing.Point(53, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(226, 48);
             this.label2.TabIndex = 51;
@@ -139,7 +170,7 @@
             this.lblSubtitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblSubtitulo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
-            this.lblSubtitulo.Location = new System.Drawing.Point(0, 38);
+            this.lblSubtitulo.Location = new System.Drawing.Point(3, 14);
             this.lblSubtitulo.Name = "lblSubtitulo";
             this.lblSubtitulo.Size = new System.Drawing.Size(417, 25);
             this.lblSubtitulo.TabIndex = 52;
@@ -148,7 +179,7 @@
             // pnlDivider
             // 
             this.pnlDivider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(232)))), ((int)(((byte)(240)))));
-            this.pnlDivider.Location = new System.Drawing.Point(0, 64);
+            this.pnlDivider.Location = new System.Drawing.Point(0, 42);
             this.pnlDivider.Name = "pnlDivider";
             this.pnlDivider.Size = new System.Drawing.Size(580, 1);
             this.pnlDivider.TabIndex = 53;
@@ -157,11 +188,11 @@
             // 
             this.lblMensaje.AutoSize = true;
             this.lblMensaje.BackColor = System.Drawing.Color.Transparent;
-            this.lblMensaje.Font = new System.Drawing.Font("Segoe UI", 8.5F);
+            this.lblMensaje.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensaje.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.lblMensaje.Location = new System.Drawing.Point(0, 74);
+            this.lblMensaje.Location = new System.Drawing.Point(4, 56);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(0, 23);
+            this.lblMensaje.Size = new System.Drawing.Size(0, 21);
             this.lblMensaje.TabIndex = 62;
             // 
             // label3
@@ -232,7 +263,7 @@
             this.txtCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(59)))));
             this.txtCorreo.Location = new System.Drawing.Point(0, 182);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(572, 33);
+            this.txtCorreo.Size = new System.Drawing.Size(276, 33);
             this.txtCorreo.TabIndex = 61;
             // 
             // label4
@@ -314,6 +345,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlDerecho.ResumeLayout(false);
+            this.pnlDerecho.PerformLayout();
             this.pnlCard.ResumeLayout(false);
             this.pnlCard.PerformLayout();
             this.ResumeLayout(false);
@@ -343,5 +375,7 @@
         private System.Windows.Forms.Label lblSubtitulo;
         private System.Windows.Forms.Panel pnlDivider;
         private System.Windows.Forms.Label lblBrandLeft;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtTelefono;
     }
 }

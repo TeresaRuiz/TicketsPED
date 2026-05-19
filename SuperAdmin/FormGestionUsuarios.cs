@@ -82,9 +82,8 @@ namespace TicketsMDB.SuperAdmin
 
         private void CargarDatosEnCampos(GestionUsuario u)
         {
-            string[] partes = u.Nombre.Split(' ');
-            txtNombre.Text = partes[0];
-            txtApellido.Text = partes.Length > 1 ? partes[1] : "";
+            txtNombre.Text = u.Nombre;
+            txtApellido.Text = u.UsuarioLogin;
 
             txtCorreo.Text = u.Correo;
             txtCorreo.ReadOnly = true;
@@ -114,7 +113,7 @@ namespace TicketsMDB.SuperAdmin
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtApellido.Text) || string.IsNullOrWhiteSpace(txtCorreo.Text))
             {
-                MessageBox.Show("Por favor, complete los campos obligatorios (Nombre, Apellido y Correo).", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor, complete los campos obligatorios (Nombre, Usuario y Correo).", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -196,11 +195,11 @@ namespace TicketsMDB.SuperAdmin
                     {
                         if (actualizarPass)
                         {
-                            finalQuery = "UPDATE Usuarios SET Nombre = @nom, Contrasena = @pass, IdRol = @idrol, Telefono = @tel WHERE Correo = @em";
+                            finalQuery = "UPDATE Usuarios SET Nombre = @nom, Usuario = @user, Contrasena = @pass, IdRol = @idrol, Telefono = @tel WHERE Correo = @em";
                         }
                         else
                         {
-                            finalQuery = "UPDATE Usuarios SET Nombre = @nom, IdRol = @idrol, Telefono = @tel WHERE Correo = @em";
+                            finalQuery = "UPDATE Usuarios SET Nombre = @nom, Usuario = @user, IdRol = @idrol, Telefono = @tel WHERE Correo = @em";
                         }
                     }
                     else
@@ -211,21 +210,18 @@ namespace TicketsMDB.SuperAdmin
 
                     SqlCommand cmd = new SqlCommand(finalQuery, con);
 
-                 
-                    cmd.Parameters.AddWithValue("@nom", txtNombre.Text.Trim() + " " + txtApellido.Text.Trim());
+                    
+                    cmd.Parameters.AddWithValue("@nom", txtNombre.Text.Trim());
+                    cmd.Parameters.AddWithValue("@user", txtApellido.Text.Trim()); // Se queda solo este, que toma el TextBox de usuario
                     cmd.Parameters.AddWithValue("@em", txtCorreo.Text.Trim());
                     cmd.Parameters.AddWithValue("@idrol", idRol);
                     cmd.Parameters.AddWithValue("@tel", txtTelefono.Text.Trim());
 
+                    
                     if (actualizarPass || !esEdicion)
                     {
                         string contrasenaHash = Hashear(txtPassword.Text);
                         cmd.Parameters.AddWithValue("@pass", contrasenaHash);
-                    }
-
-                    if (!esEdicion)
-                    {
-                        cmd.Parameters.AddWithValue("@user", txtNombre.Text.Trim().ToLower());
                     }
 
                     cmd.ExecuteNonQuery();
@@ -240,7 +236,8 @@ namespace TicketsMDB.SuperAdmin
                         {
                             if (actual.Dato.Correo == txtCorreo.Text.Trim())
                             {
-                                actual.Dato.Nombre = txtNombre.Text.Trim() + " " + txtApellido.Text.Trim();
+                                actual.Dato.Nombre = txtNombre.Text.Trim();
+                                actual.Dato.UsuarioLogin = txtApellido.Text.Trim();
                                 actual.Dato.Telefono = txtTelefono.Text.Trim();
                                 actual.Dato.Rol = cmbRol.SelectedItem.ToString();
 
@@ -256,8 +253,8 @@ namespace TicketsMDB.SuperAdmin
                     else
                     {
                         GestionUsuario nuevoU = new GestionUsuario(
-                            txtNombre.Text.Trim() + " " + txtApellido.Text.Trim(),
-                            txtNombre.Text.Trim().ToLower(),
+                            txtNombre.Text.Trim(),
+                            txtApellido.Text.Trim(),
                             txtTelefono.Text.Trim(),
                             txtCorreo.Text.Trim(),
                             txtPassword.Text,
@@ -437,9 +434,9 @@ namespace TicketsMDB.SuperAdmin
 
         private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
+            if (!char.IsLetterOrDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
-                e.Handled = true; // Bloquea la tecla
+                e.Handled = true;
             }
         }
 

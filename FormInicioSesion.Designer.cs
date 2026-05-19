@@ -66,7 +66,7 @@
             this.lblBrandLeft.BackColor = System.Drawing.Color.Transparent;
             this.lblBrandLeft.Font = new System.Drawing.Font("Segoe UI Semibold", 22F, System.Drawing.FontStyle.Bold);
             this.lblBrandLeft.ForeColor = System.Drawing.Color.White;
-            this.lblBrandLeft.Location = new System.Drawing.Point(66, 138);
+            this.lblBrandLeft.Location = new System.Drawing.Point(88, 123);
             this.lblBrandLeft.Name = "lblBrandLeft";
             this.lblBrandLeft.Size = new System.Drawing.Size(243, 60);
             this.lblBrandLeft.TabIndex = 12;

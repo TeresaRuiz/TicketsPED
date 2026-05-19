@@ -45,8 +45,9 @@ namespace TicketsMDB
             string usuario = txtUsuario.Text.Trim();
             string correo = txtCorreo.Text.Trim();
             string contrasena = txtContrasena.Text.Trim();
+            string telefono = txtTelefono.Text.Trim();
 
-            if (nombre == "" || usuario == "" || correo == "" || contrasena == "")
+            if (nombre == "" || usuario == "" || correo == "" || contrasena == "" || telefono == "")
             {
                 MessageBox.Show("Por favor, completa todos los campos.", "Aviso",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -60,6 +61,23 @@ namespace TicketsMDB
                 return;
             }
 
+            for (int i = 0; i < telefono.Length; i++)
+            {
+                if (i != 4)
+                {
+                    if (!char.IsDigit(telefono[i]))
+                    {
+                        MessageBox.Show("El teléfono solo debe contener números.");
+                        return;
+                    }
+                }
+            }
+            if (telefono.Length != 9 || telefono[4] != '-')
+            {
+                MessageBox.Show("Formato inválido. Use ####-####");
+                return;
+            }
+
             SqlConnection cn = null;
             try
             {
@@ -67,14 +85,15 @@ namespace TicketsMDB
 
 
                 // Insertar siempre como Admin (IdRol = 1)
-                string queryInsertar = @"INSERT INTO Usuarios (Nombre, Usuario, Correo, Contrasena, IdRol)
-                                  VALUES (@nombre, @usuario, @correo, @contrasena, 3)";
+                string queryInsertar = @"INSERT INTO Usuarios (Nombre, Usuario, Correo, Contrasena, Telefono, IdRol)
+                                  VALUES (@nombre, @usuario, @correo, @contrasena, @telefono, 3)";
                 SqlCommand cmdInsertar = new SqlCommand(queryInsertar, cn);
                 cmdInsertar.Parameters.AddWithValue("@nombre", nombre);
                 cmdInsertar.Parameters.AddWithValue("@usuario", usuario);
                 cmdInsertar.Parameters.AddWithValue("@correo", correo);
                 string contrasenaHash = Hashear(contrasena);
                 cmdInsertar.Parameters.AddWithValue("@contrasena", contrasenaHash);
+                cmdInsertar.Parameters.AddWithValue("@telefono", telefono);
 
                 int filas = cmdInsertar.ExecuteNonQuery();
                 if (filas > 0)
@@ -119,6 +138,21 @@ namespace TicketsMDB
             finally
             {
                 conexion.CerrarConexion(cn);
+            }
+        }
+
+        private void pnlCard_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (txtTelefono.Text.Length == 4 &&
+                !txtTelefono.Text.Contains("-"))
+            {
+                txtTelefono.Text = txtTelefono.Text + "-";
+                txtTelefono.SelectionStart = txtTelefono.Text.Length;
             }
         }
     }
